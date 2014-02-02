@@ -9,10 +9,11 @@
 	<title>{{ page.title }}</title>
 	<meta name="author" content="{{ site.author.name }}">
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
-	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
 <div id="page" class="hentry">
@@ -27,6 +28,12 @@
 						<li class="page"><a href="/talks.html"><i class="fa fa-microphone fa-fw fa-2x"></i> talks</a></li>
 						<li class="category"><a href="/projects.html"><i class="fa fa-cog fa-fw fa-2x"></i> projects</a></li>
 					</ul>
+					<p class="icons">
+						<a href="http://github.com/{{ site.author.github }}/" rel="me" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+						<a href="http://www.linkedin.com/in/{{ site.author.linkedin }}/" rel="me" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+						<a href="http://twitter.com/{{ site.author.twitter }}/" rel="me" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+						<a href="http://feeds.feedburner.com/{{ site.author.feedname }}" target="_blank"><i class="fa fa-rss-square fa-2x"></i></a>
+					</p>
 				</nav>
 			</div><!-- unit-inner -->
 		</div><!-- unit-head -->
@@ -38,26 +45,16 @@
 					{{ content }}
 				</div>
 				<hr/>
-				<p class="licence">
-					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
-					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
-				</p>
 			</div><!-- unit-inner -->
 		</div><!-- unit-body -->
 	</div><!-- body -->
 	<footer class="the-footer">
 		<div class="unit-foot">
 			<div class="unit-inner unit-foot-inner">
-				<div class="misc vcard">
-					<h4>More about me</h4>
-					<p class="icons">
-						<a href="http://github.com/{{ site.author.github }}/" rel="me" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
-						<a href="http://www.linkedin.com/in/{{ site.author.linkedin }}/" rel="me" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
-						<a href="http://twitter.com/{{ site.author.twitter }}/" rel="me" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
-						<a href="http://feeds.feedburner.com/{{ site.author.feedname }}" target="_blank"><i class="fa fa-rss-square fa-3x"></i></a>
-						<a href="mailto:{{ site.author.email }}" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
-					</p>
-				</div><!-- misc -->
+				<p class="licence">
+					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
+					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
+				</p>
 			</div><!-- unit-foot-inner -->
 		</div><!-- unit-foot -->
 	</footer>

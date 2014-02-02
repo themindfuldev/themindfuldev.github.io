@@ -79,6 +79,26 @@ pre {
 			top: 2px;
 		}
 	}
+
+	.icons {
+		margin-top: 26px;
+		padding-top: 26px;
+		a {
+			color: @accent-color;
+			&:link {
+				color: @accent-color;
+				border: 0;
+			}
+			&:visited {
+				color: darken(@accent-color, 10%);
+				border: 0;
+			}
+			&:hover {
+				color: lighten(@accent-color, 10%);
+				border: 0;
+			}
+		}
+	}
 } // .the-header
 
 /* MAIN
@@ -311,11 +331,6 @@ pre {
 	.license {
 		clear: both;
 		p { margin-bottom: 0; }
-	}
-	.icons {
-		a {
-			margin-right: 5px;
-		}
 	}
 }
 

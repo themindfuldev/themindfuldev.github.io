@@ -39,3 +39,8 @@ The documentation website at <http://jekyllbootstrap.com> is maintained at https
 
 [MIT](http://opensource.org/licenses/MIT)
 =======
+
+https://coderwall.com/tiagorg.json
+https://api.github.com/users/tiagorg/repos
+https://api.github.com/users/tiagorg/events/public
+https://www.codeschool.com/users/tiagoromerogarcia.json

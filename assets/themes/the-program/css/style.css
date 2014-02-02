@@ -596,6 +596,25 @@ pre {
   position: relative;
   top: 2px;
 }
+.the-header .icons {
+  margin-top: 26px;
+  padding-top: 26px;
+}
+.the-header .icons a {
+  color: #7fab55;
+}
+.the-header .icons a:link {
+  color: #7fab55;
+  border: 0;
+}
+.the-header .icons a:visited {
+  color: #668944;
+  border: 0;
+}
+.the-header .icons a:hover {
+  color: #99bc77;
+  border: 0;
+}
 /* MAIN
 --------------------------------------------------------------------------------- */
 .unit-article header {
@@ -890,9 +909,6 @@ pre {
 .the-footer .license p {
   margin-bottom: 0;
 }
-.the-footer .icons a {
-  margin-right: 5px;
-}
 .the-header .unit-head {
   padding: 26px;
 }
@@ -905,6 +921,13 @@ pre {
   font-size: 30px;
   line-height: 52px;
   padding-bottom: 26px;
+}
+.the-header .unit-head .nav-global .icons a {
+  font-size: 1.2em;
+  margin: 0 2px;
+}
+.the-header .unit-head .nav-global .icons a:hover {
+  color: #2d2d2d;
 }
 .body .unit-body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
@@ -947,6 +970,9 @@ pre {
     vertical-align: top;
     line-height: 2em;
   }
+  .the-header .unit-head .nav-global .icons {
+    margin: 0;
+  }
 }
 /*
 	Tablet
@@ -963,8 +989,8 @@ pre {
   .the-header .unit-head .nav-global li a,
   .the-header .unit-head .nav-global li div {
     display: block;
-    padding: 26px;
-    height: 26px;
+    padding: 20px 15px 26px 15px;
+    height: 20px;
     vertical-align: top;
     line-height: 2em;
   }
@@ -986,7 +1012,7 @@ pre {
   }
   .the-header .unit-head .nav-global .logo a {
     font-size: 30px;
-    line-height: normal;
+    line-height: 1em;
   }
   .the-header .unit-head .nav-global .logo a:hover {
     background-color: transparent;
@@ -995,6 +1021,23 @@ pre {
 /*
 	Not that old computer layout
 */
+@media only screen and (min-width: 768px) and (max-width: 1409px) {
+  .the-header .unit-head .nav-global .icons {
+    margin: 0;
+    padding: 15px 15px 0 0;
+    float: right;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1409px) {
+  .the-header .unit-head .nav-global li a,
+  .the-header .unit-head .nav-global li div {
+    padding: 20px 20px 26px 20px;
+  }
+  .the-header .unit-head .nav-global .icons {
+    padding: 10px 52px 0 0;
+    font-size: 1.2em;
+  }
+}
 @media only screen and (min-width: 1280px) {
   .the-header .unit-head .nav-global .logo {
     border-bottom: 0 none;
@@ -1002,7 +1045,7 @@ pre {
     width: auto;
   }
   .the-header .unit-head .nav-global .logo a {
-    line-height: 18px;
+    line-height: 1em;
     margin-bottom: 0;
     padding-left: 52px;
   }
@@ -1064,11 +1107,18 @@ pre {
   .the-header .unit-head .nav-global .logo a {
     display: block;
     font-size: 30px;
-    line-height: 52px;
+    line-height: 40px;
     margin-bottom: 26px;
     padding-left: 5px;
     position: relative;
     top: auto;
+  }
+  .the-header .unit-head .nav-global .icons a {
+    font-size: 1.5em;
+    margin: 0 4px;
+  }
+  .the-header .unit-head .nav-global .icons a:hover {
+    color: #2d2d2d;
   }
   .body {
     border-left: 1px solid rgba(0, 0, 0, 0.2);
