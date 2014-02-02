@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-02T21:13:10-02:00</updated>
+ <updated>2014-02-02T21:54:20-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -13,19 +13,77 @@
 
  
  <entry>
-   <title>titles.javascript-for-real</title>
-   <link href="http://www.tgarcia.com.br/javascript-for-real"/>
-   <updated>2013-08-28T00:00:00-03:00</updated>
-   <id>http://www.tgarcia.com.br/javascript-for-real</id>
-   <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo.&lt;/p&gt;
+   <title>titles.talks.boosting-the-client-side-with-backbone-js</title>
+   <link href="http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js"/>
+   <updated>2014-01-08T00:00:00-02:00</updated>
+   <id>http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js</id>
+   <content type="html">&lt;p&gt;Em 8 de Janeiro de 2014 eu dei esta palestra, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em Javascript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/8ZzqMFAU_Kw&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/boosting-the-client-side-with-backbone-js/embed&#39; width=&#39;576&#39;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;vdeos&quot;&gt;Vídeos&lt;/h4&gt;
+&lt;h4 id=&quot;prrequisitos&quot;&gt;Pré-requisitos&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=kV5uEoyJ-pQ&quot;&gt;Vídeo no Youtube - Parte 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Javascript&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=cSYSQyHwQ5o&quot;&gt;Vídeo no Youtube - Parte 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Familiaridade com frameworks web como Struts, JSF, Rails, Spring MVC&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h4 id=&quot;recursos&quot;&gt;Recursos&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://backbonejs.org&quot;&gt;Website oficial&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals&quot;&gt;Desenvolvendo Aplicações Backbone.js - Addy Osmani&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://backbone.codeschool.com&quot;&gt;A Anatomia do Backbone.js - Codeschool&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://backbonejs.org/docs/backbone.html&quot;&gt;Como o Backbone funciona por trás dos panos&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.api-first.com/&quot;&gt;API-First - Projete aplicações a partir da API&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/tiagorg/tasker&quot;&gt;Projeto Tasker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;como_organizar_sua_aplicao&quot;&gt;Como organizar sua aplicação&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yeoman/generator-backbone&quot;&gt;Gerador Backbone - Yeoman&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/&quot;&gt;Construindo Aplicações com o Workflow Yeoman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/addyosmani/backbone-boilerplates&quot;&gt;Backbone boilerplates - Addy Osmani&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://backboneboilerplate.com/&quot;&gt;Outro backbone boilerplate&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://webapplog.com/super-simple-backbone-starter-kit-boilerplate/&quot;&gt;Kit Iniciante Super Simples de Backbone / Boilerplate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;exemplo_educativo_ao_vivo&quot;&gt;Exemplo educativo ao vivo&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://todomvc.com/architecture-examples/backbone/&quot;&gt;Backbone.js - TodoMVC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>titles.talks.javascript-for-real</title>
+   <link href="http://www.tgarcia.com.br/talk-javascript-for-real"/>
+   <updated>2013-08-28T00:00:00-03:00</updated>
+   <id>http://www.tgarcia.com.br/talk-javascript-for-real</id>
+   <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;parte_1&quot;&gt;Parte 1&lt;br /&gt;&lt;br /&gt;&lt;/h4&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/kV5uEoyJ-pQ&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;parte_2&quot;&gt;Parte 2&lt;br /&gt;&lt;br /&gt;&lt;/h4&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/cSYSQyHwQ5o&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;prrequisitos&quot;&gt;Pré-requisitos&lt;/h4&gt;
 

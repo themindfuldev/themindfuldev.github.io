@@ -10,4 +10,5 @@ http://www.tgarcia.com.br/sitemap.txt
 http://www.tgarcia.com.br/tags.html
 http://www.tgarcia.com.br/talks.html
 
-http://www.tgarcia.com.br/javascript-for-real
+http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js
+http://www.tgarcia.com.br/talk-javascript-for-real
