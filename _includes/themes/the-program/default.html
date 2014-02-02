@@ -23,10 +23,10 @@
 				<nav class="nav-global">
 					<ul>
 						<li class="logo"><a href="/">{{ site.title }}</a></li>
-						<li class="archive"><a href="/articles.html"><i class="fa fa-book fa-fw fa-2x"></i> articles</a></li>
-						<li class="tag"><a href="/protips.html"><i class="fa fa-lightbulb-o fa-fw fa-2x"></i> pro tips</a></li>
-						<li class="page"><a href="/talks.html"><i class="fa fa-microphone fa-fw fa-2x"></i> talks</a></li>
-						<li class="category"><a href="/projects.html"><i class="fa fa-cog fa-fw fa-2x"></i> projects</a></li>
+						<li class="archive"><a href="/articles.html"><i class="fa fa-book fa-fw fa-2x"></i> {% t header.articles %} </a></li>
+						<li class="tag"><a href="/protips.html"><i class="fa fa-lightbulb-o fa-fw fa-2x"></i> {% t header.pro-tips %} </a></li>
+						<li class="page"><a href="/talks.html"><i class="fa fa-microphone fa-fw fa-2x"></i> {% t header.talks %} </a></li>
+						<li class="category"><a href="/projects.html"><i class="fa fa-cog fa-fw fa-2x"></i> {% t header.projects %} </a></li>
 					</ul>
 					<p class="icons">
 						<a href="http://github.com/{{ site.author.github }}/" rel="me" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
@@ -51,6 +51,11 @@
 	<footer class="the-footer">
 		<div class="unit-foot">
 			<div class="unit-inner unit-foot-inner">
+				<h4>{% t footer.change-language %}</h4>
+				<p class="flags">
+					<a href="/pt"><img src="{{ ASSET_PATH }}/img/flag-br.png"></a>
+					<a href="/"><img src="{{ ASSET_PATH }}/img/flag-us.png"></a>
+				</p>
 				<p class="licence">
 					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
 					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
