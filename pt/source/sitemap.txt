@@ -1,4 +1,5 @@
 
+http://www.tgarcia.com.br/archive.html
 http://www.tgarcia.com.br/articles.html
 http://www.tgarcia.com.br/atom.xml
 http://www.tgarcia.com.br/index.html
@@ -8,3 +9,5 @@ http://www.tgarcia.com.br/rss.xml
 http://www.tgarcia.com.br/sitemap.txt
 http://www.tgarcia.com.br/tags.html
 http://www.tgarcia.com.br/talks.html
+
+http://www.tgarcia.com.br/javascript-for-real

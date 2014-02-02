@@ -4,13 +4,67 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-02T18:29:49-02:00</updated>
+ <updated>2014-02-02T21:13:10-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
    <email>tiagorga@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>titles.javascript-for-real</title>
+   <link href="http://www.tgarcia.com.br/javascript-for-real"/>
+   <updated>2013-08-28T00:00:00-03:00</updated>
+   <id>http://www.tgarcia.com.br/javascript-for-real</id>
+   <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo.&lt;/p&gt;
+
+&lt;h4 id=&quot;vdeos&quot;&gt;Vídeos&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=kV5uEoyJ-pQ&quot;&gt;Vídeo no Youtube - Parte 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=cSYSQyHwQ5o&quot;&gt;Vídeo no Youtube - Parte 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;prrequisitos&quot;&gt;Pré-requisitos&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+
+&lt;li&gt;CSS&lt;/li&gt;
+
+&lt;li&gt;Familiaridade com Javascript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;recursos&quot;&gt;Recursos&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals&quot;&gt;Valores, variáveis e literais&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://tableless.com.br/javascript-entendendo-o-this/#.UhVmEGSbj_s&quot;&gt;this x self&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.codeproject.com/Articles/247241/Javascript-Module-Pattern&quot;&gt;JavaScript modular&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://ryanmorr.com/understanding-scope-and-context-in-javascript&quot;&gt;Closure&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html&quot;&gt;Hoisting&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://nodebr.com/como-evitar-o-inferno-de-callbacks/&quot;&gt;Callbacks&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.thinkful.com/learn/javascript-best-practices-1/&quot;&gt;Boas práticas 1&lt;/a&gt; e &lt;a href=&quot;http://www.thinkful.com/learn/javascript-best-practices-2&quot;&gt;Boas práticas 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;aprenda_javascript&quot;&gt;Aprenda JavaScript&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jsforcats.com&quot;&gt;Javascript for Cats - básico&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://eloquentjavascript.net/contents.html&quot;&gt;Eloquent Javascript - intermediário/avançado&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/9780596517748.do&quot;&gt;Javascript: The Good Parts - intermediário/avançado&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
  
  
 </feed>

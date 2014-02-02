@@ -5,10 +5,64 @@
         <description>Tiago Garcia - Tiago Garcia</description>
         <link>http://www.tgarcia.com.br</link>
         <link>http://www.tgarcia.com.br</link>
-        <lastBuildDate>2014-02-02T18:29:49-02:00</lastBuildDate>
-        <pubDate>2014-02-02T18:29:49-02:00</pubDate>
+        <lastBuildDate>2014-02-02T21:13:09-02:00</lastBuildDate>
+        <pubDate>2014-02-02T21:13:09-02:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>titles.javascript-for-real</title>
+                <description>&lt;p&gt;On August 13th and 28th of 2013 I gave this talk, focusing on developers coming from languages such as Java, explaining how to code in JavaScript for real and start the good practices right now.&lt;/p&gt;
+
+&lt;h4 id=&quot;videos&quot;&gt;Videos&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=kV5uEoyJ-pQ&quot;&gt;Youtube video - Part 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=cSYSQyHwQ5o&quot;&gt;Youtube video - Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+
+&lt;li&gt;CSS&lt;/li&gt;
+
+&lt;li&gt;Familiary with JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;resources&quot;&gt;Resources&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals&quot;&gt;Values, variables and literals&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://tableless.com.br/javascript-entendendo-o-this/#.UhVmEGSbj_s&quot;&gt;this x self&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.codeproject.com/Articles/247241/Javascript-Module-Pattern&quot;&gt;Modular JavaScript&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://ryanmorr.com/understanding-scope-and-context-in-javascript&quot;&gt;Closure&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html&quot;&gt;Hoisting&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://nodebr.com/como-evitar-o-inferno-de-callbacks/&quot;&gt;Callbacks&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.thinkful.com/learn/javascript-best-practices-1/&quot;&gt;Good practices 1&lt;/a&gt; and &lt;a href=&quot;http://www.thinkful.com/learn/javascript-best-practices-2&quot;&gt;Good practices 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;learn_javascript&quot;&gt;Learn Javascript&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jsforcats.com&quot;&gt;Javascript for Cats - basic&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://eloquentjavascript.net/contents.html&quot;&gt;Eloquent Javascript - intermediate to advanced&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/9780596517748.do&quot;&gt;Javascript: The Good Parts - intermediate to advanced&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://www.tgarcia.com.br/javascript-for-real</link>
+                <guid>http://www.tgarcia.com.br/javascript-for-real</guid>
+                <pubDate>2013-08-28T00:00:00-03:00</pubDate>
+        </item>
 
 
 </channel>
