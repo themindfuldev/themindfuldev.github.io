@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-03T10:11:11-02:00</updated>
+ <updated>2014-02-03T19:48:31-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -17,7 +17,7 @@
    <link href="http://www.tgarcia.com.br/talk-design-patterns-for-large-scale-javascript"/>
    <updated>2014-01-27T00:00:00-02:00</updated>
    <id>http://www.tgarcia.com.br/talk-design-patterns-for-large-scale-javascript</id>
-   <content type="html">&lt;p&gt;Em 27 de Janeiro de 2014 eu dei esta palestra na Avenue Code, sobre padrões de projeto essencials para aplicações JavaScript em grande escala. &lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em 27 de Janeiro de 2014 eu dei esta palestra (em inglês) na Avenue Code, sobre padrões de projeto essencials para aplicações JavaScript em grande escala. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;apresentao&quot;&gt;Apresentação&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/design-patterns-for-large-scale-javascript/embed&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
@@ -36,11 +36,11 @@
 &lt;h4 id=&quot;recursos&quot;&gt;Recursos&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns&quot;&gt;Aprendendo Padrões de Projeto em JavaScript - Addy Osmani&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns&quot;&gt;Learning JavaScript Design Patterns - Addy Osmani&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/largescalejavascript&quot;&gt;Padrões para Arquitetura de Aplicações JavaScript em grande escala&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/largescalejavascript&quot;&gt;Patterns for Large-Scale JavaScript Application Architecture&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/9780596806767.do&quot;&gt;Padrões JavaScript - Stoyan Stefanov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/9780596806767.do&quot;&gt;Javascript Patterns - Stoyan Stefanov&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&quot;http://aurajs.com&quot;&gt;AuraJS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
@@ -51,7 +51,7 @@
    <link href="http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js"/>
    <updated>2014-01-08T00:00:00-02:00</updated>
    <id>http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js</id>
-   <content type="html">&lt;p&gt;Em 8 de Janeiro de 2014 eu dei esta palestra na Avenue Code, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em 8 de Janeiro de 2014 eu dei esta palestra (em inglês) na Avenue Code, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;vdeo&quot;&gt;Vídeo&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/8ZzqMFAU_Kw&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
@@ -72,33 +72,33 @@
 &lt;h4 id=&quot;recursos&quot;&gt;Recursos&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://backbonejs.org&quot;&gt;Website oficial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://backbonejs.org&quot;&gt;Official website&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals&quot;&gt;Desenvolvendo Aplicações Backbone.js - Addy Osmani&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals&quot;&gt;Developing Backbone.js Applications - Addy Osmani&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://backbone.codeschool.com&quot;&gt;A Anatomia do Backbone.js - Codeschool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://backbone.codeschool.com&quot;&gt;The Anatomy of Backbone.js - Codeschool&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://backbonejs.org/docs/backbone.html&quot;&gt;Como o Backbone funciona por trás dos panos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://backbonejs.org/docs/backbone.html&quot;&gt;How Backbone works behind the scenes&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://www.api-first.com/&quot;&gt;API-First - Projete aplicações a partir da API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.api-first.com/&quot;&gt;API-First - Design apps from the API&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;https://github.com/tiagorg/tasker&quot;&gt;Projeto Tasker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tiagorg/tasker&quot;&gt;Tasker project&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;como_organizar_sua_aplicao&quot;&gt;Como organizar sua aplicação&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/yeoman/generator-backbone&quot;&gt;Gerador Backbone - Yeoman&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yeoman/generator-backbone&quot;&gt;Backbone generator - Yeoman&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/&quot;&gt;Construindo Aplicações com o Workflow Yeoman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/&quot;&gt;Building Apps With the Yeoman Workflow&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&quot;https://github.com/addyosmani/backbone-boilerplates&quot;&gt;Backbone boilerplates - Addy Osmani&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://backboneboilerplate.com/&quot;&gt;Outro backbone boilerplate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://backboneboilerplate.com/&quot;&gt;Another backbone boilerplate&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://webapplog.com/super-simple-backbone-starter-kit-boilerplate/&quot;&gt;Kit Iniciante Super Simples de Backbone / Boilerplate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://webapplog.com/super-simple-backbone-starter-kit-boilerplate/&quot;&gt;Super Simple Backbone Starter Kit / Boilerplate&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;exemplo_educativo_ao_vivo&quot;&gt;Exemplo educativo ao vivo&lt;/h4&gt;
@@ -109,11 +109,47 @@
  </entry>
  
  <entry>
+   <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
+   <link href="http://www.tgarcia.com.br/article-boosting-applications-with-rest-and-backbone-js"/>
+   <updated>2014-01-01T00:00:00-02:00</updated>
+   <id>http://www.tgarcia.com.br/article-boosting-applications-with-rest-and-backbone-js</id>
+   <content type="html">&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
+
+&lt;p&gt;Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.&lt;/p&gt;
+
+&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
+
+&lt;p&gt;Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/br/articles/rest-introduction&quot;&gt;Uma rápida introdução ao REST&lt;/a&gt; Uma boa introdução sobre o estilo arquitetural REST.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.json.org/json-pt.html&quot;&gt;JSON&lt;/a&gt; Introdução ao JSON.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp&quot;&gt;JavaScript MV* Patterns&lt;/a&gt; Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; Livro Developing Backbone.js Applications de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.playframework.com/download&quot;&gt;Download Play Framework&lt;/a&gt; Página para fazer o download do framework Play.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker no GitHub&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>titles.talks.javascript-for-real</title>
    <link href="http://www.tgarcia.com.br/talk-javascript-for-real"/>
    <updated>2013-08-28T00:00:00-03:00</updated>
    <id>http://www.tgarcia.com.br/talk-javascript-for-real</id>
-   <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra na Avenue Code, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo. &lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra (em inglês) na Avenue Code, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;parte_1&quot;&gt;Parte 1&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/kV5uEoyJ-pQ&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
