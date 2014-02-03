@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-MESSAGE='$1'
+MESSAGE=$1
 
 jekyll build
 cd ./source
