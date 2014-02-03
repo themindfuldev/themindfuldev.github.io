@@ -5,8 +5,8 @@
         <description>Tiago Garcia - Tiago Garcia</description>
         <link>http://www.tgarcia.com.br</link>
         <link>http://www.tgarcia.com.br</link>
-        <lastBuildDate>2014-02-03T19:48:31-02:00</lastBuildDate>
-        <pubDate>2014-02-03T19:48:31-02:00</pubDate>
+        <lastBuildDate>2014-02-03T21:17:46-02:00</lastBuildDate>
+        <pubDate>2014-02-03T21:17:46-02:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -108,7 +108,7 @@
 
         <item>
                 <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
-                <description>&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
+                <description>&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side usando REST e Backbone.js, comparando com outros tipos de aplicações web.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -194,6 +194,198 @@
                 <link>http://www.tgarcia.com.br/talk-javascript-for-real</link>
                 <guid>http://www.tgarcia.com.br/talk-javascript-for-real</guid>
                 <pubDate>2013-08-28T00:00:00-03:00</pubDate>
+        </item>
+
+        <item>
+                <title>titles.articles.what-do-i-need-to-know-about-html-5</title>
+                <description>&lt;p&gt;Em Julho de 2013 eu publiquei um artigo (em português) na Java Magazine 116, sobre o HTML 5 como uma alternativa ao desenvolvimento baseado exclusivamente no server-side. Esta tecnologia introduz e padroniza diversas funcionalidades inovadoras no navegador ou dispositivo móvel cliente, de forma segura, portável e nativa.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/o-que-preciso-saber-sobre-html-5-revista-java-magazine-116/28078&quot;&gt;Artigo O que preciso saber sobre HTML 5? - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
+
+&lt;p&gt;O HTML 5 surgiu como um movimento que reúne diversas funcionalidades projetadas para explorar melhor o client-side em aplicações web, o que pode ser vantajoso em diversas situações. Este movimento introduz certas funcionalidades no client-side como trabalhar offline, realizar persistência, multi-threading, comunicação de rede em baixo nível, reprodução sem plugins de animações, áudio e vídeo, geolocalização e validação de formulários. Todas estas funcionalidades serão abordadas neste artigo, além de um breve comentário sobre o projeto Dashorn, que pretende viabilizar a execução de código JavaScript diretamente na JVM.&lt;/p&gt;
+
+&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
+
+&lt;p&gt;Este tema é útil para os desenvolvedores Java que desejam aprender como trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação, trabalhando sem depender de plugins e possuindo apenas uma base de código-fonte client-side independente de dispositivo e plataforma.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.html5rocks.com&quot;&gt;HTML5 Rocks&lt;/a&gt; Site muito bem-organizado que reúne contribuições de diversos autores sobre HTML 5.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.apple.com/hotnews/thoughts-on-flash&quot;&gt;Thoughts on Flash&lt;/a&gt; Motivos para dispositivos móveis não suportarem Flash, segundo a Apple.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.sitepoint.com/5-reasons-why-zuckerberg-has-not-killed-html5&quot;&gt;5 Reasons Why Zuckerberg Has Not Killed HTML5&lt;/a&gt; Explicações porque o problema do Facebook não minimiza o HTML 5.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://diveintohtml5.info&quot;&gt;Dive Into HTML5&lt;/a&gt; Ótimo livro on-line sobre HTML 5.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://modernizr.com&quot;&gt;Modernizr&lt;/a&gt; Biblioteca JavaScript para verificar a compatibilidade do navegador com cada funcionalidade do HTML 5.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://html5readiness.com&quot;&gt;HTML5 Readiness&lt;/a&gt; Site que revela quais funcionalidades estão disponíveis em cada navegador.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://openmya.hacker.jp/hasegawa/security/utf7cs.html&quot;&gt;UTF-7 XSS Cheat Sheet&lt;/a&gt; Explicações sobre a brecha de segurança relacionada ao charset UTF-7.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://code.google.com/p/html5shim&quot;&gt;html5shim&lt;/a&gt; Biblioteca JavaScript para tornar as tags semânticas do HTML 5 compatíveis com versões anteriores ao IE 9.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://blogs.oracle.com/nashorn&quot;&gt;Nashorn&lt;/a&gt; Blog oficial do Projeto Nashorn.&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5</link>
+                <guid>http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5</guid>
+                <pubDate>2013-07-01T00:00:00-03:00</pubDate>
+        </item>
+
+        <item>
+                <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
+                <description>&lt;p&gt;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-104-parte-3/24725 Java Magazine #104 - April 2012 This article explains about common problems in Java code which ignore how Garbage Collection operates, how to write code to optimize this process and how to analyse the heap memory status in runtime.&lt;/p&gt;
+
+&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
+
+&lt;p&gt;Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.&lt;/p&gt;
+
+&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
+
+&lt;p&gt;Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/br/articles/rest-introduction&quot;&gt;Uma rápida introdução ao REST&lt;/a&gt; Uma boa introdução sobre o estilo arquitetural REST.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.json.org/json-pt.html&quot;&gt;JSON&lt;/a&gt; Introdução ao JSON.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp&quot;&gt;JavaScript MV* Patterns&lt;/a&gt; Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; Livro Developing Backbone.js Applications de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.playframework.com/download&quot;&gt;Download Play Framework&lt;/a&gt; Página para fazer o download do framework Play.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker no GitHub&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-3</link>
+                <guid>http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-3</guid>
+                <pubDate>2012-04-01T00:00:00-03:00</pubDate>
+        </item>
+
+        <item>
+                <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
+                <description>&lt;p&gt;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-103-parte-2/24387 Java Magazine #103 - March 2012 This article presents the operation of the colletors from the JVMs Oracle JRockit (used by WebLogic Java EE application server), IBM Virtual Machine for Java (used by WebSphere Java EE application server), those ones which implement JSR-1 (also known as Real-Time Specification for Java or RTSJ) and Dalvik (used by Android devices).&lt;/p&gt;
+
+&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
+
+&lt;p&gt;Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.&lt;/p&gt;
+
+&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
+
+&lt;p&gt;Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/br/articles/rest-introduction&quot;&gt;Uma rápida introdução ao REST&lt;/a&gt; Uma boa introdução sobre o estilo arquitetural REST.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.json.org/json-pt.html&quot;&gt;JSON&lt;/a&gt; Introdução ao JSON.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp&quot;&gt;JavaScript MV* Patterns&lt;/a&gt; Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; Livro Developing Backbone.js Applications de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.playframework.com/download&quot;&gt;Download Play Framework&lt;/a&gt; Página para fazer o download do framework Play.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker no GitHub&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-2</link>
+                <guid>http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-2</guid>
+                <pubDate>2012-03-01T00:00:00-03:00</pubDate>
+        </item>
+
+        <item>
+                <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
+                <description>&lt;p&gt;http://www.devmedia.com.br/garbage-collection-entendendo-e-otimizando-revista-java-magazine-102-parte-1/24082 Java Magazine #102 - February 2012 This article explains fundamentals and details about Garbage Collection process in Java, details how do the JVM HotSpot 6 and 7 collectors work and how to optimize their behavior through JVM options.&lt;/p&gt;
+
+&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
+
+&lt;p&gt;Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.&lt;/p&gt;
+
+&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
+
+&lt;p&gt;Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/br/articles/rest-introduction&quot;&gt;Uma rápida introdução ao REST&lt;/a&gt; Uma boa introdução sobre o estilo arquitetural REST.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.json.org/json-pt.html&quot;&gt;JSON&lt;/a&gt; Introdução ao JSON.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp&quot;&gt;JavaScript MV* Patterns&lt;/a&gt; Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; Livro Developing Backbone.js Applications de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.playframework.com/download&quot;&gt;Download Play Framework&lt;/a&gt; Página para fazer o download do framework Play.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker no GitHub&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-1</link>
+                <guid>http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-1</guid>
+                <pubDate>2012-02-01T00:00:00-02:00</pubDate>
+        </item>
+
+        <item>
+                <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
+                <description>&lt;p&gt;http://www.devmedia.com.br/padroes-de-projeto-revista-java-magazine-98/23072 Java Magazine #98 (the main article of the edition, featured in the cover) - October 2011 This article presents principles, discussions and reflections about using designing patterns, in order to help the reader to develop critical sense about them. This way, the reader can extract knowledge from himself in order to apply design patterns moderately.&lt;/p&gt;
+
+&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
+
+&lt;p&gt;Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.&lt;/p&gt;
+
+&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
+
+&lt;p&gt;Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/br/articles/rest-introduction&quot;&gt;Uma rápida introdução ao REST&lt;/a&gt; Uma boa introdução sobre o estilo arquitetural REST.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.json.org/json-pt.html&quot;&gt;JSON&lt;/a&gt; Introdução ao JSON.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp&quot;&gt;JavaScript MV* Patterns&lt;/a&gt; Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; Livro Developing Backbone.js Applications de Addy Osmani.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.playframework.com/download&quot;&gt;Download Play Framework&lt;/a&gt; Página para fazer o download do framework Play.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker no GitHub&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://www.tgarcia.com.br/article-design-patterns-enjoy-moderately</link>
+                <guid>http://www.tgarcia.com.br/article-design-patterns-enjoy-moderately</guid>
+                <pubDate>2011-10-01T00:00:00-03:00</pubDate>
         </item>
 
 

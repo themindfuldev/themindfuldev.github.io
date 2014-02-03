@@ -5,14 +5,14 @@
         <description>Tiago Garcia - Tiago Garcia</description>
         <link>http://www.tgarcia.com.br</link>
         <link>http://www.tgarcia.com.br</link>
-        <lastBuildDate>2014-02-03T19:48:30-02:00</lastBuildDate>
-        <pubDate>2014-02-03T19:48:30-02:00</pubDate>
+        <lastBuildDate>2014-02-03T21:17:46-02:00</lastBuildDate>
+        <pubDate>2014-02-03T21:17:46-02:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>titles.talks.design-patterns-for-large-scale-javascript</title>
-                <description>&lt;p&gt;On January 27th of 2014 I gave this talk (in English) at Avenue Code, about the Learn the essential design patterns for large-scale JavaScript applications. &lt;br /&gt;&lt;/p&gt;
+                <description>&lt;p&gt;On January 27th, 2014 I gave this talk (in English) at Avenue Code, about the Learn the essential design patterns for large-scale JavaScript applications. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;slide_deck&quot;&gt;Slide deck&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/design-patterns-for-large-scale-javascript/embed&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
@@ -46,7 +46,7 @@
 
         <item>
                 <title>titles.talks.boosting-the-client-side-with-backbone-js</title>
-                <description>&lt;p&gt;On January 8th of 2014 I gave this talk (in English) at Avenue Code, about the fundamentals on client-side apps, REST, JSON, MVC and how to blend it all together in a mature JavaScript SPA library from the MV* family, Backbone.js. &lt;br /&gt;&lt;/p&gt;
+                <description>&lt;p&gt;On January 8th, 2014 I gave this talk (in English) at Avenue Code, about the fundamentals on client-side apps, REST, JSON, MVC and how to blend it all together in a mature JavaScript SPA library from the MV* family, Backbone.js. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;video&quot;&gt;Video&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/8ZzqMFAU_Kw&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
@@ -108,13 +108,13 @@
 
         <item>
                 <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
-                <description>&lt;p&gt;On Janeiro of 2014 I published an article (in Portuguese) at Java Magazine 123, about smart client-side applications using REST and Backbone.js, comparing with other web application types.&lt;/p&gt;
+                <description>&lt;p&gt;On January, 2014 I published an article (in Portuguese) at Java Magazine #123, about smart client-side applications, comparing them with other web application styles such as Java web frameworks.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Article Boosting applications with REST and Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
 
-&lt;p&gt;This article introduces smart client-side applications, comparing them with other web application styles such as Java web frameworks, highlighting the productive usage concepts such as REST, JSON and MVC on the client-side. Then, it presents Backbone.js and its main parts such as Models, Collections, Views and Routers, besides templating using Handlebars.js and communicating with a Play Framework back-end over REST and JSON.&lt;/p&gt;
+&lt;p&gt;This article introduces smart client-side applications, comparing them with other web application styles such as Java web frameworks, highlighting the productivity usaging concepts such as REST, JSON and MVC on the client-side. Then, it presents Backbone.js and its main parts such as Models, Collections, Views and Routers, besides templating using Handlebars.js and communicating with a Play Framework back-end over REST and JSON.&lt;/p&gt;
 
 &lt;h4 id=&quot;when_the_subject_it_useful&quot;&gt;When the subject it useful&lt;/h4&gt;
 
@@ -144,7 +144,7 @@
 
         <item>
                 <title>titles.talks.javascript-for-real</title>
-                <description>&lt;p&gt;On August 13th and 28th of 2013 I gave this talk (in English) at Avenue Code, focusing on developers coming from languages such as Java, explaining how to code in JavaScript for real and start the good practices right now. &lt;br /&gt;&lt;/p&gt;
+                <description>&lt;p&gt;On August 13th and 28th, 2013 I gave this talk (in English) at Avenue Code, focusing on developers coming from languages such as Java, explaining how to code in JavaScript for real and start the good practices right now. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;part_1&quot;&gt;Part 1&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/kV5uEoyJ-pQ&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
@@ -194,6 +194,46 @@
                 <link>http://www.tgarcia.com.br/talk-javascript-for-real</link>
                 <guid>http://www.tgarcia.com.br/talk-javascript-for-real</guid>
                 <pubDate>2013-08-28T00:00:00-03:00</pubDate>
+        </item>
+
+        <item>
+                <title>titles.articles.what-do-i-need-to-know-about-html-5</title>
+                <description>&lt;p&gt;On July, 2013 I published an article (in Portuguese) at Java Magazine #116, sobre o HTML 5 as an alternative for development exclusively based on the server-side. This technology introduces and standardizes many innovative features on the browser or mobile device, in a safe, portable and native way.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/o-que-preciso-saber-sobre-html-5-revista-java-magazine-116/28078&quot;&gt;Article What do I need to know about HTML 5? - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;HTML 5 emerged as a movement to leverage many features designed to better explore the client-side in web applications, which can be beneficial in a few scenarios. This movement introduces certain client-side features such as offline work, persistence, multi-threading, low-level network communication, reproducing audio and video without plugins, geolocalization and form validation. All those features will be addressed on this article, as well a brief comment about the Dashorn project, which aims to make it possible to run JavaScript directly on the JVM.&lt;/p&gt;
+
+&lt;h4 id=&quot;when_the_subject_is_useful&quot;&gt;When the subject is useful&lt;/h4&gt;
+
+&lt;p&gt;This subject is useful for Java developers which want to learn how to bring the desktop experience to web applications, reducing the response and navigation time, working without depending on any plugin and having just one client-side codebase independent of device and platform.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.html5rocks.com&quot;&gt;HTML5 Rocks&lt;/a&gt; Well-organized site which gathers contributions from several authors about HTML 5.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.apple.com/hotnews/thoughts-on-flash&quot;&gt;Thoughts on Flash&lt;/a&gt; Reasons for mobile devices not support Flash, according to Apple.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.sitepoint.com/5-reasons-why-zuckerberg-has-not-killed-html5&quot;&gt;5 Reasons Why Zuckerberg Has Not Killed HTML5&lt;/a&gt; Explanations about why the Facebook problem doesn’t minimize HTML 5.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://diveintohtml5.info&quot;&gt;Dive Into HTML5&lt;/a&gt; Great online book about HTML 5.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://modernizr.com&quot;&gt;Modernizr&lt;/a&gt; JavaScript library to verify the browser compatibility with each HTML 5 feature.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://html5readiness.com&quot;&gt;HTML5 Readiness&lt;/a&gt; Site that reveals which features are available on each browser.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://openmya.hacker.jp/hasegawa/security/utf7cs.html&quot;&gt;UTF-7 XSS Cheat Sheet&lt;/a&gt; Explanations about the security breach related with UTF-7 charset.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://code.google.com/p/html5shim&quot;&gt;html5shim&lt;/a&gt; JavaScript library to make HTML 5 semantic tags compatible with versions before IE 9.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://blogs.oracle.com/nashorn&quot;&gt;Nashorn&lt;/a&gt; Official blog of Nashorn project.&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5</link>
+                <guid>http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5</guid>
+                <pubDate>2013-07-01T00:00:00-03:00</pubDate>
         </item>
 
 
