@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
-message=$1
+MESSAGE='$1'
 
 jekyll build
 cd ./source
 git add ./ -A
-git commit -m '$message'
+git commit -m $MESSAGE
 git push origin master

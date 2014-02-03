@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-03T01:01:32-02:00</updated>
+ <updated>2014-02-03T10:09:46-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -17,7 +17,7 @@
    <link href="http://www.tgarcia.com.br/talk-design-patterns-for-large-scale-javascript"/>
    <updated>2014-01-27T00:00:00-02:00</updated>
    <id>http://www.tgarcia.com.br/talk-design-patterns-for-large-scale-javascript</id>
-   <content type="html">&lt;p&gt;Em 27 de Janeiro de 2014 eu dei esta palestra, sobre padrões de projeto essencials para aplicações JavaScript em grande escala. &lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em 27 de Janeiro de 2014 eu dei esta palestra na Avenue Code, sobre padrões de projeto essencials para aplicações JavaScript em grande escala. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;apresentao&quot;&gt;Apresentação&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/design-patterns-for-large-scale-javascript/embed&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
@@ -51,7 +51,7 @@
    <link href="http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js"/>
    <updated>2014-01-08T00:00:00-02:00</updated>
    <id>http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js</id>
-   <content type="html">&lt;p&gt;Em 8 de Janeiro de 2014 eu dei esta palestra, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em 8 de Janeiro de 2014 eu dei esta palestra na Avenue Code, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;vdeo&quot;&gt;Vídeo&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/8ZzqMFAU_Kw&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
@@ -113,7 +113,7 @@
    <link href="http://www.tgarcia.com.br/talk-javascript-for-real"/>
    <updated>2013-08-28T00:00:00-03:00</updated>
    <id>http://www.tgarcia.com.br/talk-javascript-for-real</id>
-   <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo. &lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra na Avenue Code, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;parte_1&quot;&gt;Parte 1&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/kV5uEoyJ-pQ&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
