@@ -5,16 +5,20 @@
         <description>Tiago Garcia - Tiago Garcia</description>
         <link>http://www.tgarcia.com.br</link>
         <link>http://www.tgarcia.com.br</link>
-        <lastBuildDate>2014-02-02T21:54:19-02:00</lastBuildDate>
-        <pubDate>2014-02-02T21:54:19-02:00</pubDate>
+        <lastBuildDate>2014-02-02T23:14:07-02:00</lastBuildDate>
+        <pubDate>2014-02-02T23:14:07-02:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>titles.talks.boosting-the-client-side-with-backbone-js</title>
                 <description>&lt;p&gt;On January 8th of 2014 I gave this talk, about the fundamentals on client-side apps, REST, JSON, MVC and how to blend it all together in a mature Javascript SPA library from the MV* family, Backbone.js. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;video&quot;&gt;Video&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/8ZzqMFAU_Kw&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;slide_deck&quot;&gt;Slide deck&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/boosting-the-client-side-with-backbone-js/embed&#39; width=&#39;576&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -72,11 +76,11 @@
                 <title>titles.talks.javascript-for-real</title>
                 <description>&lt;p&gt;On August 13th and 28th of 2013 I gave this talk, focusing on developers coming from languages such as Java, explaining how to code in JavaScript for real and start the good practices right now. &lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;part_1&quot;&gt;Part 1&lt;br /&gt;&lt;br /&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;part_1&quot;&gt;Part 1&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/kV5uEoyJ-pQ&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;part_2&quot;&gt;Part 2&lt;br /&gt;&lt;br /&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;part_2&quot;&gt;Part 2&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/cSYSQyHwQ5o&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 

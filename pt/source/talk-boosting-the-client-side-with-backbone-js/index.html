@@ -12,9 +12,7 @@
 	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href="http://feeds.feedburner.com/" rel="alternate" title="titles.talks.boosting-the-client-side-with-backbone-js" type="application/atom+xml">
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.talks.boosting-the-client-side-with-backbone-js" type="application/atom+xml">
 </head>
 <body>
 <div id="page" class="hentry">
@@ -58,8 +56,12 @@
 			<div class="bd">
 				<div class="entry-content">
 					<p>On January 8th of 2014 I gave this talk, about the fundamentals on client-side apps, REST, JSON, MVC and how to blend it all together in a mature Javascript SPA library from the MV* family, Backbone.js. <br /></p>
+
+<h4 id="video">Video</h4>
 <iframe allowfullscreen='allowfullscreen' frameborder='0' height='315' src='//www.youtube.com/embed/8ZzqMFAU_Kw' width='560'> </iframe>
 <p><br /></p>
+
+<h4 id="slide_deck">Slide deck</h4>
 <iframe allowfullscreen='allowfullscreen' frameborder='0' height='420' scrolling='no' src='//slid.es/avenuecode/boosting-the-client-side-with-backbone-js/embed' width='576'> </iframe>
 <p><br /></p>
 
@@ -208,36 +210,9 @@
 		</div><!-- unit-foot -->
 	</footer>
 </div><!-- page -->
-<script>
-	(function(d, s) {
-		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
-		if (d.getElementById(id)) {return;}
-		js = d.createElement(s); js.src = url; js.id = id;
-		fjs.parentNode.insertBefore(js, fjs);
-		};
-	load('//platform.twitter.com/widgets.js', 'tweetjs');
-	}(document, 'script'));
-</script>
-<script>
-/*! A fix for the iOS orientationchange zoom bug.Script by @scottjehl, rebound by @wilto. MIT License.*/
-(function(j){var i=j.document;if(!i.querySelectorAll){return}var l=i.querySelectorAll("meta[name=viewport]")[0],a=l&&l.getAttribute("content"),h=a+", maximum-scale=1.0",d=a+", maximum-scale=10.0",g=true,c=j.orientation,k=0;if(!l){return}function f(){l.setAttribute("content",d);g=true}function b(){l.setAttribute("content",h);g=false}function e(m){c=Math.abs(j.orientation);k=Math.abs(m.gamma);if(k>8&&c===0){if(g){b()}}else{if(!g){f()}}}j.addEventListener("orientationchange",f,false);j.addEventListener("deviceorientation",e,false)})(this);
-</script>
-<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/assets/themes/the-program/js/scripts.js"></script>
   
 </body>
 </html>

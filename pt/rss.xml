@@ -5,16 +5,20 @@
         <description>Tiago Garcia - Tiago Garcia</description>
         <link>http://www.tgarcia.com.br</link>
         <link>http://www.tgarcia.com.br</link>
-        <lastBuildDate>2014-02-02T21:54:20-02:00</lastBuildDate>
-        <pubDate>2014-02-02T21:54:20-02:00</pubDate>
+        <lastBuildDate>2014-02-02T23:14:07-02:00</lastBuildDate>
+        <pubDate>2014-02-02T23:14:07-02:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>titles.talks.boosting-the-client-side-with-backbone-js</title>
                 <description>&lt;p&gt;Em 8 de Janeiro de 2014 eu dei esta palestra, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em Javascript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;vdeo&quot;&gt;Vídeo&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/8ZzqMFAU_Kw&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;apresentao&quot;&gt;Apresentação&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/boosting-the-client-side-with-backbone-js/embed&#39; width=&#39;576&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -72,11 +76,11 @@
                 <title>titles.talks.javascript-for-real</title>
                 <description>&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo. &lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;parte_1&quot;&gt;Parte 1&lt;br /&gt;&lt;br /&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;parte_1&quot;&gt;Parte 1&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/kV5uEoyJ-pQ&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;parte_2&quot;&gt;Parte 2&lt;br /&gt;&lt;br /&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;parte_2&quot;&gt;Parte 2&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/cSYSQyHwQ5o&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
