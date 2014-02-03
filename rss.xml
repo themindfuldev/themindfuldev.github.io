@@ -5,27 +5,61 @@
         <description>Tiago Garcia - Tiago Garcia</description>
         <link>http://www.tgarcia.com.br</link>
         <link>http://www.tgarcia.com.br</link>
-        <lastBuildDate>2014-02-03T00:43:46-02:00</lastBuildDate>
-        <pubDate>2014-02-03T00:43:46-02:00</pubDate>
+        <lastBuildDate>2014-02-03T01:01:32-02:00</lastBuildDate>
+        <pubDate>2014-02-03T01:01:32-02:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
+                <title>titles.talks.design-patterns-for-large-scale-javascript</title>
+                <description>&lt;p&gt;On January 27th of 2014 I gave this talk, about the Learn the essential design patterns for large-scale JavaScript applications. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;slide_deck&quot;&gt;Slide deck&lt;/h4&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/design-patterns-for-large-scale-javascript/embed&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;prerequisites&quot;&gt;Prerequisites:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intermediate JavaScript&lt;/li&gt;
+
+&lt;li&gt;Advanced OOP&lt;/li&gt;
+
+&lt;li&gt;Familiarity with Design Patterns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;resources&quot;&gt;Resources:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns&quot;&gt;Learning JavaScript Design Patterns - Addy Osmani&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/largescalejavascript&quot;&gt;Patterns for Large-Scale JavaScript Application Architecture&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/9780596806767.do&quot;&gt;Javascript Patterns - Stoyan Stefanov&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://aurajs.com&quot;&gt;AuraJS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://www.tgarcia.com.br/talk-design-patterns-for-large-scale-javascript</link>
+                <guid>http://www.tgarcia.com.br/talk-design-patterns-for-large-scale-javascript</guid>
+                <pubDate>2014-01-27T00:00:00-02:00</pubDate>
+        </item>
+
+        <item>
                 <title>titles.talks.boosting-the-client-side-with-backbone-js</title>
-                <description>&lt;p&gt;On January 8th of 2014 I gave this talk, about the fundamentals on client-side apps, REST, JSON, MVC and how to blend it all together in a mature Javascript SPA library from the MV* family, Backbone.js. &lt;br /&gt;&lt;/p&gt;
+                <description>&lt;p&gt;On January 8th of 2014 I gave this talk, about the fundamentals on client-side apps, REST, JSON, MVC and how to blend it all together in a mature JavaScript SPA library from the MV* family, Backbone.js. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;video&quot;&gt;Video&lt;/h4&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/8ZzqMFAU_Kw&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;slide_deck&quot;&gt;Slide deck&lt;/h4&gt;
-&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/boosting-the-client-side-with-backbone-js/embed&#39; width=&#39;576&#39;&gt; &lt;/iframe&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/boosting-the-client-side-with-backbone-js/embed&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Javascript&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
 
 &lt;li&gt;Familiarity with web frameworks such as Struts, JSF, Rails, Spring MVC&lt;/li&gt;
 &lt;/ul&gt;

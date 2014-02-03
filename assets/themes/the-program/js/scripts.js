@@ -71,7 +71,7 @@ var main = (function() {
         dataType: 'jsonp',
         success: function(response) {
           var documentFragment = document.createDocumentFragment();
-          response.data.length = 5;
+          response.data.length = 10;
           $.each(response.data, function(index, event) {
             if (event.type === 'PushEvent') {
               var li = $('<li/>');
@@ -98,6 +98,10 @@ var main = (function() {
                 text: event.repo.name
               });
               li.append(repoLink);
+
+              li.append(' [')
+                .append(event.created_at.split('T')[0])
+                .append(']');
 
               documentFragment.appendChild(li[0]);
             }
