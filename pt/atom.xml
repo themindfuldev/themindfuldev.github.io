@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-04T10:15:17-02:00</updated>
+ <updated>2014-02-04T12:58:28-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -17,9 +17,11 @@
    <link href="http://www.tgarcia.com.br/talk-design-patterns-for-large-scale-javascript"/>
    <updated>2014-01-27T00:00:00-02:00</updated>
    <id>http://www.tgarcia.com.br/talk-design-patterns-for-large-scale-javascript</id>
-   <content type="html">&lt;p&gt;Em 27 de Janeiro de 2014 eu dei esta palestra (em inglês) na Avenue Code, sobre padrões de projeto essencials para aplicações JavaScript em grande escala. &lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em 27 de Janeiro de 2014 eu dei esta palestra (em inglês) na &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, sobre padrões de projeto essencials para aplicações JavaScript em grande escala. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;apresentao&quot;&gt;Apresentação&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;//slid.es/avenuecode/design-patterns-for-large-scale-javascript&quot;&gt;Link da apresentação&lt;/a&gt;&lt;/p&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/design-patterns-for-large-scale-javascript/embed&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -47,17 +49,21 @@
  </entry>
  
  <entry>
-   <title>titles.talks.boosting-the-client-side-with-backbone-js</title>
-   <link href="http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js"/>
+   <title>titles.talks.boosting-the-client-side-with-backbone-js-en</title>
+   <link href="http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js-en"/>
    <updated>2014-01-08T00:00:00-02:00</updated>
-   <id>http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js</id>
-   <content type="html">&lt;p&gt;Em 8 de Janeiro de 2014 eu dei esta palestra (em inglês) na Avenue Code, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
+   <id>http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js-en</id>
+   <content type="html">&lt;p&gt;Em 8 de Janeiro de 2014 eu dei esta palestra (em inglês) na &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;vdeo&quot;&gt;Vídeo&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;//www.youtube.com/embed/8ZzqMFAU_Kw&quot;&gt;Link do vídeo no YouTube&lt;/a&gt;&lt;/p&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/8ZzqMFAU_Kw&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;apresentao&quot;&gt;Apresentação&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;//slid.es/avenuecode/boosting-the-client-side-with-backbone-js&quot;&gt;Link da apresentação&lt;/a&gt;&lt;/p&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//slid.es/avenuecode/boosting-the-client-side-with-backbone-js/embed&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -72,7 +78,7 @@
 &lt;h4 id=&quot;recursos&quot;&gt;Recursos&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://backbonejs.org&quot;&gt;Official website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://backbonejs.org&quot;&gt;Site oficial&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals&quot;&gt;Developing Backbone.js Applications - Addy Osmani&lt;/a&gt;&lt;/li&gt;
 
@@ -82,7 +88,7 @@
 
 &lt;li&gt;&lt;a href=&quot;http://www.api-first.com/&quot;&gt;API-First - Design apps from the API&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;https://github.com/tiagorg/tasker&quot;&gt;Tasker project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;como_organizar_sua_aplicao&quot;&gt;Como organizar sua aplicação&lt;/h4&gt;
@@ -113,7 +119,7 @@
    <link href="http://www.tgarcia.com.br/article-boosting-applications-with-rest-and-backbone-js"/>
    <updated>2014-01-01T00:00:00-02:00</updated>
    <id>http://www.tgarcia.com.br/article-boosting-applications-with-rest-and-backbone-js</id>
-   <content type="html">&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side usando REST e Backbone.js, comparando com outros tipos de aplicações web.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-123/29893&quot;&gt;Java Magazine 123&lt;/a&gt;, sobre aplicações inteligentes no client-side usando REST e Backbone.js, comparando com outros tipos de aplicações web.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -145,17 +151,83 @@
  </entry>
  
  <entry>
+   <title>titles.talks.boosting-the-client-side-with-backbone-js-pt</title>
+   <link href="http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js-pt"/>
+   <updated>2013-10-19T00:00:00-03:00</updated>
+   <id>http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js-pt</id>
+   <content type="html">&lt;p&gt;Em 19 de Outubro de 2013 eu dei esta palestra (em português) no &lt;a href=&quot;http://devday.devisland.com/&quot;&gt;DevDay 2013&lt;/a&gt;, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;apresentao&quot;&gt;Apresentação&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;//tgarcia.com.br/talk-backbone-js-pt&quot;&gt;Link da apresentação&lt;/a&gt;&lt;/p&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//tgarcia.com.br/talk-backbone-js-pt/#/&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
+&lt;h4 id=&quot;cdigofonte&quot;&gt;Código-fonte&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tiagorg/talk-backbone-js-pt&quot;&gt;Repositório talk-backbone-js-pt&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;prrequisitos&quot;&gt;Pré-requisitos&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+
+&lt;li&gt;Familiaridade com frameworks web como Struts, JSF, Rails, Spring MVC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;recursos&quot;&gt;Recursos&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://backbonejs.org&quot;&gt;Site oficial&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals&quot;&gt;Developing Backbone.js Applications - Addy Osmani&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://backbone.codeschool.com&quot;&gt;The Anatomy of Backbone.js - Codeschool&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://backbonejs.org/docs/backbone.html&quot;&gt;How Backbone works behind the scenes&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.api-first.com/&quot;&gt;API-First - Design apps from the API&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;como_organizar_sua_aplicao&quot;&gt;Como organizar sua aplicação&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yeoman/generator-backbone&quot;&gt;Backbone generator - Yeoman&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/&quot;&gt;Building Apps With the Yeoman Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/addyosmani/backbone-boilerplates&quot;&gt;Backbone boilerplates - Addy Osmani&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://backboneboilerplate.com/&quot;&gt;Another backbone boilerplate&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://webapplog.com/super-simple-backbone-starter-kit-boilerplate/&quot;&gt;Super Simple Backbone Starter Kit / Boilerplate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;exemplo_educativo_ao_vivo&quot;&gt;Exemplo educativo ao vivo&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://todomvc.com/architecture-examples/backbone/&quot;&gt;Backbone.js - TodoMVC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>titles.talks.javascript-for-real</title>
    <link href="http://www.tgarcia.com.br/talk-javascript-for-real"/>
    <updated>2013-08-28T00:00:00-03:00</updated>
    <id>http://www.tgarcia.com.br/talk-javascript-for-real</id>
-   <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra (em inglês) na Avenue Code, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo. &lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra (em inglês) na &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;parte_1&quot;&gt;Parte 1&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;//www.youtube.com/embed/kV5uEoyJ-pQ&quot;&gt;Link do vídeo no YouTube&lt;/a&gt;&lt;/p&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/kV5uEoyJ-pQ&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;parte_2&quot;&gt;Parte 2&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;//www.youtube.com/embed/cSYSQyHwQ5o&quot;&gt;Link do vídeo no YouTube&lt;/a&gt;&lt;/p&gt;
 &lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;315&#39; src=&#39;//www.youtube.com/embed/cSYSQyHwQ5o&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -203,7 +275,7 @@
    <link href="http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5"/>
    <updated>2013-07-01T00:00:00-03:00</updated>
    <id>http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5</id>
-   <content type="html">&lt;p&gt;Em Julho de 2013 eu publiquei um artigo (em português) na Java Magazine 116, sobre o HTML 5 como uma alternativa ao desenvolvimento baseado exclusivamente no server-side. Esta tecnologia introduz e padroniza diversas funcionalidades inovadoras no navegador ou dispositivo móvel cliente, de forma segura, portável e nativa.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em Julho de 2013 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-116/28258&quot;&gt;Java Magazine 116&lt;/a&gt;, sobre o HTML 5 como uma alternativa ao desenvolvimento baseado exclusivamente no server-side. Esta tecnologia introduz e padroniza diversas funcionalidades inovadoras no navegador ou dispositivo móvel cliente, de forma segura, portável e nativa.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/o-que-preciso-saber-sobre-html-5-revista-java-magazine-116/28078&quot;&gt;Artigo O que preciso saber sobre HTML 5? - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -243,7 +315,7 @@
    <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-3"/>
    <updated>2012-04-01T00:00:00-03:00</updated>
    <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-3</id>
-   <content type="html">&lt;p&gt;Em Abril de 2012 eu publiquei um artigo (em português) na Java Magazine 104, sobre problemas comuns em códigos Java que ignoram o funcionamento do Garbage Collection, como escrever código para otimizar este processo e como analisar a situação da memória heap em tempo de execução.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em Abril de 2012 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-104/24723&quot;&gt;Java Magazine 104&lt;/a&gt;, sobre problemas comuns em códigos Java que ignoram o funcionamento do Garbage Collection, como escrever código para otimizar este processo e como analisar a situação da memória heap em tempo de execução.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-104-parte-3/24725&quot;&gt;Artigo Entendendo e otimizando o Garbage Collection - Parte 3 - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -273,7 +345,7 @@
    <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2"/>
    <updated>2012-03-01T00:00:00-03:00</updated>
    <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2</id>
-   <content type="html">&lt;p&gt;Em Março de 2012 eu publiquei um artigo (em português) na Java Magazine 103, sobre o funcionamento dos collectors das JVMs Oracle JRockit (utilizada pelo servidor de aplicações Java EE WebLogic), IBM Virtual Machine for Java (utilizada pelo servidor de aplicações Java EE WebSphere), as que implementam a JSR-1 (também conhecida como Real-Time Specification for Java ou RTSJ) e Dalvik (utilizada por dispositivos Android).&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em Março de 2012 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-103/24382&quot;&gt;Java Magazine 103&lt;/a&gt;, sobre o funcionamento dos collectors das JVMs Oracle JRockit (utilizada pelo servidor de aplicações Java EE WebLogic), IBM Virtual Machine for Java (utilizada pelo servidor de aplicações Java EE WebSphere), as que implementam a JSR-1 (também conhecida como Real-Time Specification for Java ou RTSJ) e Dalvik (utilizada por dispositivos Android).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-103-parte-2/24387&quot;&gt;Artigo Entendendo e otimizando o Garbage Collection - Parte 2 - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -303,7 +375,7 @@
    <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-1"/>
    <updated>2012-02-01T00:00:00-02:00</updated>
    <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-1</id>
-   <content type="html">&lt;p&gt;Em Fevereiro de 2012 eu publiquei um artigo (em português) na Java Magazine 102, sobre o processo de Garbage Collection em Java, apresentando o funcionamento dos collectors da JVM HotSpot 6 e 7 e como otimizar seu comportamento por meio de opções da JVM.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em Fevereiro de 2012 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-102/24079&quot;&gt;Java Magazine 102&lt;/a&gt;, sobre o processo de Garbage Collection em Java, apresentando o funcionamento dos collectors da JVM HotSpot 6 e 7 e como otimizar seu comportamento por meio de opções da JVM.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/garbage-collection-entendendo-e-otimizando-revista-java-magazine-102-parte-1/24082&quot;&gt;Artigo Entendendo e otimizando o Garbage Collection - Parte 1 - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -335,7 +407,7 @@
    <link href="http://www.tgarcia.com.br/article-design-patterns-enjoy-moderately"/>
    <updated>2011-10-01T00:00:00-03:00</updated>
    <id>http://www.tgarcia.com.br/article-design-patterns-enjoy-moderately</id>
-   <content type="html">&lt;p&gt;Em Outubro de 2011 eu publiquei um artigo (em português) na capa da Java Magazine 98, sobre princípios, discussões e reflexões quanto a utilização de padrões de projeto, para ajudar ao leitor a desenvolver senso crítico sobre os mesmos. Assim, o leitor poderá extrair de si mesmo o conhecimento para a aplicação de padrões de projeto com moderação.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Em Outubro de 2011 eu publiquei um artigo (em português) na capa da &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-98/23078&quot;&gt;Java Magazine 98&lt;/a&gt;, sobre princípios, discussões e reflexões quanto a utilização de padrões de projeto, para ajudar ao leitor a desenvolver senso crítico sobre os mesmos. Assim, o leitor poderá extrair de si mesmo o conhecimento para a aplicação de padrões de projeto com moderação.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/padroes-de-projeto-revista-java-magazine-98/23072&quot;&gt;Artigo Padrões de projeto, aprecie com moderação - DevMedia&lt;/a&gt;&lt;/p&gt;
 

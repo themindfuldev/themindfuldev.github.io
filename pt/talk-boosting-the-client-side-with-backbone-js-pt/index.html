@@ -7,12 +7,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Artigo - Entendendo e otimizando o Garbage Collection - Parte 3 [pt] - Tiago Garcia</title>
+	<title>Palestra - Turbinando o client-side com Backbone.js [pt] - Tiago Garcia</title>
 	<meta name="author" content="Tiago Garcia">
 	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.articles.understanding-and-optimizing-the-garbage-collection-part-3" type="application/atom+xml">
+	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.talks.boosting-the-client-side-with-backbone-js-pt" type="application/atom+xml">
 </head>
 <body>
 <div id="page" class="hentry">
@@ -48,43 +48,75 @@
 			<header>
 				<div class="unit-head">
 					<div class="unit-inner unit-head-inner">
-						<h1 class="h2 entry-title">Artigo - Entendendo e otimizando o Garbage Collection - Parte 3 [pt]</h1>
+						<h1 class="h2 entry-title">Palestra - Turbinando o client-side com Backbone.js [pt]</h1>
 					</div><!-- unit-inner -->
 				</div><!-- unit-head -->
 			</header>
 
 			<div class="bd">
 				<div class="entry-content">
-					<p>Em Abril de 2012 eu publiquei um artigo (em português) na <a href="http://www.devmedia.com.br/revista-java-magazine-104/24723">Java Magazine 104</a>, sobre problemas comuns em códigos Java que ignoram o funcionamento do Garbage Collection, como escrever código para otimizar este processo e como analisar a situação da memória heap em tempo de execução.</p>
+					<p>Em 19 de Outubro de 2013 eu dei esta palestra (em português) no <a href="http://devday.devisland.com/">DevDay 2013</a>, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. <br /></p>
 
-<p><a href="http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-104-parte-3/24725">Artigo Entendendo e otimizando o Garbage Collection - Parte 3 - DevMedia</a></p>
+<h4 id="apresentao">Apresentação</h4>
 
-<h4 id="resumo">Resumo</h4>
+<p><a href="//tgarcia.com.br/talk-backbone-js-pt">Link da apresentação</a></p>
+<iframe allowfullscreen='allowfullscreen' frameborder='0' height='420' scrolling='no' src='//tgarcia.com.br/talk-backbone-js-pt/#/' width='560'> </iframe>
+<h4 id="cdigofonte">Código-fonte</h4>
 
-<p>O artigo começa revendo opções da JVM para logar as atividade do processo de Garbage Collection e também apresentando a ferramenta JConsole para visualização gráfica da situação da memória heap. Em seguida, disserta sobre vazamentos de memória e mostra um exemplo de código com este problema, analisando sua execução na ferramenta JConsole. Por fim, apresenta outros assuntos como o método finalize(), referências fracas e conclui sugerindo algumas boas práticas.</p>
+<p><a href="https://github.com/tiagorg/talk-backbone-js-pt">Repositório talk-backbone-js-pt</a></p>
 
-<h4 id="em_que_situao_o_tema__til">Em que situação o tema é útil</h4>
-
-<p>O tema é muito pertinente a qualquer desenvolvedor Java, pois por mais que as consequências de programas que não contribuem com o processo de Garbage Collection não apareçam muito em ambiente de desenvolvimento, certamente farão a diferença em ambiente de produção. É importante entender os motivos que levam ao deterioramento do Garbage Collection e como evitar estas situações, fazendo uso de boas práticas para tal.</p>
-
-<h4 id="links">Links</h4>
+<h4 id="prrequisitos">Pré-requisitos</h4>
 
 <ul>
-<li><a href="http://www.slideshare.net/caroljmcdonald/java-garbage-collection-monitoring-and-tuning">Java Garbage Collection, Monitoring and Tuning</a> Apresentação de Carol McDonald a respeito de Garbage Collection, monitoramento e tuning.</li>
+<li>JavaScript</li>
 
-<li><a href="http://docs.oracle.com/javase/1.5.0/docs/guide/management/jconsole.html">Using JConsole</a> Documentação oficial do JConsole.</li>
+<li>Familiaridade com frameworks web como Struts, JSF, Rails, Spring MVC</li>
+</ul>
 
-<li><a href="http://www.devx.com/Java/Article/30192">How to Handle Java Finalization’s Memory-Retention Issues</a> Artigo do DevX que explica como manipular a finalização de objetos efetivamente.</li>
+<h4 id="recursos">Recursos</h4>
 
-<li><a href="http://www.devmedia.com.br/referencias-fracas-sabe-o-que-sao-revista-java-magazine-99/23308">Referências fracas: sabe o que são? - Revista Java Magazine 99</a> Artigo “Sabe o que são referências fracas?” publicado na Java Magazine 99 sobre referências fracas.</li>
+<ul>
+<li><a href="http://backbonejs.org">Site oficial</a></li>
+
+<li><a href="http://addyosmani.github.io/backbone-fundamentals">Developing Backbone.js Applications - Addy Osmani</a></li>
+
+<li><a href="http://backbone.codeschool.com">The Anatomy of Backbone.js - Codeschool</a></li>
+
+<li><a href="http://backbonejs.org/docs/backbone.html">How Backbone works behind the scenes</a></li>
+
+<li><a href="http://www.api-first.com/">API-First - Design apps from the API</a></li>
+
+<li><a href="https://github.com/tiagorg/tasker">Repositório do projeto Tasker</a></li>
+</ul>
+
+<h4 id="como_organizar_sua_aplicao">Como organizar sua aplicação</h4>
+
+<ul>
+<li><a href="https://github.com/yeoman/generator-backbone">Backbone generator - Yeoman</a>
+<ul>
+<li><a href="http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/">Building Apps With the Yeoman Workflow</a></li>
+</ul>
+</li>
+
+<li><a href="https://github.com/addyosmani/backbone-boilerplates">Backbone boilerplates - Addy Osmani</a></li>
+
+<li><a href="http://backboneboilerplate.com/">Another backbone boilerplate</a></li>
+
+<li><a href="http://webapplog.com/super-simple-backbone-starter-kit-boilerplate/">Super Simple Backbone Starter Kit / Boilerplate</a></li>
+</ul>
+
+<h4 id="exemplo_educativo_ao_vivo">Exemplo educativo ao vivo</h4>
+
+<ul>
+<li><a href="http://todomvc.com/architecture-examples/backbone/">Backbone.js - TodoMVC</a></li>
 </ul>
 					<hr/>
 					<div class="meta">
 						<p class="date-publish">
 							Publicado em
-							<date class="date-pub" title="2012-04-01T00:00:00-03:00" datetime="2012-04-01T00:00:00-03:00" pubdate>
+							<date class="date-pub" title="2013-10-19T00:00:00-03:00" datetime="2013-10-19T00:00:00-03:00" pubdate>
 								
-									<span class="day">01</span>/<span class="month"><abbr>04</abbr></span>/<span class="year">2012</span>
+									<span class="day">19</span>/<span class="month"><abbr>10</abbr></span>/<span class="year">2013</span>
 								
 							</date>
 						</p>
@@ -96,11 +128,11 @@
 
   
     
-    	<li><a href="/pt/tags.html#article-ref">article <span>6</span></a></li>
+    	<li><a href="/pt/tags.html#talks-ref">talks <span>4</span></a></li>
     
-    	<li><a href="/pt/tags.html#java-ref">java <span>4</span></a></li>
+    	<li><a href="/pt/tags.html#javascript-ref">javascript <span>5</span></a></li>
     
-    	<li><a href="/pt/tags.html#garbage collection-ref">garbage collection <span>3</span></a></li>
+    	<li><a href="/pt/tags.html#backbone.js-ref">backbone.js <span>3</span></a></li>
     
   
 
@@ -140,13 +172,13 @@
 					<nav class="pagination">
 						<ul>
 							
-							<li class="prev"><a class="internal" rel="prev"  href="/pt/article-understanding-and-optimizing-the-garbage-collection-part-2" title="View Artigo - Entendendo e otimizando o Garbage Collection - Parte 2 [pt]">&laquo; Artigo - Entendendo e otimizando o Garbage Collection - Parte 2 [pt]</a></li>
+							<li class="prev"><a class="internal" rel="prev"  href="/pt/talk-javascript-for-real" title="View Palestra - JavaScript de verdade [en]">&laquo; Palestra - JavaScript de verdade [en]</a></li>
 							
 							
 							<li class="pipe"> | </li>
 							
 							
-							<li class="next"><a class="internal" rel="next"  href="/pt/article-what-do-i-need-to-know-about-html-5" title="View Artigo - O que preciso saber sobre HTML 5? [pt]">Artigo - O que preciso saber sobre HTML 5? [pt] &raquo;</a></li>
+							<li class="next"><a class="internal" rel="next"  href="/pt/article-boosting-applications-with-rest-and-backbone-js" title="View Artigo - Turbinando aplicações com REST e Backbone.js [pt]">Artigo - Turbinando aplicações com REST e Backbone.js [pt] &raquo;</a></li>
 							
 						</ul>
 					</nav>
@@ -171,8 +203,8 @@
 			<div class="unit-inner unit-foot-inner">
 				<h4>Mude seu idioma</h4>
 				<p class="flags">
-					<a href="/pt/article-understanding-and-optimizing-the-garbage-collection-part-3"><img src="/assets/themes/the-program/img/flag-br.png"></a>
-					<a href="/article-understanding-and-optimizing-the-garbage-collection-part-3"><img src="/assets/themes/the-program/img/flag-us.png"></a>
+					<a href="/pt/talk-boosting-the-client-side-with-backbone-js-pt"><img src="/assets/themes/the-program/img/flag-br.png"></a>
+					<a href="/talk-boosting-the-client-side-with-backbone-js-pt"><img src="/assets/themes/the-program/img/flag-us.png"></a>
 				</p>
 				<h4>Commits recentes no Github</h4>
 				<ul id="github-commits" class="github-commits"> </ul>
