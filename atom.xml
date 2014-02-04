@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-03T21:17:46-02:00</updated>
+ <updated>2014-02-04T00:57:04-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -121,7 +121,7 @@
 
 &lt;p&gt;This article introduces smart client-side applications, comparing them with other web application styles such as Java web frameworks, highlighting the productivity usaging concepts such as REST, JSON and MVC on the client-side. Then, it presents Backbone.js and its main parts such as Models, Collections, Views and Routers, besides templating using Handlebars.js and communicating with a Play Framework back-end over REST and JSON.&lt;/p&gt;
 
-&lt;h4 id=&quot;when_the_subject_it_useful&quot;&gt;When the subject it useful&lt;/h4&gt;
+&lt;h4 id=&quot;when_is_the_subject_useful&quot;&gt;When is the subject useful&lt;/h4&gt;
 
 &lt;p&gt;This subject is useful for Java developers that need to bring the desktop experience to his web applications, reducing the response and navigation time as well properly organizing the JavaScript code in a structure based on MVC architectural pattern.&lt;/p&gt;
 
@@ -211,7 +211,7 @@
 
 &lt;p&gt;HTML 5 emerged as a movement to leverage many features designed to better explore the client-side in web applications, which can be beneficial in a few scenarios. This movement introduces certain client-side features such as offline work, persistence, multi-threading, low-level network communication, reproducing audio and video without plugins, geolocalization and form validation. All those features will be addressed on this article, as well a brief comment about the Dashorn project, which aims to make it possible to run JavaScript directly on the JVM.&lt;/p&gt;
 
-&lt;h4 id=&quot;when_the_subject_is_useful&quot;&gt;When the subject is useful&lt;/h4&gt;
+&lt;h4 id=&quot;when_is_the_subject_useful&quot;&gt;When is the subject useful&lt;/h4&gt;
 
 &lt;p&gt;This subject is useful for Java developers which want to learn how to bring the desktop experience to web applications, reducing the response and navigation time, working without depending on any plugin and having just one client-side codebase independent of device and platform.&lt;/p&gt;
 
@@ -235,6 +235,68 @@
 &lt;li&gt;&lt;a href=&quot;http://code.google.com/p/html5shim&quot;&gt;html5shim&lt;/a&gt; JavaScript library to make HTML 5 semantic tags compatible with versions before IE 9.&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&quot;http://blogs.oracle.com/nashorn&quot;&gt;Nashorn&lt;/a&gt; Official blog of Nashorn project.&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-2</title>
+   <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2"/>
+   <updated>2012-03-01T00:00:00-03:00</updated>
+   <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2</id>
+   <content type="html">&lt;p&gt;In March, 2012 I published an article (in Portuguese) on Java Magazine #103, about the operation of the colletors from the JVMs Oracle JRockit (used by WebLogic Java EE application server), IBM Virtual Machine for Java (used by WebSphere Java EE application server), those ones which implement JSR-1 (also known as Real-Time Specification for Java or RTSJ) and Dalvik (used by Android devices).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-103-parte-2/24387&quot;&gt;Article Understanding and optimizing the Garbage Collection - Part 2 - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;This article begins by presenting the JVM Oracle JRockit and its heap memory configuration, its collectors and how to use them. Next, presents the JVM IBM Virtual Machine for Java, its heap memory configuration, its collectors and how to use them. From here, presents the JSR-1 specification and its concepts about developing real-time applications in Java, and demonstrates the operation of 5 real-time collectors. Yet, presents the JVM Dalvik and its challenges about Garbage Collection, as well its collector and improvements about memory management.&lt;/p&gt;
+
+&lt;h4 id=&quot;when_is_the_subject_useful&quot;&gt;When is the subject useful&lt;/h4&gt;
+
+&lt;p&gt;The subject is very relevant to Java developers which work with any of the aforementioned JVMs, to better understand the consequences of using these collectors in particular scenarios. Besides that, Java developers which don’t yet work with any of those JVMs can learn how those options manage to solve in a different way the same challenges the JVM HotSpot faces, adding to your knowledge.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/jrdocs/refman/optionX.html&quot;&gt;-X Command-line Options&lt;/a&gt; Official documentation from Oracle about JVM JRockit options.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.ibm.com/developerworks/java/library/j-ibmjava2/&quot;&gt;Java technology, IBM style: Garbage collection policies, Part 1&lt;/a&gt; JVM IBM collectors implementations.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/articles/javase/index-138577.html&quot;&gt;An Introduction to Real-Time Java Technology: Part 2, Garbage Collection and the Sun Java Real-Time System (Java RTS)&lt;/a&gt; Official documentation from Oracle about Garbage Collection in JVMs which implement the RTSJ specification.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.ibm.com/developerworks/java/library/j-rtj4/index.html&quot;&gt;Real-time Java, Part 4: Real-time garbage collection&lt;/a&gt; Detailed explanation about the Metronome collector.&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-1</title>
+   <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-1"/>
+   <updated>2012-02-01T00:00:00-02:00</updated>
+   <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-1</id>
+   <content type="html">&lt;p&gt;On February, 2012 I published an article (in Portuguese) at Java Magazine #102, about the Garbage Collection process in Java, detailing how do the JVM HotSpot 6 and 7 collectors work and how to optimize their behavior through JVM options.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/garbage-collection-entendendo-e-otimizando-revista-java-magazine-102-parte-1/24082&quot;&gt;Article Understanding and optimizing the Garbage Collection - Part 1 - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;This article presents concepts and metrics about Garbage Collection in Java, as well the categorization of the heap memory in generations. Next, presents the JVM HotSpot 6 and its overall operation with Garbage Collection, as much as its customization through JVM options. From here, explains about each collector, how does it operate, its customization options and implementations, making a final comparison illustrating when is it more proper to use each one of the available collectors. Yet, presents JVM HotSpot 7 and its new collector, its overall operation and customization options.&lt;/p&gt;
+
+&lt;h4 id=&quot;when_is_the_subject_useful&quot;&gt;When is the subject useful&lt;/h4&gt;
+
+&lt;p&gt;The subject is very relevant to any Java developer, even though the consequences of a badly configured Garbage Collection process won’t be much evident in development environments, certainly will make the difference in production environments, and it is important to understand the reasons that cause unexpected behavior in the Garbage Collection when operated by multiple processors and big data.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html&quot;&gt;Java SE 6 HotSpot Virtual Machine Garbage Collection Tuning&lt;/a&gt; Official documentation from Oracle about Garbage Collection in JVM HotSpot 6.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://blogs.oracle.com/jonthecollector/entry/our_collectors&quot;&gt;Our Collectors&lt;/a&gt; Collectors implementations on JVM HotSpot 6.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/tech/g1-intro-jsp-135488.html&quot;&gt;The Garbage-First Garbage Collector&lt;/a&gt; Official documentation from Oracle about the Garbage-First collector.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.brpreiss.com/books/opus5/html/page424.html&quot;&gt;Mark-and-Sweep Garbage Collection&lt;/a&gt; Detailed explanation about Mark-and-Sweep algorithm.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/presentations/Understanding-Java-Garbage-Collection&quot;&gt;Understanding Java Garbage Collection and What You Can Do about It&lt;/a&gt; Great presentation about Garbage Collection.&lt;/li&gt;
 &lt;/ul&gt;</content>
  </entry>
  

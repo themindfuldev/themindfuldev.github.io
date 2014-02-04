@@ -7,12 +7,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Artigo - Turbinando aplicações com REST e Backbone.js [pt] - Tiago Garcia</title>
+	<title>Artigo - Entendendo e otimizando o Garbage Collection - Parte 2 [pt] - Tiago Garcia</title>
 	<meta name="author" content="Tiago Garcia">
 	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.articles.boosting-applications-with-rest-and-backbone-js" type="application/atom+xml">
+	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.articles.understanding-and-optimizing-the-garbage-collection-part-2" type="application/atom+xml">
 </head>
 <body>
 <div id="page" class="hentry">
@@ -48,51 +48,43 @@
 			<header>
 				<div class="unit-head">
 					<div class="unit-inner unit-head-inner">
-						<h1 class="h2 entry-title">Artigo - Turbinando aplicações com REST e Backbone.js [pt]</h1>
+						<h1 class="h2 entry-title">Artigo - Entendendo e otimizando o Garbage Collection - Parte 2 [pt]</h1>
 					</div><!-- unit-inner -->
 				</div><!-- unit-head -->
 			</header>
 
 			<div class="bd">
 				<div class="entry-content">
-					<p>http://www.devmedia.com.br/garbage-collection-entendendo-e-otimizando-revista-java-magazine-102-parte-1/24082 Java Magazine #102 - February 2012 This article explains fundamentals and details about Garbage Collection process in Java, details how do the JVM HotSpot 6 and 7 collectors work and how to optimize their behavior through JVM options.</p>
+					<p>Em Março de 2012 eu publiquei um artigo (em português) na Java Magazine 103, sobre o funcionamento dos collectors das JVMs Oracle JRockit (utilizada pelo servidor de aplicações Java EE WebLogic), IBM Virtual Machine for Java (utilizada pelo servidor de aplicações Java EE WebSphere), as que implementam a JSR-1 (também conhecida como Real-Time Specification for Java ou RTSJ) e Dalvik (utilizada por dispositivos Android).</p>
 
-<p>Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.</p>
-
-<p><a href="http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692">Artigo Turbinando aplicações com REST e Backbone.js - DevMedia</a></p>
+<p><a href="http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-103-parte-2/24387">Artigo Entendendo e otimizando o Garbage Collection - Parte 2 - DevMedia</a></p>
 
 <h4 id="resumo">Resumo</h4>
 
-<p>Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.</p>
+<p>O artigo começa apresentando a JVM Oracle JRockit e suas configurações de memória heap, seus collectors e como utilizá-los. Em seguida, apresenta também a JVM IBM Virtual Machine for Java, suas configurações de memória heap, seus collectors e como utilizá-los. A partir daqui, apresenta a especificação JSR-1 e seus conceitos com relação ao desenvolvimento de aplicações de tempo real em Java, e demonstra o funcionamento de 5 collectors de tempo real. Ainda, apresenta a JVM Dalvik e seus desafios com relação a Garbage Collection, além de seu collector e melhorias com respeito ao gerenciamento de memória.</p>
 
 <h4 id="em_que_situao_o_tema__til">Em que situação o tema é útil</h4>
 
-<p>Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.</p>
+<p>O tema é muito pertinente a desenvolvedores Java que trabalham com alguma das JVMs mencionadas acima, para entender mais a fundo as consequências da utilização de collectors frente a cenários particulares. Além disso, desenvolvedores Java que não trabalham com alguma destas JVMs poderão aprender como que estas opções solucionam os mesmos problemas de Garbage Collection que a JVM HotSpot de maneira diferente, acrescentando à sua bagagem de conhecimento.</p>
 
 <h4 id="links">Links</h4>
 
 <ul>
-<li><a href="http://www.infoq.com/br/articles/rest-introduction">Uma rápida introdução ao REST</a> Uma boa introdução sobre o estilo arquitetural REST.</li>
+<li><a href="http://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/jrdocs/refman/optionX.html">-X Command-line Options</a> Documentação oficial da Oracle sobre as opções da JVM JRockit.</li>
 
-<li><a href="http://www.json.org/json-pt.html">JSON</a> Introdução ao JSON.</li>
+<li><a href="http://www.ibm.com/developerworks/java/library/j-ibmjava2/">Java technology, IBM style: Garbage collection policies, Part 1</a> Implementações de collectors da JVM IBM.</li>
 
-<li><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp">JavaScript MV* Patterns</a> Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.</li>
+<li><a href="http://www.oracle.com/technetwork/articles/javase/index-138577.html">An Introduction to Real-Time Java Technology: Part 2, Garbage Collection and the Sun Java Real-Time System (Java RTS)</a> Documentação oficial da Oracle sobre o Garbage Collection em JVMs que implementem a especificação RTSJ.</li>
 
-<li><a href="http://addyosmani.github.io/backbone-fundamentals/">Developing Backbone.js Applications</a> Livro Developing Backbone.js Applications de Addy Osmani.</li>
-
-<li><a href="http://www.playframework.com/download">Download Play Framework</a> Página para fazer o download do framework Play.</li>
-
-<li><a href="http://github.com/tiagorg/tasker">Repositório do projeto Tasker no GitHub</a></li>
-
-<li><a href="http://help.github.com/articles/fork-a-repo">Artigo Fork A Repo</a> Explica mais sobre o processo de fork do GitHub.</li>
+<li><a href="http://www.ibm.com/developerworks/java/library/j-rtj4/index.html">Real-time Java, Part 4: Real-time garbage collection</a> Explicação detalhada do collector Metronome.</li>
 </ul>
 					<hr/>
 					<div class="meta">
 						<p class="date-publish">
 							Publicado em
-							<date class="date-pub" title="2012-02-01T00:00:00-02:00" datetime="2012-02-01T00:00:00-02:00" pubdate>
+							<date class="date-pub" title="2012-03-01T00:00:00-03:00" datetime="2012-03-01T00:00:00-03:00" pubdate>
 								
-									<span class="day">01</span>/<span class="month"><abbr>02</abbr></span>/<span class="year">2012</span>
+									<span class="day">01</span>/<span class="month"><abbr>03</abbr></span>/<span class="year">2012</span>
 								
 							</date>
 						</p>
@@ -104,9 +96,9 @@
 
   
     
-    	<li><a href="/pt/tags.html#article-ref">article <span>6</span></a></li>
+    	<li><a href="/pt/tags.html#article-ref">article <span>4</span></a></li>
     
-    	<li><a href="/pt/tags.html#backbone.js-ref">backbone.js <span>6</span></a></li>
+    	<li><a href="/pt/tags.html#java-ref">java <span>2</span></a></li>
     
   
 
@@ -146,13 +138,13 @@
 					<nav class="pagination">
 						<ul>
 							
-							<li class="prev"><a class="internal" rel="prev"  href="/article-design-patterns-enjoy-moderately" title="View titles.articles.boosting-applications-with-rest-and-backbone-js">&laquo; Artigo - Turbinando aplicações com REST e Backbone.js [pt]</a></li>
+							<li class="prev"><a class="internal" rel="prev"  href="/article-understanding-and-optimizing-the-garbage-collection-part-1" title="View titles.articles.understanding-and-optimizing-the-garbage-collection-part-1">&laquo; Artigo - Entendendo e otimizando o Garbage Collection - Parte 1 [pt]</a></li>
 							
 							
 							<li class="pipe"> | </li>
 							
 							
-							<li class="next"><a class="internal" rel="next"  href="/article-understanding-and-optimizing-garbage-collection-part-2" title="View titles.articles.boosting-applications-with-rest-and-backbone-js">Artigo - Turbinando aplicações com REST e Backbone.js [pt] &raquo;</a></li>
+							<li class="next"><a class="internal" rel="next"  href="/article-what-do-i-need-to-know-about-html-5" title="View titles.articles.what-do-i-need-to-know-about-html-5">Artigo - O que preciso saber sobre HTML 5? [pt] &raquo;</a></li>
 							
 						</ul>
 					</nav>
@@ -177,8 +169,8 @@
 			<div class="unit-inner unit-foot-inner">
 				<h4>Mude seu idioma</h4>
 				<p class="flags">
-					<a href="/pt/article-understanding-and-optimizing-garbage-collection-part-1"><img src="/assets/themes/the-program/img/flag-br.png"></a>
-					<a href="/article-understanding-and-optimizing-garbage-collection-part-1"><img src="/assets/themes/the-program/img/flag-us.png"></a>
+					<a href="/pt/article-understanding-and-optimizing-the-garbage-collection-part-2"><img src="/assets/themes/the-program/img/flag-br.png"></a>
+					<a href="/article-understanding-and-optimizing-the-garbage-collection-part-2"><img src="/assets/themes/the-program/img/flag-us.png"></a>
 				</p>
 				<h4>Commits recentes no Github</h4>
 				<ul id="github-commits" class="github-commits"> </ul>

@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-03T21:17:46-02:00</updated>
+ <updated>2014-02-04T00:57:04-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -239,154 +239,64 @@
  </entry>
  
  <entry>
-   <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
-   <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-3"/>
-   <updated>2012-04-01T00:00:00-03:00</updated>
-   <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-3</id>
-   <content type="html">&lt;p&gt;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-104-parte-3/24725 Java Magazine #104 - April 2012 This article explains about common problems in Java code which ignore how Garbage Collection operates, how to write code to optimize this process and how to analyse the heap memory status in runtime.&lt;/p&gt;
-
-&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
-
-&lt;p&gt;Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.&lt;/p&gt;
-
-&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
-
-&lt;p&gt;Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.&lt;/p&gt;
-
-&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/br/articles/rest-introduction&quot;&gt;Uma rápida introdução ao REST&lt;/a&gt; Uma boa introdução sobre o estilo arquitetural REST.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://www.json.org/json-pt.html&quot;&gt;JSON&lt;/a&gt; Introdução ao JSON.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp&quot;&gt;JavaScript MV* Patterns&lt;/a&gt; Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; Livro Developing Backbone.js Applications de Addy Osmani.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://www.playframework.com/download&quot;&gt;Download Play Framework&lt;/a&gt; Página para fazer o download do framework Play.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker no GitHub&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
-&lt;/ul&gt;</content>
- </entry>
- 
- <entry>
-   <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
-   <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-2"/>
+   <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-2</title>
+   <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2"/>
    <updated>2012-03-01T00:00:00-03:00</updated>
-   <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-2</id>
-   <content type="html">&lt;p&gt;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-103-parte-2/24387 Java Magazine #103 - March 2012 This article presents the operation of the colletors from the JVMs Oracle JRockit (used by WebLogic Java EE application server), IBM Virtual Machine for Java (used by WebSphere Java EE application server), those ones which implement JSR-1 (also known as Real-Time Specification for Java or RTSJ) and Dalvik (used by Android devices).&lt;/p&gt;
+   <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2</id>
+   <content type="html">&lt;p&gt;Em Março de 2012 eu publiquei um artigo (em português) na Java Magazine 103, sobre o funcionamento dos collectors das JVMs Oracle JRockit (utilizada pelo servidor de aplicações Java EE WebLogic), IBM Virtual Machine for Java (utilizada pelo servidor de aplicações Java EE WebSphere), as que implementam a JSR-1 (também conhecida como Real-Time Specification for Java ou RTSJ) e Dalvik (utilizada por dispositivos Android).&lt;/p&gt;
 
-&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-103-parte-2/24387&quot;&gt;Artigo Entendendo e otimizando o Garbage Collection - Parte 2 - DevMedia&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
 
-&lt;p&gt;Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.&lt;/p&gt;
+&lt;p&gt;O artigo começa apresentando a JVM Oracle JRockit e suas configurações de memória heap, seus collectors e como utilizá-los. Em seguida, apresenta também a JVM IBM Virtual Machine for Java, suas configurações de memória heap, seus collectors e como utilizá-los. A partir daqui, apresenta a especificação JSR-1 e seus conceitos com relação ao desenvolvimento de aplicações de tempo real em Java, e demonstra o funcionamento de 5 collectors de tempo real. Ainda, apresenta a JVM Dalvik e seus desafios com relação a Garbage Collection, além de seu collector e melhorias com respeito ao gerenciamento de memória.&lt;/p&gt;
 
 &lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
 
-&lt;p&gt;Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.&lt;/p&gt;
+&lt;p&gt;O tema é muito pertinente a desenvolvedores Java que trabalham com alguma das JVMs mencionadas acima, para entender mais a fundo as consequências da utilização de collectors frente a cenários particulares. Além disso, desenvolvedores Java que não trabalham com alguma destas JVMs poderão aprender como que estas opções solucionam os mesmos problemas de Garbage Collection que a JVM HotSpot de maneira diferente, acrescentando à sua bagagem de conhecimento.&lt;/p&gt;
 
 &lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/br/articles/rest-introduction&quot;&gt;Uma rápida introdução ao REST&lt;/a&gt; Uma boa introdução sobre o estilo arquitetural REST.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/jrdocs/refman/optionX.html&quot;&gt;-X Command-line Options&lt;/a&gt; Documentação oficial da Oracle sobre as opções da JVM JRockit.&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://www.json.org/json-pt.html&quot;&gt;JSON&lt;/a&gt; Introdução ao JSON.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ibm.com/developerworks/java/library/j-ibmjava2/&quot;&gt;Java technology, IBM style: Garbage collection policies, Part 1&lt;/a&gt; Implementações de collectors da JVM IBM.&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp&quot;&gt;JavaScript MV* Patterns&lt;/a&gt; Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/articles/javase/index-138577.html&quot;&gt;An Introduction to Real-Time Java Technology: Part 2, Garbage Collection and the Sun Java Real-Time System (Java RTS)&lt;/a&gt; Documentação oficial da Oracle sobre o Garbage Collection em JVMs que implementem a especificação RTSJ.&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; Livro Developing Backbone.js Applications de Addy Osmani.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://www.playframework.com/download&quot;&gt;Download Play Framework&lt;/a&gt; Página para fazer o download do framework Play.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker no GitHub&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ibm.com/developerworks/java/library/j-rtj4/index.html&quot;&gt;Real-time Java, Part 4: Real-time garbage collection&lt;/a&gt; Explicação detalhada do collector Metronome.&lt;/li&gt;
 &lt;/ul&gt;</content>
  </entry>
  
  <entry>
-   <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
-   <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-1"/>
+   <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-1</title>
+   <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-1"/>
    <updated>2012-02-01T00:00:00-02:00</updated>
-   <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-garbage-collection-part-1</id>
-   <content type="html">&lt;p&gt;http://www.devmedia.com.br/garbage-collection-entendendo-e-otimizando-revista-java-magazine-102-parte-1/24082 Java Magazine #102 - February 2012 This article explains fundamentals and details about Garbage Collection process in Java, details how do the JVM HotSpot 6 and 7 collectors work and how to optimize their behavior through JVM options.&lt;/p&gt;
+   <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-1</id>
+   <content type="html">&lt;p&gt;Em Fevereiro de 2012 eu publiquei um artigo (em português) na Java Magazine 102, sobre o processo de Garbage Collection em Java, apresentando o funcionamento dos collectors da JVM HotSpot 6 e 7 e como otimizar seu comportamento por meio de opções da JVM.&lt;/p&gt;
 
-&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/garbage-collection-entendendo-e-otimizando-revista-java-magazine-102-parte-1/24082&quot;&gt;Artigo Entendendo e otimizando o Garbage Collection - Parte 1 - DevMedia&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
 
-&lt;p&gt;Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.&lt;/p&gt;
+&lt;p&gt;O artigo apresenta conceitos e métricas de Garbage Collection em Java, além da categorização da memória heap em generations. Em seguida, apresenta a JVM HotSpot 6 e seu funcionamento geral com relação à Garbage Collection, assim como a sua personalização através de opções da JVM. A partir daqui, explica sobre cada collector, seu funcionamento, suas opções de personalização e suas implementações, fazendo também um comparativo final mostrando quando é mais adequado utilizar cada um dos collectors disponíveis. Ainda, apresenta a JVM HotSpot 7 e seu novo collector, seu funcionamento e opções de personalização.&lt;/p&gt;
 
 &lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
 
-&lt;p&gt;Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.&lt;/p&gt;
+&lt;p&gt;O artigo apresenta conceitos e métricas de Garbage Collection em Java, além da categorização da memória heap em generations. Em seguida, apresenta a JVM HotSpot 6 e seu funcionamento geral com relação à Garbage Collection, assim como a sua personalização através de opções da JVM. A partir daqui, explica sobre cada collector, seu funcionamento, suas opções de personalização e suas implementações, fazendo também um comparativo final mostrando quando é mais adequado utilizar cada um dos collectors disponíveis. Ainda, apresenta a JVM HotSpot 7 e seu novo collector, seu funcionamento e opções de personalização.&lt;/p&gt;
 
 &lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/br/articles/rest-introduction&quot;&gt;Uma rápida introdução ao REST&lt;/a&gt; Uma boa introdução sobre o estilo arquitetural REST.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html&quot;&gt;Java SE 6 HotSpot Virtual Machine Garbage Collection Tuning&lt;/a&gt; Documentação oficial da Oracle sobre Garbage Collection na JVM HotSpot 6.&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://www.json.org/json-pt.html&quot;&gt;JSON&lt;/a&gt; Introdução ao JSON.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.oracle.com/jonthecollector/entry/our_collectors&quot;&gt;Our Collectors&lt;/a&gt; Implementações de collectors da JVM HotSpot 6.&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp&quot;&gt;JavaScript MV* Patterns&lt;/a&gt; Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/tech/g1-intro-jsp-135488.html&quot;&gt;The Garbage-First Garbage Collector&lt;/a&gt; Documentação oficial da Oracle sobre o collector Garbage-First.&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; Livro Developing Backbone.js Applications de Addy Osmani.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.brpreiss.com/books/opus5/html/page424.html&quot;&gt;Mark-and-Sweep Garbage Collection&lt;/a&gt; Explicação detalhada do algoritmo Mark-and-Sweep.&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&quot;http://www.playframework.com/download&quot;&gt;Download Play Framework&lt;/a&gt; Página para fazer o download do framework Play.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker no GitHub&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
-&lt;/ul&gt;</content>
- </entry>
- 
- <entry>
-   <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
-   <link href="http://www.tgarcia.com.br/article-design-patterns-enjoy-moderately"/>
-   <updated>2011-10-01T00:00:00-03:00</updated>
-   <id>http://www.tgarcia.com.br/article-design-patterns-enjoy-moderately</id>
-   <content type="html">&lt;p&gt;http://www.devmedia.com.br/padroes-de-projeto-revista-java-magazine-98/23072 Java Magazine #98 (the main article of the edition, featured in the cover) - October 2011 This article presents principles, discussions and reflections about using designing patterns, in order to help the reader to develop critical sense about them. This way, the reader can extract knowledge from himself in order to apply design patterns moderately.&lt;/p&gt;
-
-&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na Java Magazine 123, sobre aplicações inteligentes no client-side, comparando com outros tipos de aplicações web.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Artigo Turbinando aplicações com REST e Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
-
-&lt;p&gt;Este artigo apresenta o conceito de aplicações inteligentes no client-side, comparando com outros tipos de aplicações web. Em seguida, decorre sobre o estilo arquitetural REST, o formato de dados JSON, o padrão arquitetural MVC e faz um comparativo de aplicações inteligentes no client-side com frameworks web em Java. Então, apresenta a biblioteca Backbone.js e seus principais conceitos, como Models, Collections, Views e Routers, além de templates usando Handlebars.js. Finalmente, introduz o Play Framework para implementar o server-side baseado em REST e JSON.&lt;/p&gt;
-
-&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
-
-&lt;p&gt;Este tema é útil para os desenvolvedores Java que precisam trazer a experiência desktop para suas aplicações web, reduzindo o tempo de resposta e navegação e também organizando propriamente o código JavaScript a partir de uma estrutura inspirada no padrão arquitetural MVC.&lt;/p&gt;
-
-&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/br/articles/rest-introduction&quot;&gt;Uma rápida introdução ao REST&lt;/a&gt; Uma boa introdução sobre o estilo arquitetural REST.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://www.json.org/json-pt.html&quot;&gt;JSON&lt;/a&gt; Introdução ao JSON.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvcmvp&quot;&gt;JavaScript MV* Patterns&lt;/a&gt; Capítulo JavaScript MV* Patterns do Livro Learning JavaScript Design Patterns de Addy Osmani.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; Livro Developing Backbone.js Applications de Addy Osmani.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://www.playframework.com/download&quot;&gt;Download Play Framework&lt;/a&gt; Página para fazer o download do framework Play.&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Repositório do projeto Tasker no GitHub&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/presentations/Understanding-Java-Garbage-Collection&quot;&gt;Understanding Java Garbage Collection and What You Can Do about It&lt;/a&gt; Ótima apresentação sobre Garbage Collection.&lt;/li&gt;
 &lt;/ul&gt;</content>
  </entry>
  
