@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-04T01:06:06-02:00</updated>
+ <updated>2014-02-04T09:24:47-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -239,6 +239,36 @@
  </entry>
  
  <entry>
+   <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-3</title>
+   <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-3"/>
+   <updated>2012-04-01T00:00:00-03:00</updated>
+   <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-3</id>
+   <content type="html">&lt;p&gt;Em Abril de 2012 eu publiquei um artigo (em português) na Java Magazine 104, sobre problemas comuns em códigos Java que ignoram o funcionamento do Garbage Collection, como escrever código para otimizar este processo e como analisar a situação da memória heap em tempo de execução.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-104-parte-3/24725&quot;&gt;Artigo Entendendo e otimizando o Garbage Collection - Parte 3 - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
+
+&lt;p&gt;O artigo começa revendo opções da JVM para logar as atividade do processo de Garbage Collection e também apresentando a ferramenta JConsole para visualização gráfica da situação da memória heap. Em seguida, disserta sobre vazamentos de memória e mostra um exemplo de código com este problema, analisando sua execução na ferramenta JConsole. Por fim, apresenta outros assuntos como o método finalize(), referências fracas e conclui sugerindo algumas boas práticas.&lt;/p&gt;
+
+&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
+
+&lt;p&gt;O tema é muito pertinente a qualquer desenvolvedor Java, pois por mais que as consequências de programas que não contribuem com o processo de Garbage Collection não apareçam muito em ambiente de desenvolvimento, certamente farão a diferença em ambiente de produção. É importante entender os motivos que levam ao deterioramento do Garbage Collection e como evitar estas situações, fazendo uso de boas práticas para tal.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/caroljmcdonald/java-garbage-collection-monitoring-and-tuning&quot;&gt;Java Garbage Collection, Monitoring and Tuning&lt;/a&gt; Apresentação de Carol McDonald a respeito de Garbage Collection, monitoramento e tuning.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://docs.oracle.com/javase/1.5.0/docs/guide/management/jconsole.html&quot;&gt;Using JConsole&lt;/a&gt; Documentação oficial do JConsole.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.devx.com/Java/Article/30192&quot;&gt;How to Handle Java Finalization’s Memory-Retention Issues&lt;/a&gt; Artigo do DevX que explica como manipular a finalização de objetos efetivamente.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.devmedia.com.br/referencias-fracas-sabe-o-que-sao-revista-java-magazine-99/23308&quot;&gt;Referências fracas: sabe o que são? - Revista Java Magazine 99&lt;/a&gt; Artigo “Sabe o que são referências fracas?” publicado na Java Magazine 99 sobre referências fracas.&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-2</title>
    <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2"/>
    <updated>2012-03-01T00:00:00-03:00</updated>
@@ -283,7 +313,7 @@
 
 &lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
 
-&lt;p&gt;O artigo apresenta conceitos e métricas de Garbage Collection em Java, além da categorização da memória heap em generations. Em seguida, apresenta a JVM HotSpot 6 e seu funcionamento geral com relação à Garbage Collection, assim como a sua personalização através de opções da JVM. A partir daqui, explica sobre cada collector, seu funcionamento, suas opções de personalização e suas implementações, fazendo também um comparativo final mostrando quando é mais adequado utilizar cada um dos collectors disponíveis. Ainda, apresenta a JVM HotSpot 7 e seu novo collector, seu funcionamento e opções de personalização.&lt;/p&gt;
+&lt;p&gt;O tema é muito pertinente a qualquer desenvolvedor Java, pois por mais que as consequências de um processo de Garbage Collection mal configurado não apareçam muito em ambiente de desenvolvimento, certamente farão a diferença em ambiente de produção, e é importante entender os motivos que levam ao comportamento indesejado do Garbage Collection quando submetido a múltiplos processadores e grandes quantidades de dados.&lt;/p&gt;
 
 &lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
 

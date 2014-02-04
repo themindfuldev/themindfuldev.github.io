@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-04T01:06:06-02:00</updated>
+ <updated>2014-02-04T09:24:46-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -113,7 +113,7 @@
    <link href="http://www.tgarcia.com.br/article-boosting-applications-with-rest-and-backbone-js"/>
    <updated>2014-01-01T00:00:00-02:00</updated>
    <id>http://www.tgarcia.com.br/article-boosting-applications-with-rest-and-backbone-js</id>
-   <content type="html">&lt;p&gt;On January, 2014 I published an article (in Portuguese) at Java Magazine #123, about smart client-side applications, comparing them with other web application styles such as Java web frameworks.&lt;/p&gt;
+   <content type="html">&lt;p&gt;On January, 2014 I published an article (in Portuguese) in Java Magazine #123, about smart client-side applications, comparing them with other web application styles such as Java web frameworks.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/turbinando-aplicacoes-com-rest-e-backbone-js/29692&quot;&gt;Article Boosting applications with REST and Backbone.js - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -203,7 +203,7 @@
    <link href="http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5"/>
    <updated>2013-07-01T00:00:00-03:00</updated>
    <id>http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5</id>
-   <content type="html">&lt;p&gt;On July, 2013 I published an article (in Portuguese) at Java Magazine #116, sobre o HTML 5 as an alternative for development exclusively based on the server-side. This technology introduces and standardizes many innovative features on the browser or mobile device, in a safe, portable and native way.&lt;/p&gt;
+   <content type="html">&lt;p&gt;On July, 2013 I published an article (in Portuguese) in Java Magazine #116, sobre o HTML 5 as an alternative for development exclusively based on the server-side. This technology introduces and standardizes many innovative features on the browser or mobile device, in a safe, portable and native way.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/o-que-preciso-saber-sobre-html-5-revista-java-magazine-116/28078&quot;&gt;Article What do I need to know about HTML 5? - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -239,11 +239,41 @@
  </entry>
  
  <entry>
+   <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-3</title>
+   <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-3"/>
+   <updated>2012-04-01T00:00:00-03:00</updated>
+   <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-3</id>
+   <content type="html">&lt;p&gt;In April, 2012 I published an article (in Portuguese) in Java Magazine #104, about common problems in Java code which ignore how Garbage Collection operates, how to write code to optimize this process and how to analyse the heap memory status in runtime.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-104-parte-3/24725&quot;&gt;Article Understanding and optimizing the Garbage Collection - Part 3 - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;The article begins by reviewing JVM options to log the Garbage Collection process activities as well presenting the JConsole tool for a picture of the heap memory situation. Next, states about memory leaks and shows an example of a code with this problem, analysing its runtime execution on JConsole. Lastly, presents other subjects as the finalize() method, weak references and concludes suggesting some good practices.&lt;/p&gt;
+
+&lt;h4 id=&quot;when_is_the_subject_useful&quot;&gt;When is the subject useful&lt;/h4&gt;
+
+&lt;p&gt;The subject is very relevant to any Java developer, even though the consequences of a badly configured Garbage Collection process won’t be much evident in development environments, certainly will make the difference in production environments. It is important to understand the reasons that cause malfunctioning of the Garbage Collection and how to avoid those scenarios, using good practices for such.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/caroljmcdonald/java-garbage-collection-monitoring-and-tuning&quot;&gt;Java Garbage Collection, Monitoring and Tuning&lt;/a&gt; Carol McDonald presentation about Garbage Collection, monitoring and tuning.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://docs.oracle.com/javase/1.5.0/docs/guide/management/jconsole.html&quot;&gt;Using JConsole&lt;/a&gt; Official JConsole documentation.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.devx.com/Java/Article/30192&quot;&gt;How to Handle Java Finalization’s Memory-Retention Issues&lt;/a&gt; DevX article about how to effectively manipulate objects finalization.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.devmedia.com.br/referencias-fracas-sabe-o-que-sao-revista-java-magazine-99/23308&quot;&gt;Weak references: do you know what is it? - Java Magazine #99&lt;/a&gt; Article about weak references published on Java Magazine #99.&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-2</title>
    <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2"/>
    <updated>2012-03-01T00:00:00-03:00</updated>
    <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2</id>
-   <content type="html">&lt;p&gt;In March, 2012 I published an article (in Portuguese) on Java Magazine #103, about the operation of the colletors from the JVMs Oracle JRockit (used by WebLogic Java EE application server), IBM Virtual Machine for Java (used by WebSphere Java EE application server), those ones which implement JSR-1 (also known as Real-Time Specification for Java or RTSJ) and Dalvik (used by Android devices).&lt;/p&gt;
+   <content type="html">&lt;p&gt;In March, 2012 I published an article (in Portuguese) in Java Magazine #103, about the operation of the colletors from the JVMs Oracle JRockit (used by WebLogic Java EE application server), IBM Virtual Machine for Java (used by WebSphere Java EE application server), those ones which implement JSR-1 (also known as Real-Time Specification for Java or RTSJ) and Dalvik (used by Android devices).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-103-parte-2/24387&quot;&gt;Article Understanding and optimizing the Garbage Collection - Part 2 - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -273,7 +303,7 @@
    <link href="http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-1"/>
    <updated>2012-02-01T00:00:00-02:00</updated>
    <id>http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-1</id>
-   <content type="html">&lt;p&gt;On February, 2012 I published an article (in Portuguese) at Java Magazine #102, about the Garbage Collection process in Java, detailing how do the JVM HotSpot 6 and 7 collectors work and how to optimize their behavior through JVM options.&lt;/p&gt;
+   <content type="html">&lt;p&gt;On February, 2012 I published an article (in Portuguese) in Java Magazine #102, about the Garbage Collection process in Java, detailing how do the JVM HotSpot 6 and 7 collectors work and how to optimize their behavior through JVM options.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/garbage-collection-entendendo-e-otimizando-revista-java-magazine-102-parte-1/24082&quot;&gt;Article Understanding and optimizing the Garbage Collection - Part 1 - DevMedia&lt;/a&gt;&lt;/p&gt;
 
@@ -283,7 +313,7 @@
 
 &lt;h4 id=&quot;when_is_the_subject_useful&quot;&gt;When is the subject useful&lt;/h4&gt;
 
-&lt;p&gt;The subject is very relevant to any Java developer, even though the consequences of a badly configured Garbage Collection process won’t be much evident in development environments, certainly will make the difference in production environments, and it is important to understand the reasons that cause unexpected behavior in the Garbage Collection when operated by multiple processors and big data.&lt;/p&gt;
+&lt;p&gt;The subject is very relevant to any Java developer, even though the consequences of a badly configured Garbage Collection process won’t be much evident in development environments, certainly will make the difference in production environments. It is important to understand the reasons that cause unexpected behavior in the Garbage Collection when operated by multiple processors and big data.&lt;/p&gt;
 
 &lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
 

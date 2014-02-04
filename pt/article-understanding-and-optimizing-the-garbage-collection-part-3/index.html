@@ -7,12 +7,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Artigo - Entendendo e otimizando o Garbage Collection - Parte 1 [pt] - Tiago Garcia</title>
+	<title>Artigo - Entendendo e otimizando o Garbage Collection - Parte 3 [pt] - Tiago Garcia</title>
 	<meta name="author" content="Tiago Garcia">
 	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.articles.understanding-and-optimizing-the-garbage-collection-part-1" type="application/atom+xml">
+	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.articles.understanding-and-optimizing-the-garbage-collection-part-3" type="application/atom+xml">
 </head>
 <body>
 <div id="page" class="hentry">
@@ -48,45 +48,43 @@
 			<header>
 				<div class="unit-head">
 					<div class="unit-inner unit-head-inner">
-						<h1 class="h2 entry-title">Artigo - Entendendo e otimizando o Garbage Collection - Parte 1 [pt]</h1>
+						<h1 class="h2 entry-title">Artigo - Entendendo e otimizando o Garbage Collection - Parte 3 [pt]</h1>
 					</div><!-- unit-inner -->
 				</div><!-- unit-head -->
 			</header>
 
 			<div class="bd">
 				<div class="entry-content">
-					<p>Em Fevereiro de 2012 eu publiquei um artigo (em português) na Java Magazine 102, sobre o processo de Garbage Collection em Java, apresentando o funcionamento dos collectors da JVM HotSpot 6 e 7 e como otimizar seu comportamento por meio de opções da JVM.</p>
+					<p>Em Abril de 2012 eu publiquei um artigo (em português) na Java Magazine 104, sobre problemas comuns em códigos Java que ignoram o funcionamento do Garbage Collection, como escrever código para otimizar este processo e como analisar a situação da memória heap em tempo de execução.</p>
 
-<p><a href="http://www.devmedia.com.br/garbage-collection-entendendo-e-otimizando-revista-java-magazine-102-parte-1/24082">Artigo Entendendo e otimizando o Garbage Collection - Parte 1 - DevMedia</a></p>
+<p><a href="http://www.devmedia.com.br/entendendo-e-otimizando-o-garbage-collection-revista-java-magazine-104-parte-3/24725">Artigo Entendendo e otimizando o Garbage Collection - Parte 3 - DevMedia</a></p>
 
 <h4 id="resumo">Resumo</h4>
 
-<p>O artigo apresenta conceitos e métricas de Garbage Collection em Java, além da categorização da memória heap em generations. Em seguida, apresenta a JVM HotSpot 6 e seu funcionamento geral com relação à Garbage Collection, assim como a sua personalização através de opções da JVM. A partir daqui, explica sobre cada collector, seu funcionamento, suas opções de personalização e suas implementações, fazendo também um comparativo final mostrando quando é mais adequado utilizar cada um dos collectors disponíveis. Ainda, apresenta a JVM HotSpot 7 e seu novo collector, seu funcionamento e opções de personalização.</p>
+<p>O artigo começa revendo opções da JVM para logar as atividade do processo de Garbage Collection e também apresentando a ferramenta JConsole para visualização gráfica da situação da memória heap. Em seguida, disserta sobre vazamentos de memória e mostra um exemplo de código com este problema, analisando sua execução na ferramenta JConsole. Por fim, apresenta outros assuntos como o método finalize(), referências fracas e conclui sugerindo algumas boas práticas.</p>
 
 <h4 id="em_que_situao_o_tema__til">Em que situação o tema é útil</h4>
 
-<p>O tema é muito pertinente a qualquer desenvolvedor Java, pois por mais que as consequências de um processo de Garbage Collection mal configurado não apareçam muito em ambiente de desenvolvimento, certamente farão a diferença em ambiente de produção, e é importante entender os motivos que levam ao comportamento indesejado do Garbage Collection quando submetido a múltiplos processadores e grandes quantidades de dados.</p>
+<p>O tema é muito pertinente a qualquer desenvolvedor Java, pois por mais que as consequências de programas que não contribuem com o processo de Garbage Collection não apareçam muito em ambiente de desenvolvimento, certamente farão a diferença em ambiente de produção. É importante entender os motivos que levam ao deterioramento do Garbage Collection e como evitar estas situações, fazendo uso de boas práticas para tal.</p>
 
 <h4 id="links">Links</h4>
 
 <ul>
-<li><a href="http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html">Java SE 6 HotSpot Virtual Machine Garbage Collection Tuning</a> Documentação oficial da Oracle sobre Garbage Collection na JVM HotSpot 6.</li>
+<li><a href="http://www.slideshare.net/caroljmcdonald/java-garbage-collection-monitoring-and-tuning">Java Garbage Collection, Monitoring and Tuning</a> Apresentação de Carol McDonald a respeito de Garbage Collection, monitoramento e tuning.</li>
 
-<li><a href="http://blogs.oracle.com/jonthecollector/entry/our_collectors">Our Collectors</a> Implementações de collectors da JVM HotSpot 6.</li>
+<li><a href="http://docs.oracle.com/javase/1.5.0/docs/guide/management/jconsole.html">Using JConsole</a> Documentação oficial do JConsole.</li>
 
-<li><a href="http://www.oracle.com/technetwork/java/javase/tech/g1-intro-jsp-135488.html">The Garbage-First Garbage Collector</a> Documentação oficial da Oracle sobre o collector Garbage-First.</li>
+<li><a href="http://www.devx.com/Java/Article/30192">How to Handle Java Finalization’s Memory-Retention Issues</a> Artigo do DevX que explica como manipular a finalização de objetos efetivamente.</li>
 
-<li><a href="http://www.brpreiss.com/books/opus5/html/page424.html">Mark-and-Sweep Garbage Collection</a> Explicação detalhada do algoritmo Mark-and-Sweep.</li>
-
-<li><a href="http://www.infoq.com/presentations/Understanding-Java-Garbage-Collection">Understanding Java Garbage Collection and What You Can Do about It</a> Ótima apresentação sobre Garbage Collection.</li>
+<li><a href="http://www.devmedia.com.br/referencias-fracas-sabe-o-que-sao-revista-java-magazine-99/23308">Referências fracas: sabe o que são? - Revista Java Magazine 99</a> Artigo “Sabe o que são referências fracas?” publicado na Java Magazine 99 sobre referências fracas.</li>
 </ul>
 					<hr/>
 					<div class="meta">
 						<p class="date-publish">
 							Publicado em
-							<date class="date-pub" title="2012-02-01T00:00:00-02:00" datetime="2012-02-01T00:00:00-02:00" pubdate>
+							<date class="date-pub" title="2012-04-01T00:00:00-03:00" datetime="2012-04-01T00:00:00-03:00" pubdate>
 								
-									<span class="day">01</span>/<span class="month"><abbr>02</abbr></span>/<span class="year">2012</span>
+									<span class="day">01</span>/<span class="month"><abbr>04</abbr></span>/<span class="year">2012</span>
 								
 							</date>
 						</p>
@@ -140,9 +138,13 @@
 					<nav class="pagination">
 						<ul>
 							
+							<li class="prev"><a class="internal" rel="prev"  href="/article-understanding-and-optimizing-the-garbage-collection-part-2" title="View titles.articles.understanding-and-optimizing-the-garbage-collection-part-2">&laquo; Artigo - Entendendo e otimizando o Garbage Collection - Parte 2 [pt]</a></li>
 							
 							
-							<li class="next"><a class="internal" rel="next"  href="/article-understanding-and-optimizing-the-garbage-collection-part-2" title="View titles.articles.understanding-and-optimizing-the-garbage-collection-part-2">Artigo - Entendendo e otimizando o Garbage Collection - Parte 2 [pt] &raquo;</a></li>
+							<li class="pipe"> | </li>
+							
+							
+							<li class="next"><a class="internal" rel="next"  href="/article-what-do-i-need-to-know-about-html-5" title="View titles.articles.what-do-i-need-to-know-about-html-5">Artigo - O que preciso saber sobre HTML 5? [pt] &raquo;</a></li>
 							
 						</ul>
 					</nav>
@@ -167,8 +169,8 @@
 			<div class="unit-inner unit-foot-inner">
 				<h4>Mude seu idioma</h4>
 				<p class="flags">
-					<a href="/pt/article-understanding-and-optimizing-the-garbage-collection-part-1"><img src="/assets/themes/the-program/img/flag-br.png"></a>
-					<a href="/article-understanding-and-optimizing-the-garbage-collection-part-1"><img src="/assets/themes/the-program/img/flag-us.png"></a>
+					<a href="/pt/article-understanding-and-optimizing-the-garbage-collection-part-3"><img src="/assets/themes/the-program/img/flag-br.png"></a>
+					<a href="/article-understanding-and-optimizing-the-garbage-collection-part-3"><img src="/assets/themes/the-program/img/flag-us.png"></a>
 				</p>
 				<h4>Commits recentes no Github</h4>
 				<ul id="github-commits" class="github-commits"> </ul>
