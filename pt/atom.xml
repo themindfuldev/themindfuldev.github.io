@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-04T09:24:47-02:00</updated>
+ <updated>2014-02-04T09:42:34-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -327,6 +327,48 @@
 &lt;li&gt;&lt;a href=&quot;http://www.brpreiss.com/books/opus5/html/page424.html&quot;&gt;Mark-and-Sweep Garbage Collection&lt;/a&gt; Explicação detalhada do algoritmo Mark-and-Sweep.&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&quot;http://www.infoq.com/presentations/Understanding-Java-Garbage-Collection&quot;&gt;Understanding Java Garbage Collection and What You Can Do about It&lt;/a&gt; Ótima apresentação sobre Garbage Collection.&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>titles.articles.design-patterns-enjoy-moderately</title>
+   <link href="http://www.tgarcia.com.br/article-design-patterns-enjoy-moderately"/>
+   <updated>2011-10-01T00:00:00-03:00</updated>
+   <id>http://www.tgarcia.com.br/article-design-patterns-enjoy-moderately</id>
+   <content type="html">&lt;p&gt;Em Outubro de 2011 eu publiquei um artigo (em português) na capa da Java Magazine 98, sobre princípios, discussões e reflexões quanto a utilização de padrões de projeto, para ajudar ao leitor a desenvolver senso crítico sobre os mesmos. Assim, o leitor poderá extrair de si mesmo o conhecimento para a aplicação de padrões de projeto com moderação.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.devmedia.com.br/padroes-de-projeto-revista-java-magazine-98/23072&quot;&gt;Artigo Padrões de projeto, aprecie com moderação - DevMedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;resumo&quot;&gt;Resumo&lt;/h4&gt;
+
+&lt;p&gt;O artigo apresenta reflexões a respeito da utilização de padrões de projeto, e descreve algumas causas comuns da má utilização dos mesmos, além de alguns exemplos de má implementação dos mesmos. Em seguida, mostra os princípios GRASP e sua relação com os padrões de projeto, para orientar o desenvolvedor a utilizá-los adequadamente. Ao final, disponibiliza perguntas para avaliar a implementação de um padrão de projeto e considerações para o leitor desenvolver senso crítico.&lt;/p&gt;
+
+&lt;h4 id=&quot;em_que_situao_o_tema__til&quot;&gt;Em que situação o tema é útil&lt;/h4&gt;
+
+&lt;p&gt;O tema é útil por alertar ao desenvolvedor sobre a utilização adequada de padrões de projeto, que são soluções para determinados problemas, mas podem ser problemas para determinadas soluções. É importante ao desenvolvedor saber julgar a utilização de um padrão de projeto em um determinado contexto, avaliando sua aplicabilidade e consequências, buscando uma solução ótima.&lt;/p&gt;
+
+&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://corej2eepatterns.com&quot;&gt;Core J2EE Pattern Catalog&lt;/a&gt; Catálogo de padrões de projeto J2EE.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://antonioshome.net/blog/2006/20060906-1.php&quot;&gt;Singletonitis&lt;/a&gt; Antonio Vieiro descreve a doença Singletonite em seu artigo “Singletonitis”.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://c2.com/cgi/wiki?OverUseOfPatterns&quot;&gt;Over Use Of Patterns&lt;/a&gt; Catálogo de anti-padrões relacionados com o abuso de padrões de projeto.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://as3dp.com/2009/09/03/integrating-design-patterns-just-before-they-become-useful&quot;&gt;Integrating design patterns “just before they become useful”&lt;/a&gt; Chandima Cumaranatunge explica como integrar padrões de projeto imediatamente antes de eles se tornarem úteis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;livros&quot;&gt;Livros&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.amazon.com/Applying-UML-Patterns-Introduction-Object-Oriented/dp/0131489062&quot;&gt;Applying UML and Patterns - Craig Larman&lt;/a&gt; É um livro referência quanto aos princípios GRASP, expondo-os de maneira clara e consistente.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612&quot;&gt;Design Patterns: Elements of Reusable Object-Oriented Software - Gang of Four&lt;/a&gt; É o catálogo oficial de padrões de projeto GoF.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672&quot;&gt;Refactoring: Improving the Design of Existing Code - Martin Fowler&lt;/a&gt; É um livro sobre o processo de refatoração ágil. Discute muito sobre problemas causados por padrões de projeto.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.amazon.com/First-Design-Patterns-Elisabeth-Freeman/dp/0596007124&quot;&gt;Head First Design Patterns - Elizabeth Freeman&lt;/a&gt; É um livro muito didático sobre padrões de projeto, apresenta várias reflexões interessantes.&lt;/li&gt;
 &lt;/ul&gt;</content>
  </entry>
  
