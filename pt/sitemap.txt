@@ -15,6 +15,7 @@ http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js-en
 http://www.tgarcia.com.br/article-boosting-applications-with-rest-and-backbone-js
 http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js-pt
 http://www.tgarcia.com.br/talk-javascript-for-real
+http://www.tgarcia.com.br/project-tasker
 http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5
 http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-3
 http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2

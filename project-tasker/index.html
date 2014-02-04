@@ -7,12 +7,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Talk - JavaScript for Real [en] - Tiago Garcia</title>
+	<title>Tasker - Tiago Garcia</title>
 	<meta name="author" content="Tiago Garcia">
 	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.talks.javascript-for-real" type="application/atom+xml">
+	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.projects.tasker" type="application/atom+xml">
 </head>
 <body>
 <div id="page" class="hentry">
@@ -48,72 +48,102 @@
 			<header>
 				<div class="unit-head">
 					<div class="unit-inner unit-head-inner">
-						<h1 class="h2 entry-title">Talk - JavaScript for Real [en]</h1>
+						<h1 class="h2 entry-title">Tasker</h1>
 					</div><!-- unit-inner -->
 				</div><!-- unit-head -->
 			</header>
 
 			<div class="bd">
 				<div class="entry-content">
-					<p>On August 13th and 28th, 2013 I gave this talk (in English) at <a href="http://www.avenuecode.com">Avenue Code</a>, focusing on developers coming from languages such as Java, explaining how to code in JavaScript for real and start the good practices right now. <br /></p>
+					<p>In August, 2013 I published the <a href="http://github.com/tiagorg/tasker">Tasker Project</a> on GitHub to illustrate the article I wrote for Java Magazine #123, <a href="/article-boosting-applications-with-rest-and-backbone-js">Boosting applications with REST and Backbone.js</a>.</p>
 
-<h4 id="part_1">Part 1</h4>
+<p>Tasker is a web application using Backbone.js and Handlebars.js on the client-side and Play! over Java on the server-side. This application simulates a very simple Kanban board based on Agile methodologies. Basically, the board can have multiple projects, each project can have multiple stories and each story can have multiple issues, which can be either task, bug or enhancement.</p>
 
-<p><a href="//www.youtube.com/embed/kV5uEoyJ-pQ">YouTube video link</a></p>
-<iframe allowfullscreen='allowfullscreen' frameborder='0' height='315' src='//www.youtube.com/embed/kV5uEoyJ-pQ' width='560'> </iframe>
-<p><br /></p>
+<p>The user can create and remove projects, stories and issues, and also move issues around 4 lanes representing its possible status: Backlog, In Progress, Verify and Signed Off.</p>
 
-<h4 id="part_2">Part 2</h4>
+<h3 id="purpose">Purpose</h3>
 
-<p><a href="//www.youtube.com/embed/cSYSQyHwQ5o">YouTube video link</a></p>
-<iframe allowfullscreen='allowfullscreen' frameborder='0' height='315' src='//www.youtube.com/embed/cSYSQyHwQ5o' width='560'> </iframe>
-<p><br /></p>
+<p>The main purpose of Tasker is to demonstrate important front-end concepts of nowadays about smart client-side applications, such as:</p>
 
-<h4 id="prerequisites">Prerequisites</h4>
+<h4 id="clientside">Client-side</h4>
 
 <ul>
-<li>HTML</li>
+<li>MV* on the client-side with Backbone.js
+<ul>
+<li>REST-based models</li>
 
-<li>CSS</li>
+<li>views</li>
 
-<li>Familiary with JavaScript</li>
+<li>routers</li>
+
+<li>events</li>
+
+<li>validation</li>
+</ul>
+</li>
+
+<li>Templating with Handlebars.js
+<ul>
+<li>Custom helpers</li>
+</ul>
+</li>
+
+<li>Using Bootstrap components</li>
+
+<li>Using Font Awesome fonts</li>
+
+<li>Writing LESS css</li>
+
+<li>UI-level i18n</li>
+
+<li>Responsive/adaptive layout</li>
 </ul>
 
-<h4 id="resources">Resources</h4>
+<h3 id="serverside">Server-side</h3>
 
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals">Values, variables and literals</a></li>
+<li>Play! Framework as a modern, simple yet powerful back-end
+<ul>
+<li>models</li>
 
-<li><a href="http://tableless.com.br/javascript-entendendo-o-this/#.UhVmEGSbj_s">this x self</a></li>
+<li>views</li>
 
-<li><a href="http://www.codeproject.com/Articles/247241/Javascript-Module-Pattern">Modular JavaScript</a></li>
+<li>controllers</li>
 
-<li><a href="http://ryanmorr.com/understanding-scope-and-context-in-javascript">Closure</a></li>
+<li>REST-based routers</li>
 
-<li><a href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">Hoisting</a></li>
-
-<li><a href="http://nodebr.com/como-evitar-o-inferno-de-callbacks/">Callbacks</a></li>
-
-<li><a href="http://www.thinkful.com/learn/javascript-best-practices-1/">Good practices 1</a> and <a href="http://www.thinkful.com/learn/javascript-best-practices-2">Good practices 2</a></li>
+<li>Google Clojure compilation and minification</li>
 </ul>
+</li>
 
-<h4 id="learn_javascript">Learn Javascript</h4>
-
+<li>Ebean as a simple ORM approach
 <ul>
-<li><a href="http://jsforcats.com">Javascript for Cats - basic</a></li>
+<li>JPA-based mapping</li>
 
-<li><a href="http://eloquentjavascript.net/contents.html">Eloquent Javascript - intermediate to advanced</a></li>
+<li>simple query language</li>
 
-<li><a href="http://shop.oreilly.com/product/9780596517748.do">Javascript: The Good Parts - intermediate to advanced</a></li>
+<li>evolutions</li>
+</ul>
+</li>
+
+<li>JSON manipulation with Flexjson</li>
+
+<li>Unit testing with TestNG</li>
+
+<li>Code coverage</li>
+
+<li>Setting production profile</li>
+
+<li>Deploying to Heroku</li>
 </ul>
 					<hr/>
 					<div class="meta">
 						<p class="date-publish">
 							Published at
-							<date class="date-pub" title="2013-08-28T00:00:00-03:00" datetime="2013-08-28T00:00:00-03:00" pubdate>
+							<date class="date-pub" title="2013-08-19T00:00:00-03:00" datetime="2013-08-19T00:00:00-03:00" pubdate>
 								
 									<span class="month"><abbr>August</abbr></span>
-									<span class="day">28</span>,
+									<span class="day">19</span>,
 									<span class="year">2013</span>.
 								
 							</date>
@@ -126,9 +156,13 @@
 
   
     
-    	<li><a href="/tags.html#talk-ref">talk <span>4</span></a></li>
+    	<li><a href="/tags.html#projects-ref">projects <span>1</span></a></li>
     
     	<li><a href="/tags.html#javascript-ref">javascript <span>6</span></a></li>
+    
+    	<li><a href="/tags.html#backbone.js-ref">backbone.js <span>4</span></a></li>
+    
+    	<li><a href="/tags.html#play-ref">play <span>2</span></a></li>
     
   
 
@@ -168,13 +202,13 @@
 					<nav class="pagination">
 						<ul>
 							
-							<li class="prev"><a class="internal" rel="prev"  href="/project-tasker" title="View Tasker">&laquo; Tasker</a></li>
+							<li class="prev"><a class="internal" rel="prev"  href="/article-what-do-i-need-to-know-about-html-5" title="View Article - What do I need to know about HTML 5? [pt]">&laquo; Article - What do I need to know about HTML 5? [pt]</a></li>
 							
 							
 							<li class="pipe"> | </li>
 							
 							
-							<li class="next"><a class="internal" rel="next"  href="/talk-boosting-the-client-side-with-backbone-js-pt" title="View Talk - Boosting the client-side with Backbone.js [pt]">Talk - Boosting the client-side with Backbone.js [pt] &raquo;</a></li>
+							<li class="next"><a class="internal" rel="next"  href="/talk-javascript-for-real" title="View Talk - JavaScript for Real [en]">Talk - JavaScript for Real [en] &raquo;</a></li>
 							
 						</ul>
 					</nav>
@@ -199,8 +233,8 @@
 			<div class="unit-inner unit-foot-inner">
 				<h4>Change your language</h4>
 				<p class="flags">
-					<a href="/pt/talk-javascript-for-real"><img src="/assets/themes/the-program/img/flag-br.png"></a>
-					<a href="/talk-javascript-for-real"><img src="/assets/themes/the-program/img/flag-us.png"></a>
+					<a href="/pt/project-tasker"><img src="/assets/themes/the-program/img/flag-br.png"></a>
+					<a href="/project-tasker"><img src="/assets/themes/the-program/img/flag-us.png"></a>
 				</p>
 				<h4>Recent Github commits</h4>
 				<ul id="github-commits" class="github-commits"> </ul>

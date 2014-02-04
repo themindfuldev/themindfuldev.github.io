@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://www.tgarcia.com.br/" rel="self"/>
  <link href="http://www.tgarcia.com.br"/>
- <updated>2014-02-04T12:58:27-02:00</updated>
+ <updated>2014-02-04T21:15:52-02:00</updated>
  <id>http://www.tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -267,6 +267,94 @@
 &lt;li&gt;&lt;a href=&quot;http://eloquentjavascript.net/contents.html&quot;&gt;Eloquent Javascript - intermediate to advanced&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/9780596517748.do&quot;&gt;Javascript: The Good Parts - intermediate to advanced&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>titles.projects.tasker</title>
+   <link href="http://www.tgarcia.com.br/project-tasker"/>
+   <updated>2013-08-19T00:00:00-03:00</updated>
+   <id>http://www.tgarcia.com.br/project-tasker</id>
+   <content type="html">&lt;p&gt;In August, 2013 I published the &lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Tasker Project&lt;/a&gt; on GitHub to illustrate the article I wrote for Java Magazine #123, &lt;a href=&quot;/article-boosting-applications-with-rest-and-backbone-js&quot;&gt;Boosting applications with REST and Backbone.js&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tasker is a web application using Backbone.js and Handlebars.js on the client-side and Play! over Java on the server-side. This application simulates a very simple Kanban board based on Agile methodologies. Basically, the board can have multiple projects, each project can have multiple stories and each story can have multiple issues, which can be either task, bug or enhancement.&lt;/p&gt;
+
+&lt;p&gt;The user can create and remove projects, stories and issues, and also move issues around 4 lanes representing its possible status: Backlog, In Progress, Verify and Signed Off.&lt;/p&gt;
+
+&lt;h3 id=&quot;purpose&quot;&gt;Purpose&lt;/h3&gt;
+
+&lt;p&gt;The main purpose of Tasker is to demonstrate important front-end concepts of nowadays about smart client-side applications, such as:&lt;/p&gt;
+
+&lt;h4 id=&quot;clientside&quot;&gt;Client-side&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MV* on the client-side with Backbone.js
+&lt;ul&gt;
+&lt;li&gt;REST-based models&lt;/li&gt;
+
+&lt;li&gt;views&lt;/li&gt;
+
+&lt;li&gt;routers&lt;/li&gt;
+
+&lt;li&gt;events&lt;/li&gt;
+
+&lt;li&gt;validation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Templating with Handlebars.js
+&lt;ul&gt;
+&lt;li&gt;Custom helpers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Using Bootstrap components&lt;/li&gt;
+
+&lt;li&gt;Using Font Awesome fonts&lt;/li&gt;
+
+&lt;li&gt;Writing LESS css&lt;/li&gt;
+
+&lt;li&gt;UI-level i18n&lt;/li&gt;
+
+&lt;li&gt;Responsive/adaptive layout&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;serverside&quot;&gt;Server-side&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Play! Framework as a modern, simple yet powerful back-end
+&lt;ul&gt;
+&lt;li&gt;models&lt;/li&gt;
+
+&lt;li&gt;views&lt;/li&gt;
+
+&lt;li&gt;controllers&lt;/li&gt;
+
+&lt;li&gt;REST-based routers&lt;/li&gt;
+
+&lt;li&gt;Google Clojure compilation and minification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Ebean as a simple ORM approach
+&lt;ul&gt;
+&lt;li&gt;JPA-based mapping&lt;/li&gt;
+
+&lt;li&gt;simple query language&lt;/li&gt;
+
+&lt;li&gt;evolutions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;JSON manipulation with Flexjson&lt;/li&gt;
+
+&lt;li&gt;Unit testing with TestNG&lt;/li&gt;
+
+&lt;li&gt;Code coverage&lt;/li&gt;
+
+&lt;li&gt;Setting production profile&lt;/li&gt;
+
+&lt;li&gt;Deploying to Heroku&lt;/li&gt;
 &lt;/ul&gt;</content>
  </entry>
  
