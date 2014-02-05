@@ -10,14 +10,14 @@ http://www.tgarcia.com.br/sitemap.txt
 http://www.tgarcia.com.br/tags.html
 http://www.tgarcia.com.br/talks.html
 
-http://www.tgarcia.com.br/talk-design-patterns-for-large-scale-javascript
-http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js-en
-http://www.tgarcia.com.br/article-boosting-applications-with-rest-and-backbone-js
-http://www.tgarcia.com.br/talk-boosting-the-client-side-with-backbone-js-pt
-http://www.tgarcia.com.br/talk-javascript-for-real
-http://www.tgarcia.com.br/project-tasker
-http://www.tgarcia.com.br/article-what-do-i-need-to-know-about-html-5
-http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-3
-http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-2
-http://www.tgarcia.com.br/article-understanding-and-optimizing-the-garbage-collection-part-1
-http://www.tgarcia.com.br/article-design-patterns-enjoy-moderately
+http://www.tgarcia.com.br/talk/talk-design-patterns-for-large-scale-javascript
+http://www.tgarcia.com.br/talk/talk-boosting-the-client-side-with-backbone-js-en
+http://www.tgarcia.com.br/article/article-boosting-applications-with-rest-and-backbone-js
+http://www.tgarcia.com.br/talk/talk-boosting-the-client-side-with-backbone-js-pt
+http://www.tgarcia.com.br/talk/talk-javascript-for-real
+http://www.tgarcia.com.br/project/project-tasker
+http://www.tgarcia.com.br/article/article-what-do-i-need-to-know-about-html-5
+http://www.tgarcia.com.br/article/article-understanding-and-optimizing-the-garbage-collection-part-3
+http://www.tgarcia.com.br/article/article-understanding-and-optimizing-the-garbage-collection-part-2
+http://www.tgarcia.com.br/article/article-understanding-and-optimizing-the-garbage-collection-part-1
+http://www.tgarcia.com.br/article/article-design-patterns-enjoy-moderately

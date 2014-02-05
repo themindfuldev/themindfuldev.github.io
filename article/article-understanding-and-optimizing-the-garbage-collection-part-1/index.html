@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Article - Understanding and optimizing the Garbage Collection - Part 1 [pt] - Tiago Garcia</title>
+	<meta name="author" content="Tiago Garcia">
+	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.articles.understanding-and-optimizing-the-garbage-collection-part-1" type="application/atom+xml">
+</head>
+<body>
+<div id="page" class="hentry">
+	<header class="the-header">
+		<div class="unit-head">
+			<div class="unit-inner unit-head-inner">
+				<nav class="nav-global">
+					<ul>
+						<li class="logo"><a href="/">Tiago Garcia</a></li>
+						<li class="articles"><a href="/articles.html"><i class="fa fa-book fa-fw fa-2x"></i> Articles </a></li>
+						<li class="protips"><a href="/protips.html"><i class="fa fa-lightbulb-o fa-fw fa-2x"></i> Pro tips </a></li>
+						<li class="talks"><a href="/talks.html"><i class="fa fa-microphone fa-fw fa-2x"></i> Talks </a></li>
+						<li class="projects"><a href="/projects.html"><i class="fa fa-cog fa-fw fa-2x"></i> Projects </a></li>
+					</ul>
+					<p class="icons">
+						<a href="http://github.com/tiagorg/" rel="me" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+						<a href="http://www.linkedin.com/in/tiagorg/" rel="me" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+						<a href="http://twitter.com/tiagooo_romero/" rel="me" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+						<a href="http://feeds.feedburner.com/" target="_blank"><i class="fa fa-rss-square fa-2x"></i></a>
+					</p>
+				</nav>
+			</div><!-- unit-inner -->
+		</div><!-- unit-head -->
+	</header>
+	<div class="body" role="main">
+		<div class="unit-body">
+			<div class="unit-inner unit-body-inner">
+				<div class="entry-content">
+					
+<article class="unit-article layout-post">
+	<div class="unit-inner unit-article-inner">
+		<div class="content">
+			<header>
+				<div class="unit-head">
+					<div class="unit-inner unit-head-inner">
+						<h1 class="h2 entry-title">Article - Understanding and optimizing the Garbage Collection - Part 1 [pt]</h1>
+					</div><!-- unit-inner -->
+				</div><!-- unit-head -->
+			</header>
+
+			<div class="bd">
+				<div class="entry-content">
+					<p>On February, 2012 I published an article (in Portuguese) in <a href="http://www.devmedia.com.br/revista-java-magazine-102/24079">Java Magazine #102</a>, about the Garbage Collection process in Java, detailing how do the JVM HotSpot 6 and 7 collectors work and how to optimize their behavior through JVM options.</p>
+
+<p><a href="http://www.devmedia.com.br/garbage-collection-entendendo-e-otimizando-revista-java-magazine-102-parte-1/24082">Article Understanding and optimizing the Garbage Collection - Part 1 - DevMedia</a></p>
+
+<h4 id="summary">Summary</h4>
+
+<p>This article presents concepts and metrics about Garbage Collection in Java, as well the categorization of the heap memory in generations. Next, presents the JVM HotSpot 6 and its overall operation with Garbage Collection, as much as its customization through JVM options. From here, explains about each collector, how does it operate, its customization options and implementations, making a final comparison illustrating when is it more proper to use each one of the available collectors. Yet, presents JVM HotSpot 7 and its new collector, its overall operation and customization options.</p>
+
+<h4 id="when_is_the_subject_useful">When is the subject useful</h4>
+
+<p>The subject is very relevant to any Java developer, even though the consequences of a badly configured Garbage Collection process won’t be much evident in development environments, certainly will make the difference in production environments. It is important to understand the reasons that cause unexpected behavior in the Garbage Collection when operated by multiple processors and big data.</p>
+
+<h4 id="links">Links</h4>
+
+<ul>
+<li><a href="http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html">Java SE 6 HotSpot Virtual Machine Garbage Collection Tuning</a> Official documentation from Oracle about Garbage Collection in JVM HotSpot 6.</li>
+
+<li><a href="http://blogs.oracle.com/jonthecollector/entry/our_collectors">Our Collectors</a> Collectors implementations on JVM HotSpot 6.</li>
+
+<li><a href="http://www.oracle.com/technetwork/java/javase/tech/g1-intro-jsp-135488.html">The Garbage-First Garbage Collector</a> Official documentation from Oracle about the Garbage-First collector.</li>
+
+<li><a href="http://www.brpreiss.com/books/opus5/html/page424.html">Mark-and-Sweep Garbage Collection</a> Detailed explanation about Mark-and-Sweep algorithm.</li>
+
+<li><a href="http://www.infoq.com/presentations/Understanding-Java-Garbage-Collection">Understanding Java Garbage Collection and What You Can Do about It</a> Great presentation about Garbage Collection.</li>
+</ul>
+					<hr/>
+					<div class="meta">
+						<p class="date-publish">
+							Published at
+							<date class="date-pub" title="2012-02-01T00:00:00-02:00" datetime="2012-02-01T00:00:00-02:00" pubdate>
+								
+									<span class="month"><abbr>February</abbr></span>
+									<span class="day">01</span>,
+									<span class="year">2012</span>.
+								
+							</date>
+						</p>
+						<ul class="list-tag list-linear">
+							<li class="list-head">Tags: </li>
+							
+							
+
+
+  
+    
+    	<li><a href="/tags.html#java-ref">java <span>4</span></a></li>
+    
+    	<li><a href="/tags.html#garbage collection-ref">garbage collection <span>3</span></a></li>
+    
+  
+
+
+
+						</ul>
+					</div><!-- meta -->
+				</div><!-- entry-content -->
+				<div class="misc-content">
+					<div class="social">
+						<ul class="list-linear">
+							<li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="tiagooo_romero" data-lang="en">Tweet</a></div></li>
+							<li><div class="twitter-follow"><a href="https://twitter.com/tiagooo_romero" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
+						</ul>
+					</div>
+					<div class="comment">
+					
+
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=703069473065942";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-comments" data-href="http://www.tgarcia.com.br" data-num-posts="10" data-width="580" data-colorscheme="light"></div>
+
+
+
+					</div>
+				</div><!-- misc-content -->
+			</div><!-- bd -->
+			<footer class="unit-foot">
+				<div class="unit-inner unit-foot-inner">
+					<nav class="pagination">
+						<ul>
+							
+							<li class="prev"><a class="internal" rel="prev"  href="/article/article-design-patterns-enjoy-moderately" title="View Article - Design Patterns, enjoy moderately [pt]">&laquo; Article - Design Patterns, enjoy moderately [pt]</a></li>
+							
+							
+							<li class="pipe"> | </li>
+							
+							
+							<li class="next"><a class="internal" rel="next"  href="/article/article-understanding-and-optimizing-the-garbage-collection-part-2" title="View Article - Understanding and optimizing the Garbage Collection - Part 2 [pt]">Article - Understanding and optimizing the Garbage Collection - Part 2 [pt] &raquo;</a></li>
+							
+						</ul>
+					</nav>
+					<p class="gotop">
+						<a href="#page">Back to Top</a>
+					</p>
+				</div>
+			</footer>
+
+		</div><!-- content -->
+	</div><!-- unit-inner -->
+</article>
+
+
+				</div>
+				<hr/>
+			</div><!-- unit-inner -->
+		</div><!-- unit-body -->
+	</div><!-- body -->
+	<footer class="the-footer">
+		<div class="unit-foot">
+			<div class="unit-inner unit-foot-inner">
+				<a href="https://github.com/tiagorg/tiagorg.github.io-source"><img class="fork-me" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+				<h4>Change your language</h4>
+				<p class="flags">
+					<a href="/pt/article/article-understanding-and-optimizing-the-garbage-collection-part-1"><img src="/assets/themes/the-program/img/flag-br.png"></a>
+					<a href="/article/article-understanding-and-optimizing-the-garbage-collection-part-1"><img src="/assets/themes/the-program/img/flag-us.png"></a>
+				</p>
+				<h4>Recent Github commits</h4>
+				<ul id="github-commits" class="github-commits"> </ul>
+				<h4>Resources</h4>
+				<ul>
+					<li><a href="/archive.html">Archive</a></li>
+					<li><a href="/tags.html">Tags</a></li>
+				</ul>
+				<p class="licence">
+					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
+					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
+				</p>
+			</div><!-- unit-foot-inner -->
+		</div><!-- unit-foot -->
+	</footer>
+</div><!-- page -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/assets/themes/the-program/js/scripts.js"></script>
+  
+</body>
+</html>
+

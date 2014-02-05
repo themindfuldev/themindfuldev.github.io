@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Projeto - Tasker - Tiago Garcia</title>
+	<meta name="author" content="Tiago Garcia">
+	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.projects.tasker" type="application/atom+xml">
+</head>
+<body>
+<div id="page" class="hentry">
+	<header class="the-header">
+		<div class="unit-head">
+			<div class="unit-inner unit-head-inner">
+				<nav class="nav-global">
+					<ul>
+						<li class="logo"><a href="/pt/">Tiago Garcia</a></li>
+						<li class="articles"><a href="/pt/articles.html"><i class="fa fa-book fa-fw fa-2x"></i> Artigos </a></li>
+						<li class="protips"><a href="/pt/protips.html"><i class="fa fa-lightbulb-o fa-fw fa-2x"></i> Dicas </a></li>
+						<li class="talks"><a href="/pt/talks.html"><i class="fa fa-microphone fa-fw fa-2x"></i> Palestras </a></li>
+						<li class="projects"><a href="/pt/projects.html"><i class="fa fa-cog fa-fw fa-2x"></i> Projetos </a></li>
+					</ul>
+					<p class="icons">
+						<a href="http://github.com/tiagorg/" rel="me" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+						<a href="http://www.linkedin.com/in/tiagorg/" rel="me" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+						<a href="http://twitter.com/tiagooo_romero/" rel="me" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+						<a href="http://feeds.feedburner.com/" target="_blank"><i class="fa fa-rss-square fa-2x"></i></a>
+					</p>
+				</nav>
+			</div><!-- unit-inner -->
+		</div><!-- unit-head -->
+	</header>
+	<div class="body" role="main">
+		<div class="unit-body">
+			<div class="unit-inner unit-body-inner">
+				<div class="entry-content">
+					
+<article class="unit-article layout-post">
+	<div class="unit-inner unit-article-inner">
+		<div class="content">
+			<header>
+				<div class="unit-head">
+					<div class="unit-inner unit-head-inner">
+						<h1 class="h2 entry-title">Projeto - Tasker</h1>
+					</div><!-- unit-inner -->
+				</div><!-- unit-head -->
+			</header>
+
+			<div class="bd">
+				<div class="entry-content">
+					<p>Em Agosto de 2013 eu publiquei o <a href="http://github.com/tiagorg/tasker">Projeto Tasker</a> no GitHub para ilustrar o artigo que eu escrevi para a revista Java Magazine 123, <a href="/pt/article-boosting-applications-with-rest-and-backbone-js">Turbinando aplicações com REST e Backbone.js</a>.</p>
+
+<p>Tasker é uma aplicação web utilizando Backbone.js e Handlebars.js no client-side e Play! sobre Java no server-side. Esta aplicação simula um quadro Kanban simples baseado em metodologias Ágeis. Basicamente, o quadro pode ter diversos projetos, onde cada projeto pode ter diversas estórias e cada estória pode possuir diversos itens, que podem ser tarefas, defeitos ou melhorias.</p>
+
+<p>O usuário pode criar e remover projetos, estórias e itens, além de poder mover itens por 4 colunas representando seus estados possíveis: Em espera, Em progresso, A verificar e Aprovado.</p>
+
+<h3 id="propsito">Propósito</h3>
+
+<p>O propósito principal de Tasker é demonstrar conceitos importantes de front-end de hoje em dia sobre aplicações inteligentes no client-side, como:</p>
+
+<h4 id="clientside">Client-side</h4>
+
+<ul>
+<li>MV* no client-side com Backbone.js
+<ul>
+<li>models baseados em REST</li>
+
+<li>views</li>
+
+<li>routers</li>
+
+<li>eventos</li>
+
+<li>validação</li>
+</ul>
+</li>
+
+<li>Templates com Handlebars.js
+<ul>
+<li>Custom helpers</li>
+</ul>
+</li>
+
+<li>Usando componentes Bootstrap</li>
+
+<li>Usando ícones Font Awesome</li>
+
+<li>Escrevendo css com LESS</li>
+
+<li>i18n no front-end</li>
+
+<li>Layout responsivo/adaptivo</li>
+</ul>
+
+<h3 id="serverside">Server-side</h3>
+
+<ul>
+<li>Play! Framework como um moderno, simples e poderoso back-end
+<ul>
+<li>models</li>
+
+<li>views</li>
+
+<li>controllers</li>
+
+<li>routers baseados em REST</li>
+
+<li>compilação e minificação com Google Clojure</li>
+</ul>
+</li>
+
+<li>Ebean como um simples ORM
+<ul>
+<li>mapeamento baseado em JPA</li>
+
+<li>linguagem de consultas simples</li>
+
+<li>evolutions</li>
+</ul>
+</li>
+
+<li>Manipulação de JSON com Flexjson</li>
+
+<li>Testes unitários com TestNG</li>
+</ul>
+					<hr/>
+					<div class="meta">
+						<p class="date-publish">
+							Publicado em
+							<date class="date-pub" title="2013-08-19T00:00:00-03:00" datetime="2013-08-19T00:00:00-03:00" pubdate>
+								
+									<span class="day">19</span>/<span class="month"><abbr>08</abbr></span>/<span class="year">2013</span>
+								
+							</date>
+						</p>
+						<ul class="list-tag list-linear">
+							<li class="list-head">Tags: </li>
+							
+							
+
+
+  
+    
+    	<li><a href="/pt/tags.html#javascript-ref">javascript <span>6</span></a></li>
+    
+    	<li><a href="/pt/tags.html#backbone.js-ref">backbone.js <span>4</span></a></li>
+    
+    	<li><a href="/pt/tags.html#play-ref">play <span>2</span></a></li>
+    
+  
+
+
+
+						</ul>
+					</div><!-- meta -->
+				</div><!-- entry-content -->
+				<div class="misc-content">
+					<div class="social">
+						<ul class="list-linear">
+							<li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="tiagooo_romero" data-lang="en">Tweet</a></div></li>
+							<li><div class="twitter-follow"><a href="https://twitter.com/tiagooo_romero" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
+						</ul>
+					</div>
+					<div class="comment">
+					
+
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=703069473065942";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-comments" data-href="http://www.tgarcia.com.br" data-num-posts="10" data-width="580" data-colorscheme="light"></div>
+
+
+
+					</div>
+				</div><!-- misc-content -->
+			</div><!-- bd -->
+			<footer class="unit-foot">
+				<div class="unit-inner unit-foot-inner">
+					<nav class="pagination">
+						<ul>
+							
+							<li class="prev"><a class="internal" rel="prev"  href="/pt/article/article-what-do-i-need-to-know-about-html-5" title="View Artigo - O que preciso saber sobre HTML 5? [pt]">&laquo; Artigo - O que preciso saber sobre HTML 5? [pt]</a></li>
+							
+							
+							<li class="pipe"> | </li>
+							
+							
+							<li class="next"><a class="internal" rel="next"  href="/pt/talk/talk-javascript-for-real" title="View Palestra - JavaScript de verdade [en]">Palestra - JavaScript de verdade [en] &raquo;</a></li>
+							
+						</ul>
+					</nav>
+					<p class="gotop">
+						<a href="#page">Voltar para o topo</a>
+					</p>
+				</div>
+			</footer>
+
+		</div><!-- content -->
+	</div><!-- unit-inner -->
+</article>
+
+
+				</div>
+				<hr/>
+			</div><!-- unit-inner -->
+		</div><!-- unit-body -->
+	</div><!-- body -->
+	<footer class="the-footer">
+		<div class="unit-foot">
+			<div class="unit-inner unit-foot-inner">
+				<a href="https://github.com/tiagorg/tiagorg.github.io-source"><img class="fork-me" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+				<h4>Mude seu idioma</h4>
+				<p class="flags">
+					<a href="/pt/project/project-tasker"><img src="/assets/themes/the-program/img/flag-br.png"></a>
+					<a href="/project/project-tasker"><img src="/assets/themes/the-program/img/flag-us.png"></a>
+				</p>
+				<h4>Commits recentes no Github</h4>
+				<ul id="github-commits" class="github-commits"> </ul>
+				<h4>Recursos</h4>
+				<ul>
+					<li><a href="/pt/archive.html">Arquivo</a></li>
+					<li><a href="/pt/tags.html">Tags</a></li>
+				</ul>
+				<p class="licence">
+					Tema: <a href="http://layouts-the.me">the_minimum</a> baseado em <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
+					Fornecido por <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
+				</p>
+			</div><!-- unit-foot-inner -->
+		</div><!-- unit-foot -->
+	</footer>
+</div><!-- page -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/assets/themes/the-program/js/scripts.js"></script>
+  
+</body>
+</html>
+
