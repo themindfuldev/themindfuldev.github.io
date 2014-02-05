@@ -5,8 +5,8 @@
         <description>Tiago Garcia - Tiago Garcia</description>
         <link>http://www.tgarcia.com.br</link>
         <link>http://www.tgarcia.com.br</link>
-        <lastBuildDate>2014-02-05T21:01:39-02:00</lastBuildDate>
-        <pubDate>2014-02-05T21:01:39-02:00</pubDate>
+        <lastBuildDate>2014-02-05T21:05:38-02:00</lastBuildDate>
+        <pubDate>2014-02-05T21:05:38-02:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -41,8 +41,8 @@
 
 &lt;li&gt;&lt;a href=&quot;http://aurajs.com&quot;&gt;AuraJS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/talk/talk-design-patterns-for-large-scale-javascript</link>
-                <guid>http://www.tgarcia.com.br/talk/talk-design-patterns-for-large-scale-javascript</guid>
+                <link>http://www.tgarcia.com.br/talk/design-patterns-for-large-scale-javascript</link>
+                <guid>http://www.tgarcia.com.br/talk/design-patterns-for-large-scale-javascript</guid>
                 <pubDate>2014-01-27T00:00:00-02:00</pubDate>
         </item>
 
@@ -107,8 +107,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://todomvc.com/architecture-examples/backbone/&quot;&gt;Backbone.js - TodoMVC&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/talk/talk-boosting-the-client-side-with-backbone-js-en</link>
-                <guid>http://www.tgarcia.com.br/talk/talk-boosting-the-client-side-with-backbone-js-en</guid>
+                <link>http://www.tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-en</link>
+                <guid>http://www.tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-en</guid>
                 <pubDate>2014-01-08T00:00:00-02:00</pubDate>
         </item>
 
@@ -143,8 +143,8 @@
 
 &lt;li&gt;&lt;a href=&quot;http://help.github.com/articles/fork-a-repo&quot;&gt;Artigo Fork A Repo&lt;/a&gt; Explica mais sobre o processo de fork do GitHub.&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/article/article-boosting-applications-with-rest-and-backbone-js</link>
-                <guid>http://www.tgarcia.com.br/article/article-boosting-applications-with-rest-and-backbone-js</guid>
+                <link>http://www.tgarcia.com.br/article/boosting-applications-with-rest-and-backbone-js</link>
+                <guid>http://www.tgarcia.com.br/article/boosting-applications-with-rest-and-backbone-js</guid>
                 <pubDate>2014-01-01T00:00:00-02:00</pubDate>
         </item>
 
@@ -205,8 +205,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://todomvc.com/architecture-examples/backbone/&quot;&gt;Backbone.js - TodoMVC&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/talk/talk-boosting-the-client-side-with-backbone-js-pt</link>
-                <guid>http://www.tgarcia.com.br/talk/talk-boosting-the-client-side-with-backbone-js-pt</guid>
+                <link>http://www.tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-pt</link>
+                <guid>http://www.tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-pt</guid>
                 <pubDate>2013-10-19T00:00:00-03:00</pubDate>
         </item>
 
@@ -263,8 +263,8 @@
 
 &lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/9780596517748.do&quot;&gt;Javascript: The Good Parts - intermediário/avançado&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/talk/talk-javascript-for-real</link>
-                <guid>http://www.tgarcia.com.br/talk/talk-javascript-for-real</guid>
+                <link>http://www.tgarcia.com.br/talk/javascript-for-real</link>
+                <guid>http://www.tgarcia.com.br/talk/javascript-for-real</guid>
                 <pubDate>2013-08-28T00:00:00-03:00</pubDate>
         </item>
 
@@ -345,8 +345,8 @@
 
 &lt;li&gt;Testes unitários com TestNG&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/project/project-tasker</link>
-                <guid>http://www.tgarcia.com.br/project/project-tasker</guid>
+                <link>http://www.tgarcia.com.br/project/tasker</link>
+                <guid>http://www.tgarcia.com.br/project/tasker</guid>
                 <pubDate>2013-08-19T00:00:00-03:00</pubDate>
         </item>
 
@@ -385,8 +385,8 @@
 
 &lt;li&gt;&lt;a href=&quot;http://blogs.oracle.com/nashorn&quot;&gt;Nashorn&lt;/a&gt; Blog oficial do Projeto Nashorn.&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/article/article-what-do-i-need-to-know-about-html-5</link>
-                <guid>http://www.tgarcia.com.br/article/article-what-do-i-need-to-know-about-html-5</guid>
+                <link>http://www.tgarcia.com.br/article/what-do-i-need-to-know-about-html-5</link>
+                <guid>http://www.tgarcia.com.br/article/what-do-i-need-to-know-about-html-5</guid>
                 <pubDate>2013-07-01T00:00:00-03:00</pubDate>
         </item>
 
@@ -415,8 +415,8 @@
 
 &lt;li&gt;&lt;a href=&quot;http://www.devmedia.com.br/referencias-fracas-sabe-o-que-sao-revista-java-magazine-99/23308&quot;&gt;Referências fracas: sabe o que são? - Revista Java Magazine 99&lt;/a&gt; Artigo “Sabe o que são referências fracas?” publicado na Java Magazine 99 sobre referências fracas.&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/article/article-understanding-and-optimizing-the-garbage-collection-part-3</link>
-                <guid>http://www.tgarcia.com.br/article/article-understanding-and-optimizing-the-garbage-collection-part-3</guid>
+                <link>http://www.tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-3</link>
+                <guid>http://www.tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-3</guid>
                 <pubDate>2012-04-01T00:00:00-03:00</pubDate>
         </item>
 
@@ -445,8 +445,8 @@
 
 &lt;li&gt;&lt;a href=&quot;http://www.ibm.com/developerworks/java/library/j-rtj4/index.html&quot;&gt;Real-time Java, Part 4: Real-time garbage collection&lt;/a&gt; Explicação detalhada do collector Metronome.&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/article/article-understanding-and-optimizing-the-garbage-collection-part-2</link>
-                <guid>http://www.tgarcia.com.br/article/article-understanding-and-optimizing-the-garbage-collection-part-2</guid>
+                <link>http://www.tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-2</link>
+                <guid>http://www.tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-2</guid>
                 <pubDate>2012-03-01T00:00:00-03:00</pubDate>
         </item>
 
@@ -477,8 +477,8 @@
 
 &lt;li&gt;&lt;a href=&quot;http://www.infoq.com/presentations/Understanding-Java-Garbage-Collection&quot;&gt;Understanding Java Garbage Collection and What You Can Do about It&lt;/a&gt; Ótima apresentação sobre Garbage Collection.&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/article/article-understanding-and-optimizing-the-garbage-collection-part-1</link>
-                <guid>http://www.tgarcia.com.br/article/article-understanding-and-optimizing-the-garbage-collection-part-1</guid>
+                <link>http://www.tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-1</link>
+                <guid>http://www.tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-1</guid>
                 <pubDate>2012-02-01T00:00:00-02:00</pubDate>
         </item>
 
@@ -519,8 +519,8 @@
 
 &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/First-Design-Patterns-Elisabeth-Freeman/dp/0596007124&quot;&gt;Head First Design Patterns - Elizabeth Freeman&lt;/a&gt; É um livro muito didático sobre padrões de projeto, apresenta várias reflexões interessantes.&lt;/li&gt;
 &lt;/ul&gt;</description>
-                <link>http://www.tgarcia.com.br/article/article-design-patterns-enjoy-moderately</link>
-                <guid>http://www.tgarcia.com.br/article/article-design-patterns-enjoy-moderately</guid>
+                <link>http://www.tgarcia.com.br/article/design-patterns-enjoy-moderately</link>
+                <guid>http://www.tgarcia.com.br/article/design-patterns-enjoy-moderately</guid>
                 <pubDate>2011-10-01T00:00:00-03:00</pubDate>
         </item>
 
