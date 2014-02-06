@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>Tiago Garcia</title>
  <link href="http://tgarcia.com.br/" rel="self"/>
  <link href="http://tgarcia.com.br"/>
- <updated>2014-02-06T00:07:57-02:00</updated>
+ <updated>2014-02-06T01:01:39-02:00</updated>
  <id>http://tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>titles.pro-tips.javascript-hoisting</title>
+   <title>Pro tip - Javascript Hoisting [en]</title>
    <link href="http://tgarcia.com.br/pro-tips/javascript-hoisting"/>
    <updated>2014-02-04T00:00:00-02:00</updated>
    <id>http://tgarcia.com.br/pro-tips/javascript-hoisting</id>
@@ -21,7 +21,7 @@
  </entry>
  
  <entry>
-   <title>titles.talks.design-patterns-for-large-scale-javascript</title>
+   <title>Talk - Design Patterns for Large-Scale JavaScript [en]</title>
    <link href="http://tgarcia.com.br/talk/design-patterns-for-large-scale-javascript"/>
    <updated>2014-01-27T00:00:00-02:00</updated>
    <id>http://tgarcia.com.br/talk/design-patterns-for-large-scale-javascript</id>
@@ -57,7 +57,7 @@
  </entry>
  
  <entry>
-   <title>titles.talks.boosting-the-client-side-with-backbone-js-en</title>
+   <title>Talk - Boosting the client-side with Backbone.js [en]</title>
    <link href="http://tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-en"/>
    <updated>2014-01-08T00:00:00-02:00</updated>
    <id>http://tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-en</id>
@@ -123,7 +123,7 @@
  </entry>
  
  <entry>
-   <title>titles.articles.boosting-applications-with-rest-and-backbone-js</title>
+   <title>Article - Boosting applications with REST and Backbone.js [pt]</title>
    <link href="http://tgarcia.com.br/article/boosting-applications-with-rest-and-backbone-js"/>
    <updated>2014-01-01T00:00:00-02:00</updated>
    <id>http://tgarcia.com.br/article/boosting-applications-with-rest-and-backbone-js</id>
@@ -159,7 +159,7 @@
  </entry>
  
  <entry>
-   <title>titles.talks.boosting-the-client-side-with-backbone-js-pt</title>
+   <title>Talk - Boosting the client-side with Backbone.js [pt]</title>
    <link href="http://tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-pt"/>
    <updated>2013-10-19T00:00:00-03:00</updated>
    <id>http://tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-pt</id>
@@ -221,7 +221,7 @@
  </entry>
  
  <entry>
-   <title>titles.talks.javascript-for-real</title>
+   <title>Talk - JavaScript for Real [en]</title>
    <link href="http://tgarcia.com.br/talk/javascript-for-real"/>
    <updated>2013-08-28T00:00:00-03:00</updated>
    <id>http://tgarcia.com.br/talk/javascript-for-real</id>
@@ -279,7 +279,7 @@
  </entry>
  
  <entry>
-   <title>titles.projects.tasker</title>
+   <title>Project - Tasker</title>
    <link href="http://tgarcia.com.br/project/tasker"/>
    <updated>2013-08-19T00:00:00-03:00</updated>
    <id>http://tgarcia.com.br/project/tasker</id>
@@ -367,7 +367,7 @@
  </entry>
  
  <entry>
-   <title>titles.articles.what-do-i-need-to-know-about-html-5</title>
+   <title>Article - What do I need to know about HTML 5? [pt]</title>
    <link href="http://tgarcia.com.br/article/what-do-i-need-to-know-about-html-5"/>
    <updated>2013-07-01T00:00:00-03:00</updated>
    <id>http://tgarcia.com.br/article/what-do-i-need-to-know-about-html-5</id>
@@ -407,7 +407,7 @@
  </entry>
  
  <entry>
-   <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-3</title>
+   <title>Article - Understanding and optimizing the Garbage Collection - Part 3 [pt]</title>
    <link href="http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-3"/>
    <updated>2012-04-01T00:00:00-03:00</updated>
    <id>http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-3</id>
@@ -437,7 +437,7 @@
  </entry>
  
  <entry>
-   <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-2</title>
+   <title>Article - Understanding and optimizing the Garbage Collection - Part 2 [pt]</title>
    <link href="http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-2"/>
    <updated>2012-03-01T00:00:00-03:00</updated>
    <id>http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-2</id>
@@ -467,7 +467,7 @@
  </entry>
  
  <entry>
-   <title>titles.articles.understanding-and-optimizing-the-garbage-collection-part-1</title>
+   <title>Article - Understanding and optimizing the Garbage Collection - Part 1 [pt]</title>
    <link href="http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-1"/>
    <updated>2012-02-01T00:00:00-02:00</updated>
    <id>http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-1</id>
@@ -499,7 +499,7 @@
  </entry>
  
  <entry>
-   <title>titles.articles.design-patterns-enjoy-moderately</title>
+   <title>Article - Design Patterns, enjoy moderately [pt]</title>
    <link href="http://tgarcia.com.br/article/design-patterns-enjoy-moderately"/>
    <updated>2011-10-01T00:00:00-03:00</updated>
    <id>http://tgarcia.com.br/article/design-patterns-enjoy-moderately</id>
@@ -540,5 +540,5 @@
 &lt;/ul&gt;</content>
  </entry>
  
- 
+
 </feed>
