@@ -2,6 +2,7 @@
 http://tgarcia.com.br/archive.html
 http://tgarcia.com.br/articles.html
 http://tgarcia.com.br/atom.xml
+http://tgarcia.com.br/contact.html
 http://tgarcia.com.br/index.html
 http://tgarcia.com.br/projects.html
 http://tgarcia.com.br/protips.html

@@ -7,12 +7,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Pro tip - Javascript Hoisting [en] - Tiago Garcia</title>
+	<title>Contact - Tiago Garcia</title>
 	<meta name="author" content="Tiago Garcia">
 	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.pro-tips.javascript-hoisting" type="application/atom+xml">
+	<link href="http://feeds.feedburner.com/tgarcia" rel="alternate" title="titles.contact" type="application/atom+xml">
 </head>
 <body>
 <div id="page" class="hentry">
@@ -42,88 +42,65 @@
 			<div class="unit-inner unit-body-inner">
 				<div class="entry-content">
 					
-<article class="unit-article layout-post">
+<article class="unit-article layout-page">
 	<div class="unit-inner unit-article-inner">
 		<div class="content">
 			<header>
 				<div class="unit-head">
 					<div class="unit-inner unit-head-inner">
-						<h1 class="h2 entry-title">Pro tip - Javascript Hoisting [en]</h1>
+						<h1 class="h2 entry-title">Contact</h1>
 					</div><!-- unit-inner -->
 				</div><!-- unit-head -->
 			</header>
 
 			<div class="bd">
 				<div class="entry-content">
-					<div class="featured-content">
-						
-					</div>
-					<hr/>
-					<div class="meta">
-						<p class="date-publish">
-							Published at
-							<date class="date-pub" title="2014-02-04T00:00:00-02:00" datetime="2014-02-04T00:00:00-02:00" pubdate>
-								
-									<span class="month"><abbr>February</abbr></span>
-									<span class="day">04</span>,
-									<span class="year">2014</span>.
-								
-							</date>
-						</p>
-						<ul class="list-tag list-linear">
-							<li class="list-head">Tags: </li>
-							
-							
-
-
-  
-    
-    	<li><a href="/tags.html#javascript-ref">javascript <span>7</span></a></li>
-    
-  
-
-
-
-						</ul>
-					</div><!-- meta -->
-				</div><!-- entry-content -->
-				<div class="misc-content">
-					<div class="social">
-						<ul class="list-linear">
-							<li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="tiagooo_romero" data-lang="en">Tweet</a></div></li>
-							<li><div class="twitter-follow"><a href="https://twitter.com/tiagooo_romero" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
-						</ul>
-					</div>
-					<div class="comment">
 					
 
+<form id="contact-form" class="contact-form" method="post" data-success="Message successfully sent!">
 
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=703069473065942";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-href="http://tgarcia.com.br" data-num-posts="10" data-width="580" data-colorscheme="light"></div>
+  <label for="name">Name</label>
+  <input id="name" type="text" name="name" class="field" required autofocus /><br/>
 
+  <label for="email">E-mail</label>
+  <input id="email" type="email" name="email" class="field" required /><br/>
 
+  <label for="subject">Subject</label>
+  <input id="subject" type="text" name="subject" class="field" required /><br/>
 
-					</div>
-				</div><!-- misc-content -->
+  <label for="message">Message</label>
+  <textarea id="message" name="message" required ></textarea><br/>
+
+  <label for="recaptcha_response_field">Captcha</label>
+  <div id="recaptcha_widget" class="recaptcha">
+    <div class="image">
+      <div id="recaptcha_image"></div>
+    </div>
+
+    <div class="headline recaptcha_only_if_image">Enter the words above:</div>
+    <div class="headline recaptcha_only_if_audio">Enter the numbers you hear:</div>
+
+    <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" required />
+
+    <span><a href="javascript:Recaptcha.reload()"><i class="fa fa-refresh"></i></a></span>
+    <span class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')"><i class="fa fa-volume-up"></i></a></span>
+    <span class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')"><i class="fa fa-font"></i></a></span>
+    <span><a href="javascript:Recaptcha.showhelp()"><i class="fa fa-question-circle"></i></a></span>
+  </div><br/>
+  <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
+  <button type="submit">Send</button>
+</form>
+
+<!--<script type="text/javascript"
+    src="http://www.google.com/recaptcha/api/challenge?k=6Lc8Ve4SAAAAAI02zsc3iUhPi-wBI5WkepCp_80M">
+ </script>-->
+<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+				</div><!-- entry-content -->
 			</div><!-- bd -->
+
 			<footer class="unit-foot">
 				<div class="unit-inner unit-foot-inner">
-					<nav class="pagination">
-						<ul>
-							
-							<li class="prev"><a class="internal" rel="prev"  href="/talk/design-patterns-for-large-scale-javascript" title="View Talk - Design Patterns for Large-Scale JavaScript [en]">&laquo; Talk - Design Patterns for Large-Scale JavaScript [en]</a></li>
-							
-							
-							
-						</ul>
-					</nav>
 					<p class="gotop">
 						<a href="#page">Back to Top</a>
 					</p>
@@ -133,7 +110,6 @@
 		</div><!-- content -->
 	</div><!-- unit-inner -->
 </article>
-
 
 				</div>
 				<hr/>
@@ -146,8 +122,8 @@
 				<a href="https://github.com/tiagorg/tiagorg.github.io-source" target="_blank"><img class="fork-me" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 				<h4>Change your language</h4>
 				<p class="flags">
-					<a href="/pt/pro-tips/javascript-hoisting"><img src="/assets/themes/the-program/img/flag-br.png"></a>
-					<a href="/pro-tips/javascript-hoisting"><img src="/assets/themes/the-program/img/flag-us.png"></a>
+					<a href="/pt/contact.html"><img src="/assets/themes/the-program/img/flag-br.png"></a>
+					<a href="/contact.html"><img src="/assets/themes/the-program/img/flag-us.png"></a>
 				</p>
 				<h4>Recent Github commits</h4>
 				<ul id="github-commits" class="github-commits"> </ul>

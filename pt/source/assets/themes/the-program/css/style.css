@@ -863,6 +863,97 @@ pre {
   margin-left: auto;
   margin-right: auto;
 }
+.unit-article .contact-form h4 {
+  color: #668944;
+  margin-left: 20px;
+}
+.unit-article .contact-form label {
+  width: 100px;
+  margin: 5px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+.unit-article .contact-form input,
+.unit-article .contact-form textarea,
+.unit-article .contact-form .recaptcha,
+.unit-article .contact-form button {
+  margin: 5px 0;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+.unit-article .contact-form input:focus,
+.unit-article .contact-form textarea:focus,
+.unit-article .contact-form .recaptcha:focus,
+.unit-article .contact-form button:focus {
+  outline-color: #7fab55;
+}
+.unit-article .contact-form input.field,
+.unit-article .contact-form textarea {
+  min-width: 330px;
+}
+.unit-article .contact-form input[name=subject],
+.unit-article .contact-form textarea {
+  width: 73%;
+}
+.unit-article .contact-form textarea {
+  height: 150px;
+}
+.unit-article .contact-form button {
+  border: 0;
+  background-color: #7fab55;
+  padding: 8px 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+.unit-article .contact-form button:hover {
+  background-color: #668944;
+  color: #e6e6e6;
+}
+.unit-article .contact-form .notice {
+  display: none;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #a94442;
+  margin-top: 15px;
+}
+.unit-article .contact-form .recaptcha {
+  padding: 0;
+  display: inline-block;
+}
+.unit-article .contact-form .recaptcha div.image {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  background-color: #fff;
+  width: 320px;
+}
+.unit-article .contact-form .recaptcha div.image br {
+  display: none;
+}
+.unit-article .contact-form .recaptcha div.image embed,
+.unit-article .contact-form .recaptcha div.image span {
+  float: left;
+  clear: both;
+}
+.unit-article .contact-form .recaptcha div.image embed a,
+.unit-article .contact-form .recaptcha div.image span a {
+  cursor: pointer;
+  font-size: 0.9em;
+}
+.unit-article .contact-form .recaptcha div.headline {
+  padding: 5px 5px 0 10px;
+}
+.unit-article .contact-form .recaptcha input[type=text] {
+  margin: 10px;
+}
 /* post & page */
 .layout-page .tag_box {
   background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png') repeat 0 0 #999999;
