@@ -4,13 +4,21 @@
  <title>Tiago Garcia</title>
  <link href="http://tgarcia.com.br/" rel="self"/>
  <link href="http://tgarcia.com.br"/>
- <updated>2014-02-09T18:46:01-02:00</updated>
+ <updated>2014-02-09T19:53:07-02:00</updated>
  <id>http://tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
    <email>tiagorga@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Dica - Como criar um formulário de contatos para um website Jekyll hospedado no GitHub Pages [en]</title>
+   <link href="http://tgarcia.com.br/pro-tips/how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website"/>
+   <updated>2014-02-09T00:00:00-02:00</updated>
+   <id>http://tgarcia.com.br/pro-tips/how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website</id>
+   <content type="html"></content>
+ </entry>
  
  <entry>
    <title>Dica - Javascript Hoisting [en]</title>
