@@ -4,13 +4,57 @@
  <title>Tiago Garcia</title>
  <link href="http://tgarcia.com.br/" rel="self"/>
  <link href="http://tgarcia.com.br"/>
- <updated>2014-02-09T19:53:05-02:00</updated>
+ <updated>2014-03-18T19:21:04-03:00</updated>
  <id>http://tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
    <email>tiagorga@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Talk - Backbone.js tricks or treats [en]</title>
+   <link href="http://tgarcia.com.br/talk/backbonejs-tricks-or-treats"/>
+   <updated>2014-03-18T00:00:00-03:00</updated>
+   <id>http://tgarcia.com.br/talk/backbonejs-tricks-or-treats</id>
+   <content type="html">&lt;p&gt;On March 20th, 2014 I gave this talk (in English) at &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, about pitfalls, solutions and good practices for common scenarios in Backbone.js. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;slide_deck&quot;&gt;Slide deck&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;//tiagorg.github.io/talk-backbone-tricks-or-treats&quot;&gt;Slide deck link&lt;/a&gt;&lt;/p&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//tgarcia.com.br/talk-backbone-tricks-or-treats/#/&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;prerequisites&quot;&gt;Prerequisites:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Backbone.js&lt;/li&gt;
+
+&lt;li&gt;Design patterns for large-scale javascript&lt;/li&gt;
+
+&lt;li&gt;Curiosity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;resources&quot;&gt;Resources:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.codemag.com/Article/1312061&quot;&gt;Structuring jQuery with Backbone.js&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/kjbekkelund/writings/blob/master/published/understanding-backbone.md&quot;&gt;Step by step from jQuery to Backbone&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/&quot;&gt;Zombies! RUN! (Managing Page Transitions In Backbone Apps)&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals&quot;&gt;Developing Backbone.js Applications&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/marionettejs/backbone.marionette&quot;&gt;Marionette.js&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://lostechies.com/derickbailey/2012/01/02/reducing-backbone-routers-to-nothing-more-than-configuration/&quot;&gt;Reducing Backbone Routers To Nothing More Than Configuration&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://epoxyjs.org&quot;&gt;Epoxy.js&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://sinonjs.org&quot;&gt;Sinon.JS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
  
  <entry>
    <title>Pro tip - How to create a contact form for a GitHub Pages served Jekyll website [en]</title>
@@ -33,7 +77,7 @@
    <link href="http://tgarcia.com.br/talk/design-patterns-for-large-scale-javascript"/>
    <updated>2014-01-27T00:00:00-02:00</updated>
    <id>http://tgarcia.com.br/talk/design-patterns-for-large-scale-javascript</id>
-   <content type="html">&lt;p&gt;On January 27th, 2014 I gave this talk (in English) at &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, about the Learn the essential design patterns for large-scale JavaScript applications. &lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;On January 27th, 2014 I gave this talk (in English) at &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, about the essential design patterns for large-scale JavaScript applications. &lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;slide_deck&quot;&gt;Slide deck&lt;/h4&gt;
 

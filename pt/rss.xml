@@ -5,10 +5,54 @@
         <description>Tiago Garcia - Tiago Garcia</description>
         <link>http://tgarcia.com.br</link>
         <link>http://tgarcia.com.br</link>
-        <lastBuildDate>2014-02-09T19:53:07-02:00</lastBuildDate>
-        <pubDate>2014-02-09T19:53:07-02:00</pubDate>
+        <lastBuildDate>2014-03-18T19:21:05-03:00</lastBuildDate>
+        <pubDate>2014-03-18T19:21:05-03:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>titles.talks.backbonejs-tricks-or-treats</title>
+                <description>&lt;p&gt;Em 20 de Março de 2014 eu dei esta palestra (em inglês) na &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, sobre problemas, soluções e boas práticas para cenários comuns em Backbone.js. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;apresentao&quot;&gt;Apresentação&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;//tiagorg.github.io/talk-backbone-tricks-or-treats&quot;&gt;Link da apresentação&lt;/a&gt;&lt;/p&gt;
+&lt;iframe allowfullscreen=&#39;allowfullscreen&#39; frameborder=&#39;0&#39; height=&#39;420&#39; scrolling=&#39;no&#39; src=&#39;//tgarcia.com.br/talk-backbone-tricks-or-treats/#/&#39; width=&#39;560&#39;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;prrequisitos&quot;&gt;Pré-requisitos&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Backbone.js&lt;/li&gt;
+
+&lt;li&gt;Padrões de projeto para JavaScript em grande escala&lt;/li&gt;
+
+&lt;li&gt;Curiosidade&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;recursos&quot;&gt;Recursos&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.codemag.com/Article/1312061&quot;&gt;Structuring jQuery with Backbone.js&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/kjbekkelund/writings/blob/master/published/understanding-backbone.md&quot;&gt;Step by step from jQuery to Backbone&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/&quot;&gt;Zombies! RUN! (Managing Page Transitions In Backbone Apps)&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals&quot;&gt;Developing Backbone.js Applications&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/marionettejs/backbone.marionette&quot;&gt;Marionette.js&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://lostechies.com/derickbailey/2012/01/02/reducing-backbone-routers-to-nothing-more-than-configuration/&quot;&gt;Reducing Backbone Routers To Nothing More Than Configuration&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://epoxyjs.org&quot;&gt;Epoxy.js&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://sinonjs.org&quot;&gt;Sinon.JS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://tgarcia.com.br/talk/backbonejs-tricks-or-treats</link>
+                <guid>http://tgarcia.com.br/talk/backbonejs-tricks-or-treats</guid>
+                <pubDate>2014-03-18T00:00:00-03:00</pubDate>
+        </item>
 
         <item>
                 <title>titles.pro-tips.how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website</title>

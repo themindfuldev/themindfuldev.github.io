@@ -11,6 +11,7 @@ http://tgarcia.com.br/sitemap.txt
 http://tgarcia.com.br/tags.html
 http://tgarcia.com.br/talks.html
 
+http://tgarcia.com.br/talk/backbonejs-tricks-or-treats
 http://tgarcia.com.br/pro-tips/how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website
 http://tgarcia.com.br/pro-tips/javascript-hoisting
 http://tgarcia.com.br/talk/design-patterns-for-large-scale-javascript
