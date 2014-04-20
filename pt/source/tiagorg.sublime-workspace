@@ -156,42 +156,10 @@
 	"buffers":
 	[
 		{
-			"file": "_i18n/pt.yml",
+			"file": "_i18n/pt/_posts/2014-03-18-backbonejs-tricks-or-treats.md",
 			"settings":
 			{
-				"buffer_size": 2448,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_i18n/en/_posts/2014-02-09-how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website.md",
-			"settings":
-			{
-				"buffer_size": 458,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_i18n/pt/_posts/2014-02-09-how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website.md",
-			"settings":
-			{
-				"buffer_size": 471,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_i18n/en.yml",
-			"settings":
-			{
-				"buffer_size": 2383,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/themes/the-program/js/scripts.js",
-			"settings":
-			{
-				"buffer_size": 5925,
+				"buffer_size": 1590,
 				"line_ending": "Unix"
 			}
 		}
@@ -199,15 +167,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 107.0,
+		"height": 87.0,
 		"selected_items":
 		[
 			[
-				"git pus",
+				"git push",
 				"Git: Push"
 			],
 			[
-				"git com",
+				"git c",
 				"Git: Commit"
 			],
 			[
@@ -215,8 +183,12 @@
 				"Git: Add..."
 			],
 			[
-				"git push",
+				"git pus",
 				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
 			],
 			[
 				"git ps",
@@ -253,10 +225,6 @@
 			[
 				"git psu",
 				"Git: Push Current Branch"
-			],
-			[
-				"git c",
-				"Git: Commit"
 			],
 			[
 				"git push cu",
@@ -324,13 +292,19 @@
 	},
 	"file_history":
 	[
+		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/pt/_posts/2014-01-27-design-patterns-for-large-scale-javascript.md",
+		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/pt.yml",
+		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/en/_posts/2014-01-27-design-patterns-for-large-scale-javascript.md",
+		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/en/_posts/2014-03-18-backbonejs-tricks-or-treats.md",
+		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/en.yml",
+		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/en/_posts/2014-02-09-how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website.md",
+		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/pt/_posts/2014-02-09-how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website.md",
+		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/assets/themes/the-program/js/scripts.js",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/assets/themes/the-program/css/_mediaqueries.less",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_includes/themes/the-program/default.html",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-contact-form/Gemfile",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-contact-form/config.ru",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/contact.html",
-		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/assets/themes/the-program/js/scripts.js",
-		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/en.yml",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_includes/themes/the-program/post.html",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/assets/themes/the-program/css/style.less",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_layouts/post.html",
@@ -341,7 +315,6 @@
 		"/Users/tgarcia/.bash_profile",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-contact-form/application.rb",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/assets/themes/the-program/css/style.css",
-		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/pt.yml",
 		"/Users/tgarcia/.ssh/id_rsa.pub",
 		"/Users/tgarcia/Development/Personal/quiz-app/Gruntfile.js",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/atom.xml",
@@ -446,12 +419,7 @@
 		"/Users/tgarcia/Development/Personal/quiz-app/app/scripts/templates/question.hbs",
 		"/Users/tgarcia/Development/Personal/quiz-app/app/bower_components/backbone/test/router.js",
 		"/Users/tgarcia/Development/Personal/puc/.gitignore",
-		"/Users/tgarcia/Development/Personal/unifei/.gitignore",
-		"/Users/tgarcia/Development/Personal/quiz-app/app/scripts/build.js",
-		"/Users/tgarcia/Development/Personal/quiz-app/app/scripts/main-built.js",
-		"/Users/tgarcia/Development/Personal/quiz-app/app/scripts/data.js",
-		"/Users/tgarcia/Development/Personal/quiz-app/package.json",
-		"/Users/tgarcia/Development/Personal/quiz-app/node_modules/load-grunt-tasks/readme.md"
+		"/Users/tgarcia/Development/Personal/unifei/.gitignore"
 	],
 	"find":
 	{
@@ -477,6 +445,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"1.",
 			"top",
 			"recaptcha",
 			"0",
@@ -550,6 +519,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"* ",
 			" * ",
 			"sidebarView",
 			"",
@@ -566,51 +536,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_i18n/pt.yml",
+					"file": "_i18n/pt/_posts/2014-03-18-backbonejs-tricks-or-treats.md",
 					"settings":
 					{
-						"buffer_size": 2448,
+						"buffer_size": 1590,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2275,
-								2275
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 332.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_i18n/en/_posts/2014-02-09-how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website.md",
-					"settings":
-					{
-						"buffer_size": 458,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								458,
-								458
+								1287,
+								1287
 							]
 						],
 						"settings":
@@ -619,88 +561,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_i18n/pt/_posts/2014-02-09-how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website.md",
-					"settings":
-					{
-						"buffer_size": 471,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								411,
-								411
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_i18n/en.yml",
-					"settings":
-					{
-						"buffer_size": 2383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2309,
-								2309
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 36.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/themes/the-program/js/scripts.js",
-					"settings":
-					{
-						"buffer_size": 5925,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4476,
-								4476
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2145.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -753,6 +613,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"pt.yml",
+				"tiagorg.github.io-source/_i18n/pt.yml"
+			],
 			[
 				"scri",
 				"tiagorg.github.io-source/assets/themes/the-program/js/scripts.js"

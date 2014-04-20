@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://tgarcia.com.br/" rel="self"/>
  <link href="http://tgarcia.com.br"/>
- <updated>2014-03-18T19:21:05-03:00</updated>
+ <updated>2014-04-19T21:11:03-07:00</updated>
  <id>http://tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Palestra - Gostosuras ou travessuras em Backbone.js [en]</title>
    <link href="http://tgarcia.com.br/talk/backbonejs-tricks-or-treats"/>
-   <updated>2014-03-18T00:00:00-03:00</updated>
+   <updated>2014-03-18T00:00:00-07:00</updated>
    <id>http://tgarcia.com.br/talk/backbonejs-tricks-or-treats</id>
    <content type="html">&lt;p&gt;Em 20 de Março de 2014 eu dei esta palestra (em inglês) na &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, sobre problemas, soluções e boas práticas para cenários comuns em Backbone.js. &lt;br /&gt;&lt;/p&gt;
 
@@ -59,7 +59,7 @@
  <entry>
    <title>Dica - Como criar um formulário de contatos para um website Jekyll hospedado no GitHub Pages [en]</title>
    <link href="http://tgarcia.com.br/pro-tips/how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website"/>
-   <updated>2014-02-09T00:00:00-02:00</updated>
+   <updated>2014-02-09T00:00:00-08:00</updated>
    <id>http://tgarcia.com.br/pro-tips/how-to-create-a-contact-form-for-a-github-pages-served-jekyll-website</id>
    <content type="html"></content>
  </entry>
@@ -67,7 +67,7 @@
  <entry>
    <title>Dica - Javascript Hoisting [en]</title>
    <link href="http://tgarcia.com.br/pro-tips/javascript-hoisting"/>
-   <updated>2014-02-04T00:00:00-02:00</updated>
+   <updated>2014-02-04T00:00:00-08:00</updated>
    <id>http://tgarcia.com.br/pro-tips/javascript-hoisting</id>
    <content type="html"></content>
  </entry>
@@ -75,7 +75,7 @@
  <entry>
    <title>Palestra - Padrões de Projeto para JavaScript em grande escala [en]</title>
    <link href="http://tgarcia.com.br/talk/design-patterns-for-large-scale-javascript"/>
-   <updated>2014-01-27T00:00:00-02:00</updated>
+   <updated>2014-01-27T00:00:00-08:00</updated>
    <id>http://tgarcia.com.br/talk/design-patterns-for-large-scale-javascript</id>
    <content type="html">&lt;p&gt;Em 27 de Janeiro de 2014 eu dei esta palestra (em inglês) na &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, sobre padrões de projeto essencials para aplicações JavaScript em grande escala. &lt;br /&gt;&lt;/p&gt;
 
@@ -111,7 +111,7 @@
  <entry>
    <title>Palestra - Turbinando o client-side com Backbone.js [en]</title>
    <link href="http://tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-en"/>
-   <updated>2014-01-08T00:00:00-02:00</updated>
+   <updated>2014-01-08T00:00:00-08:00</updated>
    <id>http://tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-en</id>
    <content type="html">&lt;p&gt;Em 8 de Janeiro de 2014 eu dei esta palestra (em inglês) na &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
 
@@ -177,7 +177,7 @@
  <entry>
    <title>Artigo - Turbinando aplicações com REST e Backbone.js [pt]</title>
    <link href="http://tgarcia.com.br/article/boosting-applications-with-rest-and-backbone-js"/>
-   <updated>2014-01-01T00:00:00-02:00</updated>
+   <updated>2014-01-01T00:00:00-08:00</updated>
    <id>http://tgarcia.com.br/article/boosting-applications-with-rest-and-backbone-js</id>
    <content type="html">&lt;p&gt;Em Janeiro de 2014 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-123/29893&quot;&gt;Java Magazine 123&lt;/a&gt;, sobre aplicações inteligentes no client-side usando REST e Backbone.js, comparando com outros tipos de aplicações web.&lt;/p&gt;
 
@@ -213,7 +213,7 @@
  <entry>
    <title>Palestra - Turbinando o client-side com Backbone.js [pt]</title>
    <link href="http://tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-pt"/>
-   <updated>2013-10-19T00:00:00-03:00</updated>
+   <updated>2013-10-19T00:00:00-07:00</updated>
    <id>http://tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-pt</id>
    <content type="html">&lt;p&gt;Em 19 de Outubro de 2013 eu dei esta palestra (em português) no &lt;a href=&quot;http://devday.devisland.com/&quot;&gt;DevDay 2013&lt;/a&gt;, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
 
@@ -275,7 +275,7 @@
  <entry>
    <title>Palestra - JavaScript de verdade [en]</title>
    <link href="http://tgarcia.com.br/talk/javascript-for-real"/>
-   <updated>2013-08-28T00:00:00-03:00</updated>
+   <updated>2013-08-28T00:00:00-07:00</updated>
    <id>http://tgarcia.com.br/talk/javascript-for-real</id>
    <content type="html">&lt;p&gt;Em 13 e 28 de agosto de 2013 eu dei esta palestra (em inglês) na &lt;a href=&quot;http://www.avenuecode.com&quot;&gt;Avenue Code&lt;/a&gt;, focando em desenvolvedores vindo de linguagens como Java, explicando como codificar em JavaScript de verdade e começar com as boas práticas agora mesmo. &lt;br /&gt;&lt;/p&gt;
 
@@ -333,7 +333,7 @@
  <entry>
    <title>Projeto - Tasker</title>
    <link href="http://tgarcia.com.br/project/tasker"/>
-   <updated>2013-08-19T00:00:00-03:00</updated>
+   <updated>2013-08-19T00:00:00-07:00</updated>
    <id>http://tgarcia.com.br/project/tasker</id>
    <content type="html">&lt;p&gt;Em Agosto de 2013 eu publiquei o &lt;a href=&quot;http://github.com/tiagorg/tasker&quot;&gt;Projeto Tasker&lt;/a&gt; no GitHub para ilustrar o artigo que eu escrevi para a revista Java Magazine 123, &lt;a href=&quot;/pt/article-boosting-applications-with-rest-and-backbone-js&quot;&gt;Turbinando aplicações com REST e Backbone.js&lt;/a&gt;.&lt;/p&gt;
 
@@ -415,7 +415,7 @@
  <entry>
    <title>Artigo - O que preciso saber sobre HTML 5? [pt]</title>
    <link href="http://tgarcia.com.br/article/what-do-i-need-to-know-about-html-5"/>
-   <updated>2013-07-01T00:00:00-03:00</updated>
+   <updated>2013-07-01T00:00:00-07:00</updated>
    <id>http://tgarcia.com.br/article/what-do-i-need-to-know-about-html-5</id>
    <content type="html">&lt;p&gt;Em Julho de 2013 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-116/28258&quot;&gt;Java Magazine 116&lt;/a&gt;, sobre o HTML 5 como uma alternativa ao desenvolvimento baseado exclusivamente no server-side. Esta tecnologia introduz e padroniza diversas funcionalidades inovadoras no navegador ou dispositivo móvel cliente, de forma segura, portável e nativa.&lt;/p&gt;
 
@@ -455,7 +455,7 @@
  <entry>
    <title>Artigo - Entendendo e otimizando o Garbage Collection - Parte 3 [pt]</title>
    <link href="http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-3"/>
-   <updated>2012-04-01T00:00:00-03:00</updated>
+   <updated>2012-04-01T00:00:00-07:00</updated>
    <id>http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-3</id>
    <content type="html">&lt;p&gt;Em Abril de 2012 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-104/24723&quot;&gt;Java Magazine 104&lt;/a&gt;, sobre problemas comuns em códigos Java que ignoram o funcionamento do Garbage Collection, como escrever código para otimizar este processo e como analisar a situação da memória heap em tempo de execução.&lt;/p&gt;
 
@@ -485,7 +485,7 @@
  <entry>
    <title>Artigo - Entendendo e otimizando o Garbage Collection - Parte 2 [pt]</title>
    <link href="http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-2"/>
-   <updated>2012-03-01T00:00:00-03:00</updated>
+   <updated>2012-03-01T00:00:00-08:00</updated>
    <id>http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-2</id>
    <content type="html">&lt;p&gt;Em Março de 2012 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-103/24382&quot;&gt;Java Magazine 103&lt;/a&gt;, sobre o funcionamento dos collectors das JVMs Oracle JRockit (utilizada pelo servidor de aplicações Java EE WebLogic), IBM Virtual Machine for Java (utilizada pelo servidor de aplicações Java EE WebSphere), as que implementam a JSR-1 (também conhecida como Real-Time Specification for Java ou RTSJ) e Dalvik (utilizada por dispositivos Android).&lt;/p&gt;
 
@@ -515,7 +515,7 @@
  <entry>
    <title>Artigo - Entendendo e otimizando o Garbage Collection - Parte 1 [pt]</title>
    <link href="http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-1"/>
-   <updated>2012-02-01T00:00:00-02:00</updated>
+   <updated>2012-02-01T00:00:00-08:00</updated>
    <id>http://tgarcia.com.br/article/understanding-and-optimizing-the-garbage-collection-part-1</id>
    <content type="html">&lt;p&gt;Em Fevereiro de 2012 eu publiquei um artigo (em português) na &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-102/24079&quot;&gt;Java Magazine 102&lt;/a&gt;, sobre o processo de Garbage Collection em Java, apresentando o funcionamento dos collectors da JVM HotSpot 6 e 7 e como otimizar seu comportamento por meio de opções da JVM.&lt;/p&gt;
 
@@ -547,7 +547,7 @@
  <entry>
    <title>Artigo - Padrões de Projeto, aprecie com moderação [pt]</title>
    <link href="http://tgarcia.com.br/article/design-patterns-enjoy-moderately"/>
-   <updated>2011-10-01T00:00:00-03:00</updated>
+   <updated>2011-10-01T00:00:00-07:00</updated>
    <id>http://tgarcia.com.br/article/design-patterns-enjoy-moderately</id>
    <content type="html">&lt;p&gt;Em Outubro de 2011 eu publiquei um artigo (em português) na capa da &lt;a href=&quot;http://www.devmedia.com.br/revista-java-magazine-98/23078&quot;&gt;Java Magazine 98&lt;/a&gt;, sobre princípios, discussões e reflexões quanto a utilização de padrões de projeto, para ajudar ao leitor a desenvolver senso crítico sobre os mesmos. Assim, o leitor poderá extrair de si mesmo o conhecimento para a aplicação de padrões de projeto com moderação.&lt;/p&gt;
 
