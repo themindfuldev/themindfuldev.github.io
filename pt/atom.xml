@@ -4,7 +4,7 @@
  <title>Tiago Garcia</title>
  <link href="http://tgarcia.com.br/" rel="self"/>
  <link href="http://tgarcia.com.br"/>
- <updated>2014-04-27T23:56:14-07:00</updated>
+ <updated>2014-04-30T23:11:47-07:00</updated>
  <id>http://tgarcia.com.br</id>
  <author>
    <name>Tiago Garcia</name>
@@ -216,6 +216,10 @@
    <updated>2013-10-19T00:00:00-07:00</updated>
    <id>http://tgarcia.com.br/talk/boosting-the-client-side-with-backbone-js-pt</id>
    <content type="html">&lt;p&gt;Em 19 de Outubro de 2013 eu dei esta palestra (em português) no &lt;a href=&quot;http://devday.devisland.com/&quot;&gt;DevDay 2013&lt;/a&gt;, sobre os fundamentos de aplicações no client-side, REST, JSON, MVC e como combinar isto tudo em uma madura biblioteca da família MV* em JavaScript (SPA), Backbone.js. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;vdeo&quot;&gt;Vídeo&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;//www.youtube.com/watch?v=isEsxOogNnY&amp;list=UUuekWCPIBD2XC8Mw86tOy7Q&quot;&gt;Link do vídeo no YouTube&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;apresentao&quot;&gt;Apresentação&lt;/h4&gt;
 
