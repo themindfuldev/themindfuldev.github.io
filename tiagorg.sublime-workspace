@@ -186,6 +186,22 @@
 				"buffer_size": 4091,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "_i18n/pt/_posts/2013-10-19-boosting-the-client-side-with-backbone-js-pt.md",
+			"settings":
+			{
+				"buffer_size": 2275,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_i18n/en/_posts/2013-10-19-boosting-the-client-side-with-backbone-js-pt.md",
+			"settings":
+			{
+				"buffer_size": 2220,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -196,7 +212,7 @@
 		[
 			[
 				"git push",
-				"Git: Push Current Branch"
+				"Git: Push"
 			],
 			[
 				"git com",
@@ -204,7 +220,7 @@
 			],
 			[
 				"git add",
-				"Git: Add Current File"
+				"Git: Add..."
 			],
 			[
 				"git c",
@@ -299,7 +315,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 521.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -316,6 +332,8 @@
 	},
 	"file_history":
 	[
+		"/Users/tgarcia/Development/Macys/Navapp.test/MacysNavApp/MacysNavAppWeb/src/main/####",
+		"/Users/tgarcia/Development/Macys/Navapp.test/MacysNavApp/MacysNavAppWeb/Vídeo",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/pt/_posts/2014-01-27-design-patterns-for-large-scale-javascript.md",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/pt.yml",
 		"/Users/tgarcia/Development/Personal/tiagorg.github.io-source/_i18n/en/_posts/2014-01-27-design-patterns-for-large-scale-javascript.md",
@@ -441,9 +459,7 @@
 		"/Users/tgarcia/Development/Personal/quiz-app/app/scripts/templates/welcome.hbs",
 		"/Users/tgarcia/Development/Personal/quiz-app/app/scripts/templates/error.hbs",
 		"/Users/tgarcia/Development/Personal/quiz-app/app/scripts/templates/question.hbs",
-		"/Users/tgarcia/Development/Personal/quiz-app/app/bower_components/backbone/test/router.js",
-		"/Users/tgarcia/Development/Personal/puc/.gitignore",
-		"/Users/tgarcia/Development/Personal/unifei/.gitignore"
+		"/Users/tgarcia/Development/Personal/quiz-app/app/bower_components/backbone/test/router.js"
 	],
 	"find":
 	{
@@ -560,7 +576,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -844,7 +860,147 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1515.0,
+						"translation.y": 1514.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_i18n/pt/_posts/2013-10-19-boosting-the-client-side-with-backbone-js-pt.md",
+					"settings":
+					{
+						"buffer_size": 2275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								732,
+								732
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_i18n/en/_posts/2013-10-19-boosting-the-client-side-with-backbone-js-pt.md",
+					"settings":
+					{
+						"buffer_size": 2220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
