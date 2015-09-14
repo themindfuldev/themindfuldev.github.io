@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Tiago Romero Garcia]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://tiagorg.com/"/>
+  <updated>2015-09-14T00:31:52.000Z</updated>
+  <id>http://tiagorg.com/</id>
+  
+  <author>
+    <name><![CDATA[Tiago Garcia]]></name>
+    <email><![CDATA[tiagoromerogarcia@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Design Patterns for JavaScript featuring Modules]]></title>
+    <link href="http://tiagorg.com/2015/07/21/design-patterns-for-javascript-featuring-modules/"/>
+    <id>http://tiagorg.com/2015/07/21/design-patterns-for-javascript-featuring-modules/</id>
+    <published>2015-07-21T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>On July 21st, 2015 I gave this talk on <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a>, about the essential design patterns for JavaScript applications, focusing on the different module strategies as CommonJS, AMD and ES6 Modules.</p>
+<h4 id="Slide_deck">Slide deck</h4><ul>
+<li><a href="//tiagorg.com/talk-design-patterns-for-javascript-featuring-modules">Slide deck link</a></li>
+</ul>
+<h4 id="Prerequisites:">Prerequisites:</h4><ul>
+<li>Intermediate JavaScript</li>
+<li>Advanced OOP</li>
+<li>Familiarity with Design Patterns</li>
+</ul>
+<h4 id="Resources:">Resources:</h4><ul>
+<li><a href="https://github.com/tiagorg/design-patterns-examples" target="_blank" rel="external">Check out the examples code</a></li>
+<li><a href="http://shop.oreilly.com/product/9780596806767.do" target="_blank" rel="external">Javascript Patterns - Stoyan Stefanov</a></li>
+<li><a href="https://www.airpair.com/javascript/posts/the-mind-boggling-universe-of-javascript-modules" target="_blank" rel="external">The mind-boggling universe of JavaScript Module strategies</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>On July 21st, 2015 I gave this talk on <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a]]>
+    </summary>
+    
+      <category term="almond" scheme="http://tiagorg.com/tags/almond/"/>
+    
+      <category term="amd" scheme="http://tiagorg.com/tags/amd/"/>
+    
+      <category term="browserify" scheme="http://tiagorg.com/tags/browserify/"/>
+    
+      <category term="commonjs" scheme="http://tiagorg.com/tags/commonjs/"/>
+    
+      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
+    
+      <category term="es6" scheme="http://tiagorg.com/tags/es6/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="large-scale" scheme="http://tiagorg.com/tags/large-scale/"/>
+    
+      <category term="node.js" scheme="http://tiagorg.com/tags/node-js/"/>
+    
+      <category term="require.js" scheme="http://tiagorg.com/tags/require-js/"/>
+    
+      <category term="systemjs" scheme="http://tiagorg.com/tags/systemjs/"/>
+    
+      <category term="umd" scheme="http://tiagorg.com/tags/umd/"/>
+    
+      <category term="webpack" scheme="http://tiagorg.com/tags/webpack/"/>
+    
+      <category term="talk" scheme="http://tiagorg.com/categories/talk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[10 tips for writing maintainable code in Backbone.js]]></title>
+    <link href="http://tiagorg.com/2015/07/20/10-tips-for-writing-maintainable-code-in-backbone/"/>
+    <id>http://tiagorg.com/2015/07/20/10-tips-for-writing-maintainable-code-in-backbone/</id>
+    <published>2015-07-20T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>I gave this talk on July 20th, 2015 at <a href="http://www.meetup.com/Dancing-with-Marionette-js/" target="_blank" rel="external">Dancing with Marionette.js meetup</a>.</p>
+<p>This talk explains some pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the audience will learn about Marionette.js, React, Epoxy.js and Sinon.JS and how do they solve problems about performance, memory, productivity and code organization.</p>
+<h4 id="Slide_deck">Slide deck</h4><ul>
+<li><a href="//tiagorg.com/talk-10-tips-for-writing-maintainable-code-in-backbone/#/">Slide deck link</a></li>
+</ul>
+<h4 id="Prerequisites:">Prerequisites:</h4><ul>
+<li>Backbone.js</li>
+<li>Design patterns for large-scale javascript</li>
+<li>Curiosity</li>
+<li>Opinion</li>
+</ul>
+<h4 id="Resources:">Resources:</h4><ul>
+<li><a href="http://www.codemag.com/Article/1312061" target="_blank" rel="external">Structuring jQuery with Backbone.js</a></li>
+<li><a href="https://github.com/kjbekkelund/writings/blob/master/published/understanding-backbone.md" target="_blank" rel="external">Step by step from jQuery to Backbone</a></li>
+<li><a href="http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/" target="_blank" rel="external">Zombies! RUN! (Managing Page Transitions In Backbone)</a></li>
+<li><a href="http://addyosmani.github.io/backbone-fundamentals" target="_blank" rel="external">Developing Backbone.js Applications</a></li>
+<li><a href="https://github.com/marionettejs/backbone.marionette" target="_blank" rel="external">Marionette.js</a></li>
+<li><a href="http://lostechies.com/derickbailey/2012/01/02/reducing-backbone-routers-to-nothing-more-than-configuration/" target="_blank" rel="external">Reducing Backbone Routers To Nothing More Than Configuration</a></li>
+<li><a href="https://github.com/marionettejs/backbone.radio" target="_blank" rel="external">Backbone.Radio</a></li>
+<li><a href="http://epoxyjs.org" target="_blank" rel="external">Epoxy.js</a></li>
+<li><a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a></li>
+<li><a href="http://sinonjs.org" target="_blank" rel="external">Sinon.JS</a></li>
+<li><a href="https://github.com/box/leche" target="_blank" rel="external">Leche</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>I gave this talk on July 20th, 2015 at <a href="http://www.meetup.com/Dancing-with-Marionette-js/" target="_blank" rel="external">Dancing]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
+    
+      <category term="epoxy.js" scheme="http://tiagorg.com/tags/epoxy-js/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
+    
+      <category term="meetup" scheme="http://tiagorg.com/tags/meetup/"/>
+    
+      <category term="react" scheme="http://tiagorg.com/tags/react/"/>
+    
+      <category term="sinon.js" scheme="http://tiagorg.com/tags/sinon-js/"/>
+    
+      <category term="talk" scheme="http://tiagorg.com/categories/talk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Leveling up - Simple steps to optimize the Critical Rendering Path]]></title>
+    <link href="http://tiagorg.com/2015/05/18/leveling-up-simple-steps-to-optimize-the-critical-rendering-path/"/>
+    <id>http://tiagorg.com/2015/05/18/leveling-up-simple-steps-to-optimize-the-critical-rendering-path/</id>
+    <published>2015-05-18T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>In May, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the Critical Rendering Path and how to optimize it.</p>
+<p><a href="https://www.airpair.com/javascript/posts/the-tipping-point-of-clientside-performance" target="_blank" rel="external">Article Leveling up: Simple steps to optimize the Critical Rendering Path - AirPair</a></p>
+<h4 id="Abstract">Abstract</h4><p>Web development is tricky. There is a myriad of goals to strive for, which can be very cumbersome for your page performance, and can spike your Speed Index way up. </p>
+<p>The Critical Rendering Path (or CRP) is the sequence of steps the browser takes to render the critical content of a webpage. This article explains about simple steps on how to optimize your page’s Critical Rendering Path in order to achieve better performance.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In May, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the Critical Re]]>
+    </summary>
+    
+      <category term="front-end" scheme="http://tiagorg.com/tags/front-end/"/>
+    
+      <category term="html5" scheme="http://tiagorg.com/tags/html5/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="performance" scheme="http://tiagorg.com/tags/performance/"/>
+    
+      <category term="article" scheme="http://tiagorg.com/categories/article/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[The mind-boggling universe of JavaScript Module strategies]]></title>
+    <link href="http://tiagorg.com/2015/04/06/the-mind-boggling-universe-of-javascript-modules/"/>
+    <id>http://tiagorg.com/2015/04/06/the-mind-boggling-universe-of-javascript-modules/</id>
+    <published>2015-04-06T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>In April, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about JavaScript Module strategies and how to work with them.</p>
+<p><a href="https://www.airpair.com/javascript/posts/the-mind-boggling-universe-of-javascript-modules" target="_blank" rel="external">Article The mind-boggling universe of JavaScript Module strategies - AirPair</a></p>
+<h4 id="Abstract">Abstract</h4><p>If you feel like “no matter what you do, there is always something funky in your JavaScript code”, I would bet that your Module strategy is not working out so well.</p>
+<p>The importance of adopting a proper JavaScript Module strategy is often underestimated as a preference contest, so it is indeed important to really understand your needs. This article exposes the foundations of different JavaScript Module strategies such as ad hoc, CommonJS, AMD and ES6 modules, and how to get started with ES6 modules right now.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In April, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about JavaScript Mo]]>
+    </summary>
+    
+      <category term="airpair" scheme="http://tiagorg.com/tags/airpair/"/>
+    
+      <category term="almond" scheme="http://tiagorg.com/tags/almond/"/>
+    
+      <category term="amd" scheme="http://tiagorg.com/tags/amd/"/>
+    
+      <category term="babel" scheme="http://tiagorg.com/tags/babel/"/>
+    
+      <category term="browserify" scheme="http://tiagorg.com/tags/browserify/"/>
+    
+      <category term="commonjs" scheme="http://tiagorg.com/tags/commonjs/"/>
+    
+      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
+    
+      <category term="es6" scheme="http://tiagorg.com/tags/es6/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="node.js" scheme="http://tiagorg.com/tags/node-js/"/>
+    
+      <category term="require.js" scheme="http://tiagorg.com/tags/require-js/"/>
+    
+      <category term="systemjs" scheme="http://tiagorg.com/tags/systemjs/"/>
+    
+      <category term="umd" scheme="http://tiagorg.com/tags/umd/"/>
+    
+      <category term="webpack" scheme="http://tiagorg.com/tags/webpack/"/>
+    
+      <category term="article" scheme="http://tiagorg.com/categories/article/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Backbone using Extensible Database APIs over HTTP + Webpack for the win!]]></title>
+    <link href="http://tiagorg.com/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/"/>
+    <id>http://tiagorg.com/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/</id>
+    <published>2015-03-18T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>On March 18th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in SF at <a href="https://www.remind.com/" target="_blank" rel="external">Remind</a>. </p>
+<p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Brenda Campbell from Remind for arranging the venue!</p>
+<p>On this meetup we had 2 talks:</p>
+<h4 id="1)_Jerry_Su_-_Upgrading_your_JavaScript_with_Webpack">1) Jerry Su - Upgrading your JavaScript with Webpack</h4><p>Webpack is a flexible and extensible module bundler that can boost your productivity when building web applications. If you use or have heard of Browserify and RequireJS, then you know how these module systems improve code organization. webpack goes a step further and bundles not only JavaScript, but also CSS, images, fonts, and all other static resources with little effort. webpack also provides a development server that can improve your workflow by eliminating all or most of your build with an environment that is more fun to work with (linting in the browser, hot code replacement, and more) while minimizing differences between your production environment. I will focus on how you can start using webpack today on an existing codebase so that you can begin to take advantage of these many benefits. </p>
+<p>Check out the <a href="https://github.com/jerrysu/backbone-webpack-example/commits/master" target="_blank" rel="external">list of commits</a> showed in upgrading the TodoMVC/RequireJS app to use Webpack.</p>
+<h4 id="2)_Max_Neunhöffer_-_Extensible_database_APIs_and_their_role_in_software_architecture">2) Max Neunhöffer - Extensible database APIs and their role in software architecture</h4><p>These days, more and more software applications are designed using a micro services architecture, that is, as suites of independently deployable services, talking to each other with well-defined interfaces. This approach is helped by the fact that many NoSQL databases expose their API through HTTP, which makes it particularly easy to define the interfaces. </p>
+<p>In this talk I will explain the benefits of this approach to the<br>software architecture and development process. I will keep the presentation practice oriented by showing concrete examples in ArangoDB and JavaScript, using Backbone.js </p>
+<p>Check out <a href="http://www.meetup.com/Backbone-js-Hackers/events/220940187/" target="_blank" rel="external">Backbone using Extensible Database APIs over HTTP + Webpack for the win!</a>.</p>
+<p>You can also watch the videos for <a href="https://www.youtube.com/watch?v=dD1Ya1lejEk" target="_blank" rel="external">slides</a> and <a href="https://freeflowapp.com/v/1bhbky6" target="_blank" rel="external">speakers</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>On March 18th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers<]]>
+    </summary>
+    
+      <category term="arangodb" scheme="http://tiagorg.com/tags/arangodb/"/>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="database" scheme="http://tiagorg.com/tags/database/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="meetup" scheme="http://tiagorg.com/tags/meetup/"/>
+    
+      <category term="nosql" scheme="http://tiagorg.com/tags/nosql/"/>
+    
+      <category term="webpack" scheme="http://tiagorg.com/tags/webpack/"/>
+    
+      <category term="event" scheme="http://tiagorg.com/categories/event/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Revisiting XP - be a thoughtful programmer by exercising more collective ownership]]></title>
+    <link href="http://tiagorg.com/2015/03/01/revisiting-xp-be-a-thoughtful-programmer/"/>
+    <id>http://tiagorg.com/2015/03/01/revisiting-xp-be-a-thoughtful-programmer/</id>
+    <published>2015-03-01T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>In March, 2015 I published an article on <a href="http://www.infoq.com" target="_blank" rel="external">InfoQ</a>, about  effectively exercising collective ownership to avoid confrontation and technical debt.</p>
+<p><a href="http://www.infoq.com/articles/revisit-p-collective" target="_blank" rel="external">Article Revisiting XP: be a thoughtful programmer by exercising more collective ownership - InfoQ</a></p>
+<h4 id="Abstract">Abstract</h4><p>All in all, developers face regular frustration. This is pretty much because we are all artful individuals, so every single developer has his own tenets. Such tenets represent much more than what is taught in college - they actually constitute the developer’s personality! They are your fingerprint, something that can identify you. When a second developer reads your code, he will start making assumptions about you.</p>
+<p>When two developers’ personalities run into each other, there is generally confrontation. While this can be extremely educational and uplifting, it can also be disturbing and troublesome if both parties don’t share a positive attitude. A key factor here is exercising what I call “thoughtful programming”.</p>
+<p>This article will give a few suggestions about how to program in a more thoughtful way, by revisiting one of the XP (Extreme programming) rules: the concept of <a href="http://www.extremeprogramming.org/rules/collective.html" target="_blank" rel="external">collective ownership</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In March, 2015 I published an article on <a href="http://www.infoq.com" target="_blank" rel="external">InfoQ</a>, about  effectively exer]]>
+    </summary>
+    
+      <category term="collective ownership" scheme="http://tiagorg.com/tags/collective-ownership/"/>
+    
+      <category term="infoq" scheme="http://tiagorg.com/tags/infoq/"/>
+    
+      <category term="technical debt" scheme="http://tiagorg.com/tags/technical-debt/"/>
+    
+      <category term="unit testing" scheme="http://tiagorg.com/tags/unit-testing/"/>
+    
+      <category term="xp" scheme="http://tiagorg.com/tags/xp/"/>
+    
+      <category term="article" scheme="http://tiagorg.com/categories/article/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[From Backbone to React + Vagrant & Node & Backbone & RequireJS]]></title>
+    <link href="http://tiagorg.com/2015/02/12/from-backbone-to-react-vagrant-node-backbone-requirejs/"/>
+    <id>http://tiagorg.com/2015/02/12/from-backbone-to-react-vagrant-node-backbone-requirejs/</id>
+    <published>2015-02-12T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>On February 12th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in SF at <a href="http://corporate.place.xyz/" target="_blank" rel="external">Place</a>. </p>
+<p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Chengyin Liu from Place for arranging the venue!</p>
+<p>On this meetup we had 2 talks:</p>
+<h4 id="1)_Doron_Segal_-_Vagrant_+_Node_+_Backbone_+_RequireJS_showcase">1) Doron Segal - Vagrant + Node + Backbone + RequireJS showcase</h4><p>This talk is a showcase about how these technologies play along in a effective way: Vagrant + Node + Backbone + RequireJS.</p>
+<h4 id="2)_Chengyin_Liu_-_From_Backbone_to_React:_Our_Experiences">2) Chengyin Liu - From Backbone to React: Our Experiences</h4><p>Since June last year, Place (formerly Backplane) has used React to build a platform for online communities. Instead of taking 2 months off to rewrite our system, we incrementally migrated our stack from Backbone to React. We would like to share our experience to help Backbone developers to start with React.</p>
+<p>Check out <a href="http://www.meetup.com/Backbone-js-Hackers/events/220269300/" target="_blank" rel="external">From Backbone to React + Vagrant &amp; Node &amp; Backbone &amp; RequireJS</a>.</p>
+<p>You can also watch the videos for <a href="https://www.youtube.com/watch?v=UtjB4Tafkzo" target="_blank" rel="external">slides</a> and <a href="https://freeflowapp.com/v/4kajk7" target="_blank" rel="external">speakers</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>On February 12th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hacke]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="meetup" scheme="http://tiagorg.com/tags/meetup/"/>
+    
+      <category term="node.js" scheme="http://tiagorg.com/tags/node-js/"/>
+    
+      <category term="react" scheme="http://tiagorg.com/tags/react/"/>
+    
+      <category term="require.js" scheme="http://tiagorg.com/tags/require-js/"/>
+    
+      <category term="vagrant" scheme="http://tiagorg.com/tags/vagrant/"/>
+    
+      <category term="event" scheme="http://tiagorg.com/categories/event/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Enlighten your coding skills as you would play a videogame]]></title>
+    <link href="http://tiagorg.com/2015/01/30/enlighten-your-coding-skills-as-you-would-play-videogame/"/>
+    <id>http://tiagorg.com/2015/01/30/enlighten-your-coding-skills-as-you-would-play-videogame/</id>
+    <published>2015-01-30T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>We all know that becoming a solid software developer is not something that happens in a day.</p>
+<p>However, one should not stop learning when he knows enough coding to land a good job. Coding is an exercise like running, swimming, or playing a musical instrument: if you don’t practice enough, you will get rusty.</p>
+<p>So why not combine business with pleasure and taking coding challenges as you play a videogame?</p>
+<p>On this <a href="http://avenuecode.com/enlighten-coding-skills-play-videogame/" target="_blank" rel="external">post at Code Highway blog</a> I suggest how to game your way to coding success</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>We all know that becoming a solid software developer is not something that happens in a day.</p>
+<p>However, one should not stop learning]]>
+    </summary>
+    
+      <category term="challenges" scheme="http://tiagorg.com/tags/challenges/"/>
+    
+      <category term="coding" scheme="http://tiagorg.com/tags/coding/"/>
+    
+      <category term="videogame" scheme="http://tiagorg.com/tags/videogame/"/>
+    
+      <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[jasmine-precondition]]></title>
+    <link href="http://tiagorg.com/2015/01/17/jasmine-precondition/"/>
+    <id>http://tiagorg.com/2015/01/17/jasmine-precondition/</id>
+    <published>2015-01-17T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/jasmine-precondition" target="_blank" rel="external">jasmine-precondition project</a> on GitHub. This project aims to implement a Jasmine instruction to ease setting up asynchronous pre-conditions before, during and after tests.</p>
+<h3 id="Motivation">Motivation</h3><p>Since Jasmine 2.0, the <strong>runs</strong>, <strong>waits</strong>, and <strong>waitsFor</strong> methods have been removed in favor of allowing functions run as part of the spec to receive and invoke a <strong>done</strong> callback. This new approach is described at <a href="http://jasmine.github.io/2.1/upgrading.html#section-Asynchronous_Specs" target="_blank" rel="external">Upgrading Jasmine - Asynchronous Specs</a>.</p>
+<p>The <strong>done</strong> callback works great for asynchronous features with a callback (such as AJAX, jQuery animations or anything else with promises). However, there are yet other asynchronous features that will complete on their own and would be using <strong>waitsFor</strong> before Jasmine 2.0, like rendering Google Maps, images or anything else that can change both the DOM and the CSSOM.</p>
+<p>While it is utterly possible to <a href="https://gist.github.com/abreckner/110e28897d42126a3bb9" target="_blank" rel="external">re-implement <strong>waitsFor</strong></a> I believe that Jasmine 2.0 direction is more towards stepping away from this idea and instead taking more advantage of <strong>done</strong> callbacks, like putting one <strong>it</strong> block as a pre-condition for another.</p>
+<p>Thus, the <strong>preCondition</strong> instruction defined here will simply poll a given conditional function at a certain time interval, and once its condition is met the callback <strong>done</strong> will be fired off.</p>
+<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.0 can be used either standalone and through node.js, <a href="https://www.npmjs.com/package/jasmine-precondition" target="_blank" rel="external">available on NPM</a>.</p>
+<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/jasmine-precondition" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/jasmine-precondition.svg?branch=master" title="Build Status Images"></a></p>
+<h3 id="Usage">Usage</h3><p><strong>preCondition(condition, done, interval);</strong></p>
+<p>where:</p>
+<ul>
+<li><strong>condition</strong>: a conditional function that shall only return <strong>true</strong> when the condition you are expecting for is met.</li>
+<li><strong>done</strong>: the <strong>done</strong> callback from <strong>beforeEach</strong>, <strong>it</strong> or <strong>afterEach</strong> must be passed here.</li>
+<li><strong>interval</strong> (optional): a time interval in milliseconds between two <strong>condition</strong> executions. Default is 100.</li>
+</ul>
+<h3 id="Example">Example</h3><script src="//gist.github.com/587553f71515682d81f7.js?file=example.js"></script>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/jasmine-precondition" target="_blank" rel="external">jasmine-precond]]>
+    </summary>
+    
+      <category term="jasmine" scheme="http://tiagorg.com/tags/jasmine/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="project" scheme="http://tiagorg.com/categories/project/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[marionette-vdom]]></title>
+    <link href="http://tiagorg.com/2015/01/17/marionette-vdom/"/>
+    <id>http://tiagorg.com/2015/01/17/marionette-vdom/</id>
+    <published>2015-01-17T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom project</a> on GitHub. This project aims to implement <a href="http://marionettejs.com" target="_blank" rel="external">Marionette.js</a> views with <a href="https://github.com/Matt-Esch/virtual-dom" target="_blank" rel="external">virtual-dom</a>, in a <a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a> similar fashion.</p>
+<h3 id="Motivation">Motivation</h3><p>One among React’s top-notch features, virtual DOM is gaining momentum in the front-end development community. Since Marionette.js is a formidable and constantly evolving library, why not adding one good thing to another?</p>
+<p>A key concern here is ensuring that whatever code implementing virtual DOM features won’t break any existing functionality. That is why we have incorporated the whole test suite from Backbone.js and Marionette.js for the related classes, and all the 163 specs are passing.</p>
+<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.2 is implementing VDOM versions for <strong>Marionette.ItemView</strong> and <strong>Marionette.CollectionView</strong>. It can be used through node.js, <a href="https://www.npmjs.com/package/marionette-vdom" target="_blank" rel="external">available on NPM</a>.</p>
+<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/marionette-vdom" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/marionette-vdom.svg?branch=master" title="Build Status Images"></a></p>
+<h3 id="Usage">Usage</h3><p>This module exposes <strong>VDOMItemView</strong> as the VDOM implementation for <strong>Marionette.ItemView</strong> and <strong>VDOMCollectionView</strong> for <strong>Marionette.CollectionView</strong>:</p>
+<script src="//gist.github.com/527aa367224119570d0f.js?file=marionette-vdom.js"></script>
+<h3 id="Example">Example</h3><script src="//gist.github.com/527aa367224119570d0f.js?file=example.js"></script>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom proj]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
+    
+      <category term="virtual-dom" scheme="http://tiagorg.com/tags/virtual-dom/"/>
+    
+      <category term="project" scheme="http://tiagorg.com/categories/project/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Stateless UIs with React + Flux with Backbone & Multiple Inheritance with Mixins]]></title>
+    <link href="http://tiagorg.com/2015/01/15/stateless-uis-with-react-flux-backbone-multiple-inheritance-with-mixins/"/>
+    <id>http://tiagorg.com/2015/01/15/stateless-uis-with-react-flux-backbone-multiple-inheritance-with-mixins/</id>
+    <published>2015-01-15T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>On January 15th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in SF at <a href="https://www.brandcast.com/" target="_blank" rel="external">Brandcast</a>. </p>
+<p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Dan Lynch from Brandcast for arranging the venue!</p>
+<p>On this meetup we had 2 talks:</p>
+<h4 id="1)_Hao_Liu_-_Backbone_View_Multiple_Inheritance_Through_Mixins">1) Hao Liu - Backbone View Multiple Inheritance Through Mixins</h4><p>Backbone provides a convenient way to subclass your view through single inheritance. However, it does not prescribe a way to extend your view with properties from multiple superclasses, i.e. multiple inheritance. In this presentation we are going to discuss how to achieve multiple inheritance through view mixins, and demonstrate how it can be implemented as a framework.</p>
+<h4 id="2)_Jordan_Garcia_-_Writing_Stateless_UIs_with_React_+_Flux">2) <a href="http://twitter.com/jordanjgarcia" target="_blank" rel="external">Jordan Garcia</a> - Writing Stateless UIs with React + Flux</h4><p>Easier testability, quicker development and code that’s easier to reason about are just some of the benefits of writing stateless UIs.  This session will deep dive into the core concepts of Flux Architecture and how it partners with ReactJS. Finally we will demonstrate how these concepts can be applied to your Backbone application to achieve a highly decoupled View layer.</p>
+<p>Check out <a href="http://www.meetup.com/Backbone-js-Hackers/events/218727647/" target="_blank" rel="external">Stateless UIs with React + Flux with Backbone &amp; Multiple Inheritance with Mixins</a>.</p>
+<p>You can also watch the <a href="https://www.youtube.com/watch?v=zBaiuavQDN0" target="_blank" rel="external">Video</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>On January 15th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hacker]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="flux" scheme="http://tiagorg.com/tags/flux/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="meetup" scheme="http://tiagorg.com/tags/meetup/"/>
+    
+      <category term="react" scheme="http://tiagorg.com/tags/react/"/>
+    
+      <category term="event" scheme="http://tiagorg.com/categories/event/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Security breach warning - update your git client ASAP!]]></title>
+    <link href="http://tiagorg.com/2014/12/22/security-breach-warning-update-your-git-client-asap/"/>
+    <id>http://tiagorg.com/2014/12/22/security-breach-warning-update-your-git-client-asap/</id>
+    <published>2014-12-22T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>A critical security breach with Git clients was discovered mid-December. It affects all versions of official Git clients, both command-line and graphical tools such as the GitHub app.</p>
+<p>According to GitHub engineers, this breach would allow hackers to hijack your Git tree when cloning/checking out a repository, allowing them to execute any command in the client machine. So, it is strongly suggested that you take 5 minutes of your time to update it ASAP!</p>
+<p>On this <a href="http://avenuecode.com/security-breach-warning-update-git-client-asap/" target="_blank" rel="external">post at Code Highway blog</a> I provide a quick and short guide on updating your git client.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>A critical security breach with Git clients was discovered mid-December. It affects all versions of official Git clients, both command-li]]>
+    </summary>
+    
+      <category term="git" scheme="http://tiagorg.com/tags/git/"/>
+    
+      <category term="security" scheme="http://tiagorg.com/tags/security/"/>
+    
+      <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Jasmine Testing for Models and Views + Directory structure on modularized apps]]></title>
+    <link href="http://tiagorg.com/2014/11/13/jasmine-testing-for-models-and-views-directory-structure-on-modularized-apps/"/>
+    <id>http://tiagorg.com/2014/11/13/jasmine-testing-for-models-and-views-directory-structure-on-modularized-apps/</id>
+    <published>2014-11-13T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>On November 13th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in SF at <a href="https://www.macys.com/" target="_blank" rel="external">Macy’s.com</a>. </p>
+<p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Yulia Kukuyuk from Macy’s.com for arranging the venue!</p>
+<p>On this meetup we had 2 talks:</p>
+<h4 id="1)_David_Beck_-_Modularized_Backbone_Apps_Part_2:_Directory_Structure">1) <a href="http://twitter.com/davegbeck" target="_blank" rel="external">David Beck</a> - Modularized Backbone Apps Part 2: Directory Structure</h4><p>This talk is about modularization of the front end into encapsulated, reusable packages, via development of tools such as cartero, backbone.subviews, and backbone.courier.</p>
+<h4 id="2)_Brenda_Jin_-_Jasmine_Testing_for_Backbone-js_Models_and_Views">2) <a href="http://twitter.com/cyberneticlove" target="_blank" rel="external">Brenda Jin</a> - Jasmine Testing for Backbone.js Models and Views</h4><p>This session will cover a breakdown of how to approach Jasmine testing for Backbone.js Models and Views, how Jasmine testing works with instantiating new Models and Views, and how to trigger and test custom events and their callbacks. Her <a href="http://jasmine-backbone.herokuapp.com/" target="_blank" rel="external">slide deck</a> is also available.</p>
+<p>Check out <a href="http://www.meetup.com/Backbone-js-Hackers/events/213261022/" target="_blank" rel="external">Jasmine Testing for Models and Views + Directory structure on modularized apps</a>.</p>
+<p>You can also watch the <a href="https://www.fuzemeeting.com/replay_meeting/ecf137d6/6872402" target="_blank" rel="external">Video</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>On November 13th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hacke]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="cartero" scheme="http://tiagorg.com/tags/cartero/"/>
+    
+      <category term="jasmine" scheme="http://tiagorg.com/tags/jasmine/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="meetup" scheme="http://tiagorg.com/tags/meetup/"/>
+    
+      <category term="event" scheme="http://tiagorg.com/categories/event/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Backbone.js tricks or treats for HTML5DevConf]]></title>
+    <link href="http://tiagorg.com/2014/10/20/backbonejs-tricks-or-treats-for-html5devconf/"/>
+    <id>http://tiagorg.com/2014/10/20/backbonejs-tricks-or-treats-for-html5devconf/</id>
+    <published>2014-10-20T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>I gave this talk on October 20th, 2014 at <a href="http://html5devconf.com/speakers/tiago_romerogarcia.html" target="_blank" rel="external">HTML5DevConf</a>, and also on October 9th, 2014 at <a href="http://www.meetup.com/Backbone-js-Hackers/events/208495612/" target="_blank" rel="external">Backbone.js Hackers meetup</a>.</p>
+<p>This talk explains some pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the audience will learn about Marionette.js, React, Epoxy.js and Sinon.JS and how do they solve problems about performance, memory, productivity and code organization.</p>
+<h4 id="Slide_deck">Slide deck</h4><ul>
+<li><a href="//tiagorg.github.io/talk-backbone-tricks-or-treats-html5devconf">Slide deck link</a></li>
+</ul>
+<h4 id="Prerequisites:">Prerequisites:</h4><ul>
+<li>Backbone.js</li>
+<li>Design patterns for large-scale javascript</li>
+<li>Curiosity</li>
+<li>Opinion</li>
+</ul>
+<h4 id="Resources:">Resources:</h4><ul>
+<li><a href="http://www.codemag.com/Article/1312061" target="_blank" rel="external">Structuring jQuery with Backbone.js</a></li>
+<li><a href="https://github.com/kjbekkelund/writings/blob/master/published/understanding-backbone.md" target="_blank" rel="external">Step by step from jQuery to Backbone</a></li>
+<li><a href="http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/" target="_blank" rel="external">Zombies! RUN! (Managing Page Transitions In Backbone)</a></li>
+<li><a href="http://addyosmani.github.io/backbone-fundamentals" target="_blank" rel="external">Developing Backbone.js Applications</a></li>
+<li><a href="https://github.com/marionettejs/backbone.marionette" target="_blank" rel="external">Marionette.js</a></li>
+<li><a href="http://lostechies.com/derickbailey/2012/01/02/reducing-backbone-routers-to-nothing-more-than-configuration/" target="_blank" rel="external">Reducing Backbone Routers To Nothing More Than Configuration</a></li>
+<li><a href="https://github.com/marionettejs/backbone.radio" target="_blank" rel="external">Backbone.Radio</a></li>
+<li><a href="http://epoxyjs.org" target="_blank" rel="external">Epoxy.js</a></li>
+<li><a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a></li>
+<li><a href="http://sinonjs.org" target="_blank" rel="external">Sinon.JS</a></li>
+<li><a href="https://github.com/box/leche" target="_blank" rel="external">Leche</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>I gave this talk on October 20th, 2014 at <a href="http://html5devconf.com/speakers/tiago_romerogarcia.html" target="_blank" rel="externa]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
+    
+      <category term="epoxy.js" scheme="http://tiagorg.com/tags/epoxy-js/"/>
+    
+      <category term="html5devconf" scheme="http://tiagorg.com/tags/html5devconf/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
+    
+      <category term="react" scheme="http://tiagorg.com/tags/react/"/>
+    
+      <category term="sinon.js" scheme="http://tiagorg.com/tags/sinon-js/"/>
+    
+      <category term="talk" scheme="http://tiagorg.com/categories/talk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Backbone.js best practices & Marionette.js + Backbone.Subviews/Ba­ckbone.Courier]]></title>
+    <link href="http://tiagorg.com/2014/10/09/backbone-best-practices-and-marionette-backbone-subviews-courier/"/>
+    <id>http://tiagorg.com/2014/10/09/backbone-best-practices-and-marionette-backbone-subviews-courier/</id>
+    <published>2014-10-09T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>On October 9th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in SF at <a href="https://www.cloudflare.com/" target="_blank" rel="external">Cloudflare</a>. </p>
+<p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and James Kyle from Cloudflare for arranging the venue!</p>
+<p>On this meetup we had 2 talks:</p>
+<h4 id="1)_David_Beck_-_Modularized_Backbone_Apps_Part_1:_Subviews_and_messaging">1) <a href="http://twitter.com/davegbeck" target="_blank" rel="external">David Beck</a> - Modularized Backbone Apps Part 1: Subviews and messaging</h4><p>This talk is about modularization of the front end into encapsulated, reusable packages, via development of tools such as cartero, backbone.subviews, and backbone.courier.</p>
+<h4 id="2)_Tiago_Garcia_-_Backbone-js_tricks_or_treats">2) <a href="http://twitter.com/tiagooo_romero" target="_blank" rel="external">Tiago Garcia</a> - Backbone.js tricks or treats</h4><p>This talk explains some pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the audience will learn about Marionette.js, React.js, Epoxy.js and Sinon.JS and how do they solve problems about performance, memory, productivity and code organization. His <a href="http://tiagorg.com/talk-backbone-tricks-or-treats-html5devconf">slide deck</a> is also available.</p>
+<p>Check out <a href="http://www.meetup.com/Backbone-js-Hackers/events/208495612/" target="_blank" rel="external">Backbone.js best practices &amp; Marionette.js + Backbone.Subviews/Ba­ckbone.Courier</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>On October 9th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="cartero" scheme="http://tiagorg.com/tags/cartero/"/>
+    
+      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
+    
+      <category term="epoxy.js" scheme="http://tiagorg.com/tags/epoxy-js/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
+    
+      <category term="meetup" scheme="http://tiagorg.com/tags/meetup/"/>
+    
+      <category term="react" scheme="http://tiagorg.com/tags/react/"/>
+    
+      <category term="sinon.js" scheme="http://tiagorg.com/tags/sinon-js/"/>
+    
+      <category term="event" scheme="http://tiagorg.com/categories/event/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Web Components 101]]></title>
+    <link href="http://tiagorg.com/2014/09/15/web-components-101/"/>
+    <id>http://tiagorg.com/2014/09/15/web-components-101/</id>
+    <published>2014-09-15T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>Over the past few years a lot of people have been trying to rethink the way the web can/should be used. Currently, front-end developers find themselves in the often-frustrating situation of having to build complex websites with HTML–which can often be a fairly blunt tool–on top of the clunky foundations of Jurassic-age web browser limitations.</p>
+<p>On this <a href="http://avenuecode.com/web-components-101/" target="_blank" rel="external">post at Code Highway blog</a> I answer the question: is it possible to abstract low-level constructs of HTML to define high-level semantic components? And the answer is <strong>yes</strong>!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Over the past few years a lot of people have been trying to rethink the way the web can/should be used. Currently, front-end developers f]]>
+    </summary>
+    
+      <category term="front-end" scheme="http://tiagorg.com/tags/front-end/"/>
+    
+      <category term="web components" scheme="http://tiagorg.com/tags/web-components/"/>
+    
+      <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[We are back! Learn about Firebase & Backbone + building a better Backbone.View!]]></title>
+    <link href="http://tiagorg.com/2014/09/11/firebase-and-backbone-building-a-better-view/"/>
+    <id>http://tiagorg.com/2014/09/11/firebase-and-backbone-building-a-better-view/</id>
+    <published>2014-09-11T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>On September 11th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in SF at <a href="http://pivotallabs.com/" target="_blank" rel="external">Pivotal Labs</a>. </p>
+<p>Me and Summer Kim volunteered to revamp this meetup after 1 year of hiatus. Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Jonathon Kresner from AirPair for arranging the venue!</p>
+<p>On this meetup we had 2 talks:</p>
+<h4 id="1)_David_East_-_Building_realtime_web_apps_with_Firebase_and_Backbone">1) <a href="http://twitter.com/eastdotnet" target="_blank" rel="external">David East</a> - Building realtime web apps with Firebase and Backbone</h4><p>Realtime data is more than just a buzz word. It’s the new evolution of the way data is being delivered around the web. In this talk we’ll learn how we can use Firebase to give our apps realtime data. We’ll take a look at why realtime data is difficult to implement and what we can do to make it easier. At the end we’ll do a live coding session where we’ll give a Backbone app realtime powers using Firebase’s BackFire library.</p>
+<h4 id="2)_RJ_Zaworksi_-_Interop!_Building_a_better_Backbone-View">2) <a href="http://twitter.com/rjzaworski" target="_blank" rel="external">RJ Zaworksi</a> - Interop! Building a better Backbone.View</h4><p>Let’s admit it: there are better tools than Backbone for UI development. While projects like Marionette, Thorax, and Stickit help smooth some rough edges, independent libraries like react.js offer a compelling alternative. In this conversation, we’ll explore opportunities for matching Backbone’s strengths as a data layer with the power of modern UI frameworks.</p>
+<p>Check out <a href="http://www.meetup.com/Backbone-js-Hackers/events/204708292/" target="_blank" rel="external">We are back! Learn about Firebase &amp; Backbone + building a better Backbone.View!</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>On September 11th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hack]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="firebase" scheme="http://tiagorg.com/tags/firebase/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
+    
+      <category term="meetup" scheme="http://tiagorg.com/tags/meetup/"/>
+    
+      <category term="react" scheme="http://tiagorg.com/tags/react/"/>
+    
+      <category term="stickit" scheme="http://tiagorg.com/tags/stickit/"/>
+    
+      <category term="thorax" scheme="http://tiagorg.com/tags/thorax/"/>
+    
+      <category term="event" scheme="http://tiagorg.com/categories/event/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[What is all the fuss about with front-end development?]]></title>
+    <link href="http://tiagorg.com/2014/09/02/what-is-all-the-fuss-about-with-front-end-development/"/>
+    <id>http://tiagorg.com/2014/09/02/what-is-all-the-fuss-about-with-front-end-development/</id>
+    <published>2014-09-02T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>Many enterprise software developers still wonder why everyone is so concerned with client-side applications, HTML 5, Javascript, and front-end related “stuff.” Such skills are very notable on job postings nowadays, even for enterprise development based on Java, .NET, and Rails (which are server-side technologies). A developer might ask: Why does nobody seem to care anymore that I have a Java architect certification if I don’t know about RequireJS, AngularJS or whateverJS (front-end development tools)?</p>
+<p>On this <a href="http://avenuecode.com/what-is-all-the-fuss-about-with-front-end-development-2/" target="_blank" rel="external">post at Code Highway blog</a> I give an overview about what is going on with front-end development and why is it given so much importance over the past couple of years.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Many enterprise software developers still wonder why everyone is so concerned with client-side applications, HTML 5, Javascript, and fron]]>
+    </summary>
+    
+      <category term="front-end" scheme="http://tiagorg.com/tags/front-end/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Interview for PUC Minas [pt]]]></title>
+    <link href="http://tiagorg.com/2014/06/12/interview-for-puc-minas/"/>
+    <id>http://tiagorg.com/2014/06/12/interview-for-puc-minas/</id>
+    <published>2014-06-12T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>In June, 2014 I gave an interview (in Portuguese) to <strong>PUC Minas com Você #68</strong>, which is a bi-monthly journal from <a href="http://www.pucminas.br" target="_blank" rel="external">PUC Minas</a> university.</p>
+<p>On my interview, which is featured on the column <strong>Keeping up with the market</strong>, I tell about my career path, my professional plans and my recommendation for the students, where I do emphasize the importance of the international labor market and how to gradually get into it. </p>
+<p>Check out my <a href="http://www.pucminas.br/iec/com_voce/com_voce_materia.php?codigo=820&amp;&amp;area=23&amp;materia=15183" target="_blank" rel="external">interview at PUC Minas com Você #68</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In June, 2014 I gave an interview (in Portuguese) to <strong>PUC Minas com Você #68</strong>, which is a bi-monthly journal from <a href=]]>
+    </summary>
+    
+      <category term="interview" scheme="http://tiagorg.com/tags/interview/"/>
+    
+      <category term="puc minas" scheme="http://tiagorg.com/tags/puc-minas/"/>
+    
+      <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Backbone.js tricks or treats]]></title>
+    <link href="http://tiagorg.com/2014/03/18/backbonejs-tricks-or-treats/"/>
+    <id>http://tiagorg.com/2014/03/18/backbonejs-tricks-or-treats/</id>
+    <published>2014-03-18T07:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>On March 20th, 2014 I gave this talk at <a href="http://www.avenuecode.com" target="_blank" rel="external">Avenue Code</a>. This talk explains some pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the audience will learn about Marionette.js, Epoxy.js and Sinon.JS and how do they solve problems about performance, memory, productivity and code organization.</p>
+<h4 id="Slide_deck">Slide deck</h4><ul>
+<li><a href="//tiagorg.github.io/talk-backbone-tricks-or-treats">Slide deck link</a></li>
+</ul>
+<h4 id="Prerequisites:">Prerequisites:</h4><ul>
+<li>Backbone.js</li>
+<li>Design patterns for large-scale javascript</li>
+<li>Curiosity</li>
+</ul>
+<h4 id="Resources:">Resources:</h4><ul>
+<li><a href="http://www.codemag.com/Article/1312061" target="_blank" rel="external">Structuring jQuery with Backbone.js</a></li>
+<li><a href="https://github.com/kjbekkelund/writings/blob/master/published/understanding-backbone.md" target="_blank" rel="external">Step by step from jQuery to Backbone</a></li>
+<li><a href="http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/" target="_blank" rel="external">Zombies! RUN! (Managing Page Transitions In Backbone Apps)</a></li>
+<li><a href="http://addyosmani.github.io/backbone-fundamentals" target="_blank" rel="external">Developing Backbone.js Applications</a></li>
+<li><a href="https://github.com/marionettejs/backbone.marionette" target="_blank" rel="external">Marionette.js</a></li>
+<li><a href="http://lostechies.com/derickbailey/2012/01/02/reducing-backbone-routers-to-nothing-more-than-configuration/" target="_blank" rel="external">Reducing Backbone Routers To Nothing More Than Configuration</a></li>
+<li><a href="http://epoxyjs.org" target="_blank" rel="external">Epoxy.js</a></li>
+<li><a href="http://sinonjs.org" target="_blank" rel="external">Sinon.JS</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>On March 20th, 2014 I gave this talk at <a href="http://www.avenuecode.com" target="_blank" rel="external">Avenue Code</a>. This talk exp]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
+    
+      <category term="epoxy.js" scheme="http://tiagorg.com/tags/epoxy-js/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
+    
+      <category term="sinon.js" scheme="http://tiagorg.com/tags/sinon-js/"/>
+    
+      <category term="talk" scheme="http://tiagorg.com/categories/talk/"/>
+    
+  </entry>
+  
+</feed>
