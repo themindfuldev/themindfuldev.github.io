@@ -93,6 +93,56 @@
 </article>
 
   
+    <article id="post-marionette-vdom" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/01/17/marionette-vdom/">marionette-vdom</a>
+    </h1>
+  
+
+      </header>
+      <div class="article-meta">
+        
+  <span class="article-category">
+    <a class="article-category-link" href="/categories/project/">project</a>
+  </span>
+
+ on <a href="/2015/01/17/marionette-vdom/" class="article-date">
+  <time datetime="2015-01-17T08:00:00.000Z" itemprop="datePublished">Jan 17 2015</time>
+</a>
+
+      </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom project</a> on GitHub. This project aims to implement <a href="http://marionettejs.com" target="_blank" rel="external">Marionette.js</a> views with <a href="https://github.com/Matt-Esch/virtual-dom" target="_blank" rel="external">virtual-dom</a>, in a <a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a> similar fashion.</p>
+<h3 id="Motivation">Motivation</h3><p>One among React’s top-notch features, virtual DOM is gaining momentum in the front-end development community. Since Marionette.js is a formidable and constantly evolving library, why not adding one good thing to another?</p>
+<p>A key concern here is ensuring that whatever code implementing virtual DOM features won’t break any existing functionality. That is why we have incorporated the whole test suite from Backbone.js and Marionette.js for the related classes, and all the 163 specs are passing.</p>
+<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.2 is implementing VDOM versions for <strong>Marionette.ItemView</strong> and <strong>Marionette.CollectionView</strong>. It can be used through node.js, <a href="https://www.npmjs.com/package/marionette-vdom" target="_blank" rel="external">available on NPM</a>.</p>
+<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/marionette-vdom" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/marionette-vdom.svg?branch=master" title="Build Status Images"></a></p>
+<h3 id="Usage">Usage</h3><p>This module exposes <strong>VDOMItemView</strong> as the VDOM implementation for <strong>Marionette.ItemView</strong> and <strong>VDOMCollectionView</strong> for <strong>Marionette.CollectionView</strong>:</p>
+<script src="//gist.github.com/527aa367224119570d0f.js?file=marionette-vdom.js"></script>
+<h3 id="Example">Example</h3><script src="//gist.github.com/527aa367224119570d0f.js?file=example.js"></script>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/backbone-js/">backbone.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/marionette-js/">marionette.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/virtual-dom/">virtual-dom</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+  
     <article id="post-jasmine-precondition" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -142,56 +192,6 @@
       
       
     <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jasmine/">jasmine</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
-
-
-    </footer>
-  </div>
-  
-</article>
-
-  
-    <article id="post-marionette-vdom" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/01/17/marionette-vdom/">marionette-vdom</a>
-    </h1>
-  
-
-      </header>
-      <div class="article-meta">
-        
-  <span class="article-category">
-    <a class="article-category-link" href="/categories/project/">project</a>
-  </span>
-
- on <a href="/2015/01/17/marionette-vdom/" class="article-date">
-  <time datetime="2015-01-17T08:00:00.000Z" itemprop="datePublished">Jan 17 2015</time>
-</a>
-
-      </div>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom project</a> on GitHub. This project aims to implement <a href="http://marionettejs.com" target="_blank" rel="external">Marionette.js</a> views with <a href="https://github.com/Matt-Esch/virtual-dom" target="_blank" rel="external">virtual-dom</a>, in a <a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a> similar fashion.</p>
-<h3 id="Motivation">Motivation</h3><p>One among React’s top-notch features, virtual DOM is gaining momentum in the front-end development community. Since Marionette.js is a formidable and constantly evolving library, why not adding one good thing to another?</p>
-<p>A key concern here is ensuring that whatever code implementing virtual DOM features won’t break any existing functionality. That is why we have incorporated the whole test suite from Backbone.js and Marionette.js for the related classes, and all the 163 specs are passing.</p>
-<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.2 is implementing VDOM versions for <strong>Marionette.ItemView</strong> and <strong>Marionette.CollectionView</strong>. It can be used through node.js, <a href="https://www.npmjs.com/package/marionette-vdom" target="_blank" rel="external">available on NPM</a>.</p>
-<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/marionette-vdom" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/marionette-vdom.svg?branch=master" title="Build Status Images"></a></p>
-<h3 id="Usage">Usage</h3><p>This module exposes <strong>VDOMItemView</strong> as the VDOM implementation for <strong>Marionette.ItemView</strong> and <strong>VDOMCollectionView</strong> for <strong>Marionette.CollectionView</strong>:</p>
-<script src="//gist.github.com/527aa367224119570d0f.js?file=marionette-vdom.js"></script>
-<h3 id="Example">Example</h3><script src="//gist.github.com/527aa367224119570d0f.js?file=example.js"></script>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/backbone-js/">backbone.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/marionette-js/">marionette.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/virtual-dom/">virtual-dom</a></li></ul>
 
 
     </footer>
@@ -275,6 +275,10 @@
     <ul>
       
         <li>
+          <a href="/2015/08/11/catching-up-with-javascript-higher-order-functions/">Catching up with JavaScript higher-order functions</a>
+        </li>
+      
+        <li>
           <a href="/2015/07/21/design-patterns-for-javascript-featuring-modules/">Design Patterns for JavaScript featuring Modules</a>
         </li>
       
@@ -290,10 +294,6 @@
           <a href="/2015/04/06/the-mind-boggling-universe-of-javascript-modules/">The mind-boggling universe of JavaScript Module strategies</a>
         </li>
       
-        <li>
-          <a href="/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/">Backbone using Extensible Database APIs over HTTP + Webpack for the win!</a>
-        </li>
-      
     </ul>
   </section>
 
@@ -302,7 +302,7 @@
     
   <section class="tag-cloud">
     <h1>Tag cloud</h1>
-      <a href="/tags/airpair/" style="font-size: 10px;">airpair</a> <a href="/tags/almond/" style="font-size: 11.25px;">almond</a> <a href="/tags/amd/" style="font-size: 11.25px;">amd</a> <a href="/tags/arangodb/" style="font-size: 10px;">arangodb</a> <a href="/tags/babel/" style="font-size: 10px;">babel</a> <a href="/tags/backbone-js/" style="font-size: 18.75px;">backbone.js</a> <a href="/tags/browserify/" style="font-size: 11.25px;">browserify</a> <a href="/tags/cartero/" style="font-size: 11.25px;">cartero</a> <a href="/tags/challenges/" style="font-size: 10px;">challenges</a> <a href="/tags/coding/" style="font-size: 10px;">coding</a> <a href="/tags/collective-ownership/" style="font-size: 10px;">collective ownership</a> <a href="/tags/commonjs/" style="font-size: 11.25px;">commonjs</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/design-patterns/" style="font-size: 17.5px;">design patterns</a> <a href="/tags/epoxy-js/" style="font-size: 13.75px;">epoxy.js</a> <a href="/tags/es6/" style="font-size: 11.25px;">es6</a> <a href="/tags/firebase/" style="font-size: 10px;">firebase</a> <a href="/tags/flux/" style="font-size: 10px;">flux</a> <a href="/tags/front-end/" style="font-size: 12.5px;">front-end</a> <a href="/tags/garbage-collection/" style="font-size: 12.5px;">garbage collection</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/handlebars-js/" style="font-size: 13.75px;">handlebars.js</a> <a href="/tags/hoisting/" style="font-size: 10px;">hoisting</a> <a href="/tags/html5/" style="font-size: 11.25px;">html5</a> <a href="/tags/html5devconf/" style="font-size: 10px;">html5devconf</a> <a href="/tags/infoq/" style="font-size: 10px;">infoq</a> <a href="/tags/interview/" style="font-size: 10px;">interview</a> <a href="/tags/jasmine/" style="font-size: 11.25px;">jasmine</a> <a href="/tags/java/" style="font-size: 16.25px;">java</a> <a href="/tags/java-magazine/" style="font-size: 15px;">java magazine</a> <a href="/tags/javascript/" style="font-size: 20px;">javascript</a> <a href="/tags/large-scale/" style="font-size: 11.25px;">large-scale</a> <a href="/tags/marionette-js/" style="font-size: 15px;">marionette.js</a> <a href="/tags/meetup/" style="font-size: 16.25px;">meetup</a> <a href="/tags/modernizr/" style="font-size: 10px;">modernizr</a> <a href="/tags/nashorn/" style="font-size: 10px;">nashorn</a> <a href="/tags/node-js/" style="font-size: 12.5px;">node.js</a> <a href="/tags/nosql/" style="font-size: 10px;">nosql</a> <a href="/tags/performance/" style="font-size: 10px;">performance</a> <a href="/tags/play/" style="font-size: 11.25px;">play</a> <a href="/tags/puc-minas/" style="font-size: 10px;">puc minas</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/require-js/" style="font-size: 12.5px;">require.js</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/sinon-js/" style="font-size: 13.75px;">sinon.js</a> <a href="/tags/stickit/" style="font-size: 10px;">stickit</a> <a href="/tags/systemjs/" style="font-size: 11.25px;">systemjs</a> <a href="/tags/technical-debt/" style="font-size: 10px;">technical debt</a> <a href="/tags/thorax/" style="font-size: 10px;">thorax</a> <a href="/tags/umd/" style="font-size: 11.25px;">umd</a> <a href="/tags/unit-testing/" style="font-size: 10px;">unit testing</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/videogame/" style="font-size: 10px;">videogame</a> <a href="/tags/virtual-dom/" style="font-size: 10px;">virtual-dom</a> <a href="/tags/web-components/" style="font-size: 10px;">web components</a> <a href="/tags/webpack/" style="font-size: 12.5px;">webpack</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a>
+      <a href="/tags/airpair/" style="font-size: 10px;">airpair</a> <a href="/tags/almond/" style="font-size: 11.25px;">almond</a> <a href="/tags/amd/" style="font-size: 11.25px;">amd</a> <a href="/tags/arangodb/" style="font-size: 10px;">arangodb</a> <a href="/tags/babel/" style="font-size: 10px;">babel</a> <a href="/tags/backbone-js/" style="font-size: 18.75px;">backbone.js</a> <a href="/tags/browserify/" style="font-size: 11.25px;">browserify</a> <a href="/tags/cartero/" style="font-size: 11.25px;">cartero</a> <a href="/tags/challenges/" style="font-size: 10px;">challenges</a> <a href="/tags/coding/" style="font-size: 10px;">coding</a> <a href="/tags/collective-ownership/" style="font-size: 10px;">collective ownership</a> <a href="/tags/commonjs/" style="font-size: 11.25px;">commonjs</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/design-patterns/" style="font-size: 17.5px;">design patterns</a> <a href="/tags/epoxy-js/" style="font-size: 13.75px;">epoxy.js</a> <a href="/tags/es6/" style="font-size: 11.25px;">es6</a> <a href="/tags/firebase/" style="font-size: 10px;">firebase</a> <a href="/tags/flux/" style="font-size: 10px;">flux</a> <a href="/tags/front-end/" style="font-size: 12.5px;">front-end</a> <a href="/tags/functional-programming/" style="font-size: 10px;">functional programming</a> <a href="/tags/garbage-collection/" style="font-size: 12.5px;">garbage collection</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/handlebars-js/" style="font-size: 13.75px;">handlebars.js</a> <a href="/tags/higher-order-functions/" style="font-size: 10px;">higher-order functions</a> <a href="/tags/hoisting/" style="font-size: 10px;">hoisting</a> <a href="/tags/html5/" style="font-size: 11.25px;">html5</a> <a href="/tags/html5devconf/" style="font-size: 10px;">html5devconf</a> <a href="/tags/infoq/" style="font-size: 10px;">infoq</a> <a href="/tags/interview/" style="font-size: 10px;">interview</a> <a href="/tags/jasmine/" style="font-size: 11.25px;">jasmine</a> <a href="/tags/java/" style="font-size: 16.25px;">java</a> <a href="/tags/java-magazine/" style="font-size: 15px;">java magazine</a> <a href="/tags/javascript/" style="font-size: 20px;">javascript</a> <a href="/tags/large-scale/" style="font-size: 11.25px;">large-scale</a> <a href="/tags/marionette-js/" style="font-size: 15px;">marionette.js</a> <a href="/tags/meetup/" style="font-size: 16.25px;">meetup</a> <a href="/tags/modernizr/" style="font-size: 10px;">modernizr</a> <a href="/tags/nashorn/" style="font-size: 10px;">nashorn</a> <a href="/tags/node-js/" style="font-size: 12.5px;">node.js</a> <a href="/tags/nosql/" style="font-size: 10px;">nosql</a> <a href="/tags/performance/" style="font-size: 10px;">performance</a> <a href="/tags/play/" style="font-size: 11.25px;">play</a> <a href="/tags/puc-minas/" style="font-size: 10px;">puc minas</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/require-js/" style="font-size: 12.5px;">require.js</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/sinon-js/" style="font-size: 13.75px;">sinon.js</a> <a href="/tags/stickit/" style="font-size: 10px;">stickit</a> <a href="/tags/systemjs/" style="font-size: 11.25px;">systemjs</a> <a href="/tags/technical-debt/" style="font-size: 10px;">technical debt</a> <a href="/tags/thorax/" style="font-size: 10px;">thorax</a> <a href="/tags/umd/" style="font-size: 11.25px;">umd</a> <a href="/tags/unit-testing/" style="font-size: 10px;">unit testing</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/videogame/" style="font-size: 10px;">videogame</a> <a href="/tags/virtual-dom/" style="font-size: 10px;">virtual-dom</a> <a href="/tags/web-components/" style="font-size: 10px;">web components</a> <a href="/tags/webpack/" style="font-size: 12.5px;">webpack</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a>
   </section>
 
 
@@ -310,7 +310,7 @@
     
   <section>
     <h1>Archives</h1>
-    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/04/">April 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">March 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li></ul>
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/04/">April 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">March 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li></ul>
   </section>
 
 

@@ -47,6 +47,51 @@
     <section id="content" class="small-12 medium-12 large-8 columns">
       
   
+    <article id="post-catching-up-with-javascript-higher-order-functions" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/08/11/catching-up-with-javascript-higher-order-functions/">Catching up with JavaScript higher-order functions</a>
+    </h1>
+  
+
+      </header>
+      <div class="article-meta">
+        
+  <span class="article-category">
+    <a class="article-category-link" href="/categories/article/">article</a>
+  </span>
+
+ on <a href="/2015/08/11/catching-up-with-javascript-higher-order-functions/" class="article-date">
+  <time datetime="2015-08-11T07:00:00.000Z" itemprop="datePublished">Aug 11 2015</time>
+</a>
+
+      </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the Higher-order functions in JavaScript.</p>
+<p><a href="https://www.airpair.com/javascript/posts/catching-up-with-javascript-higher-order-functions" target="_blank" rel="external">Article Catching up with JavaScript higher-order functions - AirPair</a></p>
+<h4 id="Abstract">Abstract</h4><p>They are all around you, your code, your company, your community, your frameworks. You may not be aware of them or perhaps you never properly understood what is going on with them, but trust me: your life will never be the same without them. They are unique and pave the way for Functional programming. With you, Higher-order functions!</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/functional-programming/">functional programming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/higher-order-functions/">higher-order functions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+  
     <article id="post-design-patterns-for-javascript-featuring-modules" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -454,63 +499,6 @@
 </article>
 
   
-    <article id="post-jasmine-precondition" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/01/17/jasmine-precondition/">jasmine-precondition</a>
-    </h1>
-  
-
-      </header>
-      <div class="article-meta">
-        
-  <span class="article-category">
-    <a class="article-category-link" href="/categories/project/">project</a>
-  </span>
-
- on <a href="/2015/01/17/jasmine-precondition/" class="article-date">
-  <time datetime="2015-01-17T08:00:00.000Z" itemprop="datePublished">Jan 17 2015</time>
-</a>
-
-      </div>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>In January, 2015 I published the <a href="https://github.com/tiagorg/jasmine-precondition" target="_blank" rel="external">jasmine-precondition project</a> on GitHub. This project aims to implement a Jasmine instruction to ease setting up asynchronous pre-conditions before, during and after tests.</p>
-<h3 id="Motivation">Motivation</h3><p>Since Jasmine 2.0, the <strong>runs</strong>, <strong>waits</strong>, and <strong>waitsFor</strong> methods have been removed in favor of allowing functions run as part of the spec to receive and invoke a <strong>done</strong> callback. This new approach is described at <a href="http://jasmine.github.io/2.1/upgrading.html#section-Asynchronous_Specs" target="_blank" rel="external">Upgrading Jasmine - Asynchronous Specs</a>.</p>
-<p>The <strong>done</strong> callback works great for asynchronous features with a callback (such as AJAX, jQuery animations or anything else with promises). However, there are yet other asynchronous features that will complete on their own and would be using <strong>waitsFor</strong> before Jasmine 2.0, like rendering Google Maps, images or anything else that can change both the DOM and the CSSOM.</p>
-<p>While it is utterly possible to <a href="https://gist.github.com/abreckner/110e28897d42126a3bb9" target="_blank" rel="external">re-implement <strong>waitsFor</strong></a> I believe that Jasmine 2.0 direction is more towards stepping away from this idea and instead taking more advantage of <strong>done</strong> callbacks, like putting one <strong>it</strong> block as a pre-condition for another.</p>
-<p>Thus, the <strong>preCondition</strong> instruction defined here will simply poll a given conditional function at a certain time interval, and once its condition is met the callback <strong>done</strong> will be fired off.</p>
-<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.0 can be used either standalone and through node.js, <a href="https://www.npmjs.com/package/jasmine-precondition" target="_blank" rel="external">available on NPM</a>.</p>
-<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/jasmine-precondition" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/jasmine-precondition.svg?branch=master" title="Build Status Images"></a></p>
-<h3 id="Usage">Usage</h3><p><strong>preCondition(condition, done, interval);</strong></p>
-<p>where:</p>
-<ul>
-<li><strong>condition</strong>: a conditional function that shall only return <strong>true</strong> when the condition you are expecting for is met.</li>
-<li><strong>done</strong>: the <strong>done</strong> callback from <strong>beforeEach</strong>, <strong>it</strong> or <strong>afterEach</strong> must be passed here.</li>
-<li><strong>interval</strong> (optional): a time interval in milliseconds between two <strong>condition</strong> executions. Default is 100.</li>
-</ul>
-<h3 id="Example">Example</h3><script src="//gist.github.com/587553f71515682d81f7.js?file=example.js"></script>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jasmine/">jasmine</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
-
-
-    </footer>
-  </div>
-  
-</article>
-
-  
     <article id="post-marionette-vdom" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -610,6 +598,10 @@
     <ul>
       
         <li>
+          <a href="/2015/08/11/catching-up-with-javascript-higher-order-functions/">Catching up with JavaScript higher-order functions</a>
+        </li>
+      
+        <li>
           <a href="/2015/07/21/design-patterns-for-javascript-featuring-modules/">Design Patterns for JavaScript featuring Modules</a>
         </li>
       
@@ -625,10 +617,6 @@
           <a href="/2015/04/06/the-mind-boggling-universe-of-javascript-modules/">The mind-boggling universe of JavaScript Module strategies</a>
         </li>
       
-        <li>
-          <a href="/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/">Backbone using Extensible Database APIs over HTTP + Webpack for the win!</a>
-        </li>
-      
     </ul>
   </section>
 
@@ -637,7 +625,7 @@
     
   <section class="tag-cloud">
     <h1>Tag cloud</h1>
-      <a href="/tags/airpair/" style="font-size: 10px;">airpair</a> <a href="/tags/almond/" style="font-size: 11.25px;">almond</a> <a href="/tags/amd/" style="font-size: 11.25px;">amd</a> <a href="/tags/arangodb/" style="font-size: 10px;">arangodb</a> <a href="/tags/babel/" style="font-size: 10px;">babel</a> <a href="/tags/backbone-js/" style="font-size: 18.75px;">backbone.js</a> <a href="/tags/browserify/" style="font-size: 11.25px;">browserify</a> <a href="/tags/cartero/" style="font-size: 11.25px;">cartero</a> <a href="/tags/challenges/" style="font-size: 10px;">challenges</a> <a href="/tags/coding/" style="font-size: 10px;">coding</a> <a href="/tags/collective-ownership/" style="font-size: 10px;">collective ownership</a> <a href="/tags/commonjs/" style="font-size: 11.25px;">commonjs</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/design-patterns/" style="font-size: 17.5px;">design patterns</a> <a href="/tags/epoxy-js/" style="font-size: 13.75px;">epoxy.js</a> <a href="/tags/es6/" style="font-size: 11.25px;">es6</a> <a href="/tags/firebase/" style="font-size: 10px;">firebase</a> <a href="/tags/flux/" style="font-size: 10px;">flux</a> <a href="/tags/front-end/" style="font-size: 12.5px;">front-end</a> <a href="/tags/garbage-collection/" style="font-size: 12.5px;">garbage collection</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/handlebars-js/" style="font-size: 13.75px;">handlebars.js</a> <a href="/tags/hoisting/" style="font-size: 10px;">hoisting</a> <a href="/tags/html5/" style="font-size: 11.25px;">html5</a> <a href="/tags/html5devconf/" style="font-size: 10px;">html5devconf</a> <a href="/tags/infoq/" style="font-size: 10px;">infoq</a> <a href="/tags/interview/" style="font-size: 10px;">interview</a> <a href="/tags/jasmine/" style="font-size: 11.25px;">jasmine</a> <a href="/tags/java/" style="font-size: 16.25px;">java</a> <a href="/tags/java-magazine/" style="font-size: 15px;">java magazine</a> <a href="/tags/javascript/" style="font-size: 20px;">javascript</a> <a href="/tags/large-scale/" style="font-size: 11.25px;">large-scale</a> <a href="/tags/marionette-js/" style="font-size: 15px;">marionette.js</a> <a href="/tags/meetup/" style="font-size: 16.25px;">meetup</a> <a href="/tags/modernizr/" style="font-size: 10px;">modernizr</a> <a href="/tags/nashorn/" style="font-size: 10px;">nashorn</a> <a href="/tags/node-js/" style="font-size: 12.5px;">node.js</a> <a href="/tags/nosql/" style="font-size: 10px;">nosql</a> <a href="/tags/performance/" style="font-size: 10px;">performance</a> <a href="/tags/play/" style="font-size: 11.25px;">play</a> <a href="/tags/puc-minas/" style="font-size: 10px;">puc minas</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/require-js/" style="font-size: 12.5px;">require.js</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/sinon-js/" style="font-size: 13.75px;">sinon.js</a> <a href="/tags/stickit/" style="font-size: 10px;">stickit</a> <a href="/tags/systemjs/" style="font-size: 11.25px;">systemjs</a> <a href="/tags/technical-debt/" style="font-size: 10px;">technical debt</a> <a href="/tags/thorax/" style="font-size: 10px;">thorax</a> <a href="/tags/umd/" style="font-size: 11.25px;">umd</a> <a href="/tags/unit-testing/" style="font-size: 10px;">unit testing</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/videogame/" style="font-size: 10px;">videogame</a> <a href="/tags/virtual-dom/" style="font-size: 10px;">virtual-dom</a> <a href="/tags/web-components/" style="font-size: 10px;">web components</a> <a href="/tags/webpack/" style="font-size: 12.5px;">webpack</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a>
+      <a href="/tags/airpair/" style="font-size: 10px;">airpair</a> <a href="/tags/almond/" style="font-size: 11.25px;">almond</a> <a href="/tags/amd/" style="font-size: 11.25px;">amd</a> <a href="/tags/arangodb/" style="font-size: 10px;">arangodb</a> <a href="/tags/babel/" style="font-size: 10px;">babel</a> <a href="/tags/backbone-js/" style="font-size: 18.75px;">backbone.js</a> <a href="/tags/browserify/" style="font-size: 11.25px;">browserify</a> <a href="/tags/cartero/" style="font-size: 11.25px;">cartero</a> <a href="/tags/challenges/" style="font-size: 10px;">challenges</a> <a href="/tags/coding/" style="font-size: 10px;">coding</a> <a href="/tags/collective-ownership/" style="font-size: 10px;">collective ownership</a> <a href="/tags/commonjs/" style="font-size: 11.25px;">commonjs</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/design-patterns/" style="font-size: 17.5px;">design patterns</a> <a href="/tags/epoxy-js/" style="font-size: 13.75px;">epoxy.js</a> <a href="/tags/es6/" style="font-size: 11.25px;">es6</a> <a href="/tags/firebase/" style="font-size: 10px;">firebase</a> <a href="/tags/flux/" style="font-size: 10px;">flux</a> <a href="/tags/front-end/" style="font-size: 12.5px;">front-end</a> <a href="/tags/functional-programming/" style="font-size: 10px;">functional programming</a> <a href="/tags/garbage-collection/" style="font-size: 12.5px;">garbage collection</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/handlebars-js/" style="font-size: 13.75px;">handlebars.js</a> <a href="/tags/higher-order-functions/" style="font-size: 10px;">higher-order functions</a> <a href="/tags/hoisting/" style="font-size: 10px;">hoisting</a> <a href="/tags/html5/" style="font-size: 11.25px;">html5</a> <a href="/tags/html5devconf/" style="font-size: 10px;">html5devconf</a> <a href="/tags/infoq/" style="font-size: 10px;">infoq</a> <a href="/tags/interview/" style="font-size: 10px;">interview</a> <a href="/tags/jasmine/" style="font-size: 11.25px;">jasmine</a> <a href="/tags/java/" style="font-size: 16.25px;">java</a> <a href="/tags/java-magazine/" style="font-size: 15px;">java magazine</a> <a href="/tags/javascript/" style="font-size: 20px;">javascript</a> <a href="/tags/large-scale/" style="font-size: 11.25px;">large-scale</a> <a href="/tags/marionette-js/" style="font-size: 15px;">marionette.js</a> <a href="/tags/meetup/" style="font-size: 16.25px;">meetup</a> <a href="/tags/modernizr/" style="font-size: 10px;">modernizr</a> <a href="/tags/nashorn/" style="font-size: 10px;">nashorn</a> <a href="/tags/node-js/" style="font-size: 12.5px;">node.js</a> <a href="/tags/nosql/" style="font-size: 10px;">nosql</a> <a href="/tags/performance/" style="font-size: 10px;">performance</a> <a href="/tags/play/" style="font-size: 11.25px;">play</a> <a href="/tags/puc-minas/" style="font-size: 10px;">puc minas</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/require-js/" style="font-size: 12.5px;">require.js</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/sinon-js/" style="font-size: 13.75px;">sinon.js</a> <a href="/tags/stickit/" style="font-size: 10px;">stickit</a> <a href="/tags/systemjs/" style="font-size: 11.25px;">systemjs</a> <a href="/tags/technical-debt/" style="font-size: 10px;">technical debt</a> <a href="/tags/thorax/" style="font-size: 10px;">thorax</a> <a href="/tags/umd/" style="font-size: 11.25px;">umd</a> <a href="/tags/unit-testing/" style="font-size: 10px;">unit testing</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/videogame/" style="font-size: 10px;">videogame</a> <a href="/tags/virtual-dom/" style="font-size: 10px;">virtual-dom</a> <a href="/tags/web-components/" style="font-size: 10px;">web components</a> <a href="/tags/webpack/" style="font-size: 12.5px;">webpack</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a>
   </section>
 
 
@@ -645,7 +633,7 @@
     
   <section>
     <h1>Archives</h1>
-    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/04/">April 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">March 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li></ul>
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/04/">April 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">March 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li></ul>
   </section>
 
 

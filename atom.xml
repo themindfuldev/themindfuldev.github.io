@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://tiagorg.com/"/>
-  <updated>2015-09-14T00:31:52.000Z</updated>
+  <updated>2015-09-14T00:42:04.000Z</updated>
   <id>http://tiagorg.com/</id>
   
   <author>
@@ -13,6 +13,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Catching up with JavaScript higher-order functions]]></title>
+    <link href="http://tiagorg.com/2015/08/11/catching-up-with-javascript-higher-order-functions/"/>
+    <id>http://tiagorg.com/2015/08/11/catching-up-with-javascript-higher-order-functions/</id>
+    <published>2015-08-11T07:00:00.000Z</published>
+    <updated>2015-09-14T00:42:04.000Z</updated>
+    <content type="html"><![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the Higher-order functions in JavaScript.</p>
+<p><a href="https://www.airpair.com/javascript/posts/catching-up-with-javascript-higher-order-functions" target="_blank" rel="external">Article Catching up with JavaScript higher-order functions - AirPair</a></p>
+<h4 id="Abstract">Abstract</h4><p>They are all around you, your code, your company, your community, your frameworks. You may not be aware of them or perhaps you never properly understood what is going on with them, but trust me: your life will never be the same without them. They are unique and pave the way for Functional programming. With you, Higher-order functions!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the Higher-o]]>
+    </summary>
+    
+      <category term="functional programming" scheme="http://tiagorg.com/tags/functional-programming/"/>
+    
+      <category term="higher-order functions" scheme="http://tiagorg.com/tags/higher-order-functions/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="article" scheme="http://tiagorg.com/categories/article/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Design Patterns for JavaScript featuring Modules]]></title>
@@ -329,6 +353,37 @@
   </entry>
   
   <entry>
+    <title><![CDATA[marionette-vdom]]></title>
+    <link href="http://tiagorg.com/2015/01/17/marionette-vdom/"/>
+    <id>http://tiagorg.com/2015/01/17/marionette-vdom/</id>
+    <published>2015-01-17T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom project</a> on GitHub. This project aims to implement <a href="http://marionettejs.com" target="_blank" rel="external">Marionette.js</a> views with <a href="https://github.com/Matt-Esch/virtual-dom" target="_blank" rel="external">virtual-dom</a>, in a <a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a> similar fashion.</p>
+<h3 id="Motivation">Motivation</h3><p>One among React’s top-notch features, virtual DOM is gaining momentum in the front-end development community. Since Marionette.js is a formidable and constantly evolving library, why not adding one good thing to another?</p>
+<p>A key concern here is ensuring that whatever code implementing virtual DOM features won’t break any existing functionality. That is why we have incorporated the whole test suite from Backbone.js and Marionette.js for the related classes, and all the 163 specs are passing.</p>
+<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.2 is implementing VDOM versions for <strong>Marionette.ItemView</strong> and <strong>Marionette.CollectionView</strong>. It can be used through node.js, <a href="https://www.npmjs.com/package/marionette-vdom" target="_blank" rel="external">available on NPM</a>.</p>
+<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/marionette-vdom" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/marionette-vdom.svg?branch=master" title="Build Status Images"></a></p>
+<h3 id="Usage">Usage</h3><p>This module exposes <strong>VDOMItemView</strong> as the VDOM implementation for <strong>Marionette.ItemView</strong> and <strong>VDOMCollectionView</strong> for <strong>Marionette.CollectionView</strong>:</p>
+<script src="//gist.github.com/527aa367224119570d0f.js?file=marionette-vdom.js"></script>
+<h3 id="Example">Example</h3><script src="//gist.github.com/527aa367224119570d0f.js?file=example.js"></script>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom proj]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
+    
+      <category term="virtual-dom" scheme="http://tiagorg.com/tags/virtual-dom/"/>
+    
+      <category term="project" scheme="http://tiagorg.com/categories/project/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[jasmine-precondition]]></title>
     <link href="http://tiagorg.com/2015/01/17/jasmine-precondition/"/>
     <id>http://tiagorg.com/2015/01/17/jasmine-precondition/</id>
@@ -357,37 +412,6 @@
       <category term="jasmine" scheme="http://tiagorg.com/tags/jasmine/"/>
     
       <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
-    
-      <category term="project" scheme="http://tiagorg.com/categories/project/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[marionette-vdom]]></title>
-    <link href="http://tiagorg.com/2015/01/17/marionette-vdom/"/>
-    <id>http://tiagorg.com/2015/01/17/marionette-vdom/</id>
-    <published>2015-01-17T08:00:00.000Z</published>
-    <updated>2015-09-14T00:31:52.000Z</updated>
-    <content type="html"><![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom project</a> on GitHub. This project aims to implement <a href="http://marionettejs.com" target="_blank" rel="external">Marionette.js</a> views with <a href="https://github.com/Matt-Esch/virtual-dom" target="_blank" rel="external">virtual-dom</a>, in a <a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a> similar fashion.</p>
-<h3 id="Motivation">Motivation</h3><p>One among React’s top-notch features, virtual DOM is gaining momentum in the front-end development community. Since Marionette.js is a formidable and constantly evolving library, why not adding one good thing to another?</p>
-<p>A key concern here is ensuring that whatever code implementing virtual DOM features won’t break any existing functionality. That is why we have incorporated the whole test suite from Backbone.js and Marionette.js for the related classes, and all the 163 specs are passing.</p>
-<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.2 is implementing VDOM versions for <strong>Marionette.ItemView</strong> and <strong>Marionette.CollectionView</strong>. It can be used through node.js, <a href="https://www.npmjs.com/package/marionette-vdom" target="_blank" rel="external">available on NPM</a>.</p>
-<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/marionette-vdom" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/marionette-vdom.svg?branch=master" title="Build Status Images"></a></p>
-<h3 id="Usage">Usage</h3><p>This module exposes <strong>VDOMItemView</strong> as the VDOM implementation for <strong>Marionette.ItemView</strong> and <strong>VDOMCollectionView</strong> for <strong>Marionette.CollectionView</strong>:</p>
-<script src="//gist.github.com/527aa367224119570d0f.js?file=marionette-vdom.js"></script>
-<h3 id="Example">Example</h3><script src="//gist.github.com/527aa367224119570d0f.js?file=example.js"></script>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom proj]]>
-    </summary>
-    
-      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
-    
-      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
-    
-      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
-    
-      <category term="virtual-dom" scheme="http://tiagorg.com/tags/virtual-dom/"/>
     
       <category term="project" scheme="http://tiagorg.com/categories/project/"/>
     
@@ -671,52 +695,6 @@
       <category term="puc minas" scheme="http://tiagorg.com/tags/puc-minas/"/>
     
       <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Backbone.js tricks or treats]]></title>
-    <link href="http://tiagorg.com/2014/03/18/backbonejs-tricks-or-treats/"/>
-    <id>http://tiagorg.com/2014/03/18/backbonejs-tricks-or-treats/</id>
-    <published>2014-03-18T07:00:00.000Z</published>
-    <updated>2015-09-14T00:31:52.000Z</updated>
-    <content type="html"><![CDATA[<p>On March 20th, 2014 I gave this talk at <a href="http://www.avenuecode.com" target="_blank" rel="external">Avenue Code</a>. This talk explains some pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the audience will learn about Marionette.js, Epoxy.js and Sinon.JS and how do they solve problems about performance, memory, productivity and code organization.</p>
-<h4 id="Slide_deck">Slide deck</h4><ul>
-<li><a href="//tiagorg.github.io/talk-backbone-tricks-or-treats">Slide deck link</a></li>
-</ul>
-<h4 id="Prerequisites:">Prerequisites:</h4><ul>
-<li>Backbone.js</li>
-<li>Design patterns for large-scale javascript</li>
-<li>Curiosity</li>
-</ul>
-<h4 id="Resources:">Resources:</h4><ul>
-<li><a href="http://www.codemag.com/Article/1312061" target="_blank" rel="external">Structuring jQuery with Backbone.js</a></li>
-<li><a href="https://github.com/kjbekkelund/writings/blob/master/published/understanding-backbone.md" target="_blank" rel="external">Step by step from jQuery to Backbone</a></li>
-<li><a href="http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/" target="_blank" rel="external">Zombies! RUN! (Managing Page Transitions In Backbone Apps)</a></li>
-<li><a href="http://addyosmani.github.io/backbone-fundamentals" target="_blank" rel="external">Developing Backbone.js Applications</a></li>
-<li><a href="https://github.com/marionettejs/backbone.marionette" target="_blank" rel="external">Marionette.js</a></li>
-<li><a href="http://lostechies.com/derickbailey/2012/01/02/reducing-backbone-routers-to-nothing-more-than-configuration/" target="_blank" rel="external">Reducing Backbone Routers To Nothing More Than Configuration</a></li>
-<li><a href="http://epoxyjs.org" target="_blank" rel="external">Epoxy.js</a></li>
-<li><a href="http://sinonjs.org" target="_blank" rel="external">Sinon.JS</a></li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>On March 20th, 2014 I gave this talk at <a href="http://www.avenuecode.com" target="_blank" rel="external">Avenue Code</a>. This talk exp]]>
-    </summary>
-    
-      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
-    
-      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
-    
-      <category term="epoxy.js" scheme="http://tiagorg.com/tags/epoxy-js/"/>
-    
-      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
-    
-      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
-    
-      <category term="sinon.js" scheme="http://tiagorg.com/tags/sinon-js/"/>
-    
-      <category term="talk" scheme="http://tiagorg.com/categories/talk/"/>
     
   </entry>
   
