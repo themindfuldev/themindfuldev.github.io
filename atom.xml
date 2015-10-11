@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://tiagorg.com/"/>
-  <updated>2015-09-14T00:42:04.000Z</updated>
+  <updated>2015-10-11T22:29:42.000Z</updated>
   <id>http://tiagorg.com/</id>
   
   <author>
@@ -15,17 +15,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Mastering ES6 higher order functions for Arrays]]></title>
+    <link href="http://tiagorg.com/2015/09/15/mastering-es6-higher-order-functions-for-arrays/"/>
+    <id>http://tiagorg.com/2015/09/15/mastering-es6-higher-order-functions-for-arrays/</id>
+    <published>2015-09-15T07:00:00.000Z</published>
+    <updated>2015-10-11T22:29:42.000Z</updated>
+    <content type="html"><![CDATA[<p>In September, 2015 I published another article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the native Higher-order functions for Arrays in JavaScript, and how to develop your own higher-order function for Array.</p>
+<p><a href="https://www.airpair.com/javascript/posts/mastering-es6-higher-order-functions-for-arrays" target="_blank" rel="external">Article Mastering ES6 higher-order functions for Arrays - AirPair</a></p>
+<h4 id="Abstract">Abstract</h4><p>Higher-order functions are beautifully concise yet expressive when dealing with data. Elevate your functional programming skills by learning ES6 higher-order functions for Arrays!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In September, 2015 I published another article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the ]]>
+    </summary>
+    
+      <category term="functional programming" scheme="http://tiagorg.com/tags/functional-programming/"/>
+    
+      <category term="higher-order functions" scheme="http://tiagorg.com/tags/higher-order-functions/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="article" scheme="http://tiagorg.com/categories/article/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Catching up with JavaScript higher-order functions]]></title>
-    <link href="http://tiagorg.com/2015/08/11/catching-up-with-javascript-higher-order-functions/"/>
-    <id>http://tiagorg.com/2015/08/11/catching-up-with-javascript-higher-order-functions/</id>
-    <published>2015-08-11T07:00:00.000Z</published>
-    <updated>2015-09-14T00:42:04.000Z</updated>
-    <content type="html"><![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the Higher-order functions in JavaScript.</p>
+    <link href="http://tiagorg.com/2015/08/01/catching-up-with-javascript-higher-order-functions/"/>
+    <id>http://tiagorg.com/2015/08/01/catching-up-with-javascript-higher-order-functions/</id>
+    <published>2015-08-01T07:00:00.000Z</published>
+    <updated>2015-10-11T22:26:00.000Z</updated>
+    <content type="html"><![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about Higher-order functions in JavaScript.</p>
 <p><a href="https://www.airpair.com/javascript/posts/catching-up-with-javascript-higher-order-functions" target="_blank" rel="external">Article Catching up with JavaScript higher-order functions - AirPair</a></p>
 <h4 id="Abstract">Abstract</h4><p>They are all around you, your code, your company, your community, your frameworks. You may not be aware of them or perhaps you never properly understood what is going on with them, but trust me: your life will never be the same without them. They are unique and pave the way for Functional programming. With you, Higher-order functions!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the Higher-o]]>
+    <![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about Higher-order]]>
     </summary>
     
       <category term="functional programming" scheme="http://tiagorg.com/tags/functional-programming/"/>
@@ -353,37 +377,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[marionette-vdom]]></title>
-    <link href="http://tiagorg.com/2015/01/17/marionette-vdom/"/>
-    <id>http://tiagorg.com/2015/01/17/marionette-vdom/</id>
-    <published>2015-01-17T08:00:00.000Z</published>
-    <updated>2015-09-14T00:31:52.000Z</updated>
-    <content type="html"><![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom project</a> on GitHub. This project aims to implement <a href="http://marionettejs.com" target="_blank" rel="external">Marionette.js</a> views with <a href="https://github.com/Matt-Esch/virtual-dom" target="_blank" rel="external">virtual-dom</a>, in a <a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a> similar fashion.</p>
-<h3 id="Motivation">Motivation</h3><p>One among React’s top-notch features, virtual DOM is gaining momentum in the front-end development community. Since Marionette.js is a formidable and constantly evolving library, why not adding one good thing to another?</p>
-<p>A key concern here is ensuring that whatever code implementing virtual DOM features won’t break any existing functionality. That is why we have incorporated the whole test suite from Backbone.js and Marionette.js for the related classes, and all the 163 specs are passing.</p>
-<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.2 is implementing VDOM versions for <strong>Marionette.ItemView</strong> and <strong>Marionette.CollectionView</strong>. It can be used through node.js, <a href="https://www.npmjs.com/package/marionette-vdom" target="_blank" rel="external">available on NPM</a>.</p>
-<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/marionette-vdom" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/marionette-vdom.svg?branch=master" title="Build Status Images"></a></p>
-<h3 id="Usage">Usage</h3><p>This module exposes <strong>VDOMItemView</strong> as the VDOM implementation for <strong>Marionette.ItemView</strong> and <strong>VDOMCollectionView</strong> for <strong>Marionette.CollectionView</strong>:</p>
-<script src="//gist.github.com/527aa367224119570d0f.js?file=marionette-vdom.js"></script>
-<h3 id="Example">Example</h3><script src="//gist.github.com/527aa367224119570d0f.js?file=example.js"></script>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom proj]]>
-    </summary>
-    
-      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
-    
-      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
-    
-      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
-    
-      <category term="virtual-dom" scheme="http://tiagorg.com/tags/virtual-dom/"/>
-    
-      <category term="project" scheme="http://tiagorg.com/categories/project/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[jasmine-precondition]]></title>
     <link href="http://tiagorg.com/2015/01/17/jasmine-precondition/"/>
     <id>http://tiagorg.com/2015/01/17/jasmine-precondition/</id>
@@ -412,6 +405,37 @@
       <category term="jasmine" scheme="http://tiagorg.com/tags/jasmine/"/>
     
       <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="project" scheme="http://tiagorg.com/categories/project/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[marionette-vdom]]></title>
+    <link href="http://tiagorg.com/2015/01/17/marionette-vdom/"/>
+    <id>http://tiagorg.com/2015/01/17/marionette-vdom/</id>
+    <published>2015-01-17T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom project</a> on GitHub. This project aims to implement <a href="http://marionettejs.com" target="_blank" rel="external">Marionette.js</a> views with <a href="https://github.com/Matt-Esch/virtual-dom" target="_blank" rel="external">virtual-dom</a>, in a <a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a> similar fashion.</p>
+<h3 id="Motivation">Motivation</h3><p>One among React’s top-notch features, virtual DOM is gaining momentum in the front-end development community. Since Marionette.js is a formidable and constantly evolving library, why not adding one good thing to another?</p>
+<p>A key concern here is ensuring that whatever code implementing virtual DOM features won’t break any existing functionality. That is why we have incorporated the whole test suite from Backbone.js and Marionette.js for the related classes, and all the 163 specs are passing.</p>
+<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.2 is implementing VDOM versions for <strong>Marionette.ItemView</strong> and <strong>Marionette.CollectionView</strong>. It can be used through node.js, <a href="https://www.npmjs.com/package/marionette-vdom" target="_blank" rel="external">available on NPM</a>.</p>
+<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/marionette-vdom" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/marionette-vdom.svg?branch=master" title="Build Status Images"></a></p>
+<h3 id="Usage">Usage</h3><p>This module exposes <strong>VDOMItemView</strong> as the VDOM implementation for <strong>Marionette.ItemView</strong> and <strong>VDOMCollectionView</strong> for <strong>Marionette.CollectionView</strong>:</p>
+<script src="//gist.github.com/527aa367224119570d0f.js?file=marionette-vdom.js"></script>
+<h3 id="Example">Example</h3><script src="//gist.github.com/527aa367224119570d0f.js?file=example.js"></script>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom proj]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
+    
+      <category term="virtual-dom" scheme="http://tiagorg.com/tags/virtual-dom/"/>
     
       <category term="project" scheme="http://tiagorg.com/categories/project/"/>
     
@@ -671,28 +695,6 @@
       <category term="front-end" scheme="http://tiagorg.com/tags/front-end/"/>
     
       <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
-    
-      <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Interview for PUC Minas [pt]]]></title>
-    <link href="http://tiagorg.com/2014/06/12/interview-for-puc-minas/"/>
-    <id>http://tiagorg.com/2014/06/12/interview-for-puc-minas/</id>
-    <published>2014-06-12T07:00:00.000Z</published>
-    <updated>2015-09-14T00:31:52.000Z</updated>
-    <content type="html"><![CDATA[<p>In June, 2014 I gave an interview (in Portuguese) to <strong>PUC Minas com Você #68</strong>, which is a bi-monthly journal from <a href="http://www.pucminas.br" target="_blank" rel="external">PUC Minas</a> university.</p>
-<p>On my interview, which is featured on the column <strong>Keeping up with the market</strong>, I tell about my career path, my professional plans and my recommendation for the students, where I do emphasize the importance of the international labor market and how to gradually get into it. </p>
-<p>Check out my <a href="http://www.pucminas.br/iec/com_voce/com_voce_materia.php?codigo=820&amp;&amp;area=23&amp;materia=15183" target="_blank" rel="external">interview at PUC Minas com Você #68</a>.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>In June, 2014 I gave an interview (in Portuguese) to <strong>PUC Minas com Você #68</strong>, which is a bi-monthly journal from <a href=]]>
-    </summary>
-    
-      <category term="interview" scheme="http://tiagorg.com/tags/interview/"/>
-    
-      <category term="puc minas" scheme="http://tiagorg.com/tags/puc-minas/"/>
     
       <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
     
