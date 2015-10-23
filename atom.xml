@@ -40,16 +40,16 @@
   
   <entry>
     <title><![CDATA[Catching up with JavaScript higher-order functions]]></title>
-    <link href="http://tiagorg.com/2015/08/01/catching-up-with-javascript-higher-order-functions/"/>
-    <id>http://tiagorg.com/2015/08/01/catching-up-with-javascript-higher-order-functions/</id>
-    <published>2015-08-01T07:00:00.000Z</published>
-    <updated>2015-10-11T22:26:00.000Z</updated>
-    <content type="html"><![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about Higher-order functions in JavaScript.</p>
+    <link href="http://tiagorg.com/2015/08/11/catching-up-with-javascript-higher-order-functions/"/>
+    <id>http://tiagorg.com/2015/08/11/catching-up-with-javascript-higher-order-functions/</id>
+    <published>2015-08-11T07:00:00.000Z</published>
+    <updated>2015-10-11T22:32:03.000Z</updated>
+    <content type="html"><![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the Higher-order functions in JavaScript.</p>
 <p><a href="https://www.airpair.com/javascript/posts/catching-up-with-javascript-higher-order-functions" target="_blank" rel="external">Article Catching up with JavaScript higher-order functions - AirPair</a></p>
 <h4 id="Abstract">Abstract</h4><p>They are all around you, your code, your company, your community, your frameworks. You may not be aware of them or perhaps you never properly understood what is going on with them, but trust me: your life will never be the same without them. They are unique and pave the way for Functional programming. With you, Higher-order functions!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about Higher-order]]>
+    <![CDATA[<p>In August, 2015 I published an article on <a href="http://www.airpair.com" target="_blank" rel="external">AirPair</a>, about the Higher-o]]>
     </summary>
     
       <category term="functional programming" scheme="http://tiagorg.com/tags/functional-programming/"/>

@@ -5740,8 +5740,12 @@ aside {
     padding: 0 15px; }
   aside .social-icons {
     text-align: center; }
-    aside .social-icons i {
+    aside .social-icons a > i {
       margin: 0 5px; }
+    aside .social-icons a > span {
+      margin: 0;
+      font-size: 1.5px;
+      vertical-align: bottom; }
   aside .tag-cloud a {
     margin: 0 1px;
     display: inline-block; }
