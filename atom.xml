@@ -122,9 +122,12 @@
     <link href="http://tiagorg.com/2015/07/20/10-tips-for-writing-maintainable-code-in-backbone/"/>
     <id>http://tiagorg.com/2015/07/20/10-tips-for-writing-maintainable-code-in-backbone/</id>
     <published>2015-07-20T07:00:00.000Z</published>
-    <updated>2015-09-14T00:31:52.000Z</updated>
+    <updated>2015-11-18T05:33:39.000Z</updated>
     <content type="html"><![CDATA[<p>I gave this talk on July 20th, 2015 at <a href="http://www.meetup.com/Dancing-with-Marionette-js/" target="_blank" rel="external">Dancing with Marionette.js meetup</a>.</p>
 <p>This talk explains some pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the audience will learn about Marionette.js, React, Epoxy.js and Sinon.JS and how do they solve problems about performance, memory, productivity and code organization.</p>
+<h4 id="Video">Video</h4><p><a href="//www.youtube.com/watch?v=kapSK4aovUs&amp;feature=youtu.be">YouTube video link</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kapSK4aovUs" frameborder="0" allowfullscreen></iframe>
+
 <h4 id="Slide_deck">Slide deck</h4><ul>
 <li><a href="//tiagorg.com/talk-10-tips-for-writing-maintainable-code-in-backbone/#/">Slide deck link</a></li>
 </ul>
