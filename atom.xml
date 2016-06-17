@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://tiagorg.com/"/>
-  <updated>2015-10-11T22:29:42.000Z</updated>
+  <updated>2016-06-17T17:58:02.000Z</updated>
   <id>http://tiagorg.com/</id>
   
   <author>
@@ -13,6 +13,59 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Lazy Loading ES2015 modules in the browser]]></title>
+    <link href="http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules-fedc/"/>
+    <id>http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules-fedc/</id>
+    <published>2016-06-17T07:00:00.000Z</published>
+    <updated>2016-06-17T17:58:02.000Z</updated>
+    <content type="html"><![CDATA[<p>I gave this talk on June 17th, 2016 at <a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Conference</a>.</p>
+<p>This talk is about loading code during page load time vs lazy loading, then how to load ES2015 modules both synchronously (during page load) and asynchronously (lazy-load) using System.js over Babel, as well as how to use JSPM to organize this process and resolve dependencies from NPM and GitHub.</p>
+<h4 id="What_will_the_audience_learn">What will the audience learn</h4><ul>
+<li>The fundamentals on when to load your modules (page load time vs lazy loading) for a most optimized page performance</li>
+<li>The 3 main module systems in JavaScript: AMD, CommonJS and ES2015 modules</li>
+<li>The ES2015 Module Loader spec and System.js</li>
+<li>Importing modules synchronously and asynchronously</li>
+<li>JSPM as a dependency management system</li>
+</ul>
+<h4 id="Slide_deck">Slide deck</h4><ul>
+<li><a href="tiagorg.com/talk-lazy-loading-es2015-modules/">Slide deck link</a></li>
+</ul>
+<h4 id="Resources">Resources</h4><ul>
+<li><a href="https://webpack.github.io" target="_blank" rel="external">Webpack</a></li>
+<li><a href="https://webpack.github.io/docs/code-splitting.html" target="_blank" rel="external">Webpack Code Splitting</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>I gave this talk on June 17th, 2016 at <a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Con]]>
+    </summary>
+    
+      <category term="amd" scheme="http://tiagorg.com/tags/amd/"/>
+    
+      <category term="commonjs" scheme="http://tiagorg.com/tags/commonjs/"/>
+    
+      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
+    
+      <category term="es2015" scheme="http://tiagorg.com/tags/es2015/"/>
+    
+      <category term="fedc" scheme="http://tiagorg.com/tags/fedc/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="jspm" scheme="http://tiagorg.com/tags/jspm/"/>
+    
+      <category term="lazy-loading" scheme="http://tiagorg.com/tags/lazy-loading/"/>
+    
+      <category term="requirejs" scheme="http://tiagorg.com/tags/requirejs/"/>
+    
+      <category term="system.js" scheme="http://tiagorg.com/tags/system-js/"/>
+    
+      <category term="webpack" scheme="http://tiagorg.com/tags/webpack/"/>
+    
+      <category term="talk" scheme="http://tiagorg.com/categories/talk/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Mastering ES6 higher order functions for Arrays]]></title>
@@ -380,6 +433,37 @@
   </entry>
   
   <entry>
+    <title><![CDATA[marionette-vdom]]></title>
+    <link href="http://tiagorg.com/2015/01/17/marionette-vdom/"/>
+    <id>http://tiagorg.com/2015/01/17/marionette-vdom/</id>
+    <published>2015-01-17T08:00:00.000Z</published>
+    <updated>2015-09-14T00:31:52.000Z</updated>
+    <content type="html"><![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom project</a> on GitHub. This project aims to implement <a href="http://marionettejs.com" target="_blank" rel="external">Marionette.js</a> views with <a href="https://github.com/Matt-Esch/virtual-dom" target="_blank" rel="external">virtual-dom</a>, in a <a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a> similar fashion.</p>
+<h3 id="Motivation">Motivation</h3><p>One among React’s top-notch features, virtual DOM is gaining momentum in the front-end development community. Since Marionette.js is a formidable and constantly evolving library, why not adding one good thing to another?</p>
+<p>A key concern here is ensuring that whatever code implementing virtual DOM features won’t break any existing functionality. That is why we have incorporated the whole test suite from Backbone.js and Marionette.js for the related classes, and all the 163 specs are passing.</p>
+<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.2 is implementing VDOM versions for <strong>Marionette.ItemView</strong> and <strong>Marionette.CollectionView</strong>. It can be used through node.js, <a href="https://www.npmjs.com/package/marionette-vdom" target="_blank" rel="external">available on NPM</a>.</p>
+<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/marionette-vdom" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/marionette-vdom.svg?branch=master" title="Build Status Images"></a></p>
+<h3 id="Usage">Usage</h3><p>This module exposes <strong>VDOMItemView</strong> as the VDOM implementation for <strong>Marionette.ItemView</strong> and <strong>VDOMCollectionView</strong> for <strong>Marionette.CollectionView</strong>:</p>
+<script src="//gist.github.com/527aa367224119570d0f.js?file=marionette-vdom.js"></script>
+<h3 id="Example">Example</h3><script src="//gist.github.com/527aa367224119570d0f.js?file=example.js"></script>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom proj]]>
+    </summary>
+    
+      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
+    
+      <category term="virtual-dom" scheme="http://tiagorg.com/tags/virtual-dom/"/>
+    
+      <category term="project" scheme="http://tiagorg.com/categories/project/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[jasmine-precondition]]></title>
     <link href="http://tiagorg.com/2015/01/17/jasmine-precondition/"/>
     <id>http://tiagorg.com/2015/01/17/jasmine-precondition/</id>
@@ -408,37 +492,6 @@
       <category term="jasmine" scheme="http://tiagorg.com/tags/jasmine/"/>
     
       <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
-    
-      <category term="project" scheme="http://tiagorg.com/categories/project/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[marionette-vdom]]></title>
-    <link href="http://tiagorg.com/2015/01/17/marionette-vdom/"/>
-    <id>http://tiagorg.com/2015/01/17/marionette-vdom/</id>
-    <published>2015-01-17T08:00:00.000Z</published>
-    <updated>2015-09-14T00:31:52.000Z</updated>
-    <content type="html"><![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom project</a> on GitHub. This project aims to implement <a href="http://marionettejs.com" target="_blank" rel="external">Marionette.js</a> views with <a href="https://github.com/Matt-Esch/virtual-dom" target="_blank" rel="external">virtual-dom</a>, in a <a href="http://facebook.github.io/react/" target="_blank" rel="external">React</a> similar fashion.</p>
-<h3 id="Motivation">Motivation</h3><p>One among React’s top-notch features, virtual DOM is gaining momentum in the front-end development community. Since Marionette.js is a formidable and constantly evolving library, why not adding one good thing to another?</p>
-<p>A key concern here is ensuring that whatever code implementing virtual DOM features won’t break any existing functionality. That is why we have incorporated the whole test suite from Backbone.js and Marionette.js for the related classes, and all the 163 specs are passing.</p>
-<h3 id="Current_status">Current status</h3><p>To the date, its version 0.1.2 is implementing VDOM versions for <strong>Marionette.ItemView</strong> and <strong>Marionette.CollectionView</strong>. It can be used through node.js, <a href="https://www.npmjs.com/package/marionette-vdom" target="_blank" rel="external">available on NPM</a>.</p>
-<p>Travis CI status: <a href="https://travis-ci.org/tiagorg/marionette-vdom" target="_blank" rel="external"><img src="https://travis-ci.org/tiagorg/marionette-vdom.svg?branch=master" title="Build Status Images"></a></p>
-<h3 id="Usage">Usage</h3><p>This module exposes <strong>VDOMItemView</strong> as the VDOM implementation for <strong>Marionette.ItemView</strong> and <strong>VDOMCollectionView</strong> for <strong>Marionette.CollectionView</strong>:</p>
-<script src="//gist.github.com/527aa367224119570d0f.js?file=marionette-vdom.js"></script>
-<h3 id="Example">Example</h3><script src="//gist.github.com/527aa367224119570d0f.js?file=example.js"></script>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>In January, 2015 I published the <a href="https://github.com/tiagorg/marionette-vdom" target="_blank" rel="external">marionette-vdom proj]]>
-    </summary>
-    
-      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
-    
-      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
-    
-      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
-    
-      <category term="virtual-dom" scheme="http://tiagorg.com/tags/virtual-dom/"/>
     
       <category term="project" scheme="http://tiagorg.com/categories/project/"/>
     
@@ -679,27 +732,6 @@
       <category term="thorax" scheme="http://tiagorg.com/tags/thorax/"/>
     
       <category term="event" scheme="http://tiagorg.com/categories/event/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[What is all the fuss about with front-end development?]]></title>
-    <link href="http://tiagorg.com/2014/08/25/what-is-all-the-fuss-about-with-front-end-development/"/>
-    <id>http://tiagorg.com/2014/08/25/what-is-all-the-fuss-about-with-front-end-development/</id>
-    <published>2014-08-25T07:00:00.000Z</published>
-    <updated>2015-11-29T23:54:41.000Z</updated>
-    <content type="html"><![CDATA[<p>Many enterprise software developers still wonder why everyone is so concerned with client-side applications, HTML 5, Javascript, and front-end related “stuff.” Such skills are very notable on job postings nowadays, even for enterprise development based on Java, .NET, and Rails (which are server-side technologies). A developer might ask: Why does nobody seem to care anymore that I have a Java architect certification if I don’t know about RequireJS, AngularJS or whateverJS (front-end development tools)?</p>
-<p>On this <a href="https://medium.com/@tiagorg/what-is-all-the-fuss-about-with-front-end-development-d2a724b12d19" target="_blank" rel="external">post at Medium</a>, originally made for <a href="http://www.avenuecode.com" target="_blank" rel="external">Avenue Code</a>‘s <strong>Code Highway</strong> blog, I give an overview about what is going on with front-end development and why is it given so much importance over the past couple of years.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Many enterprise software developers still wonder why everyone is so concerned with client-side applications, HTML 5, Javascript, and fron]]>
-    </summary>
-    
-      <category term="front-end" scheme="http://tiagorg.com/tags/front-end/"/>
-    
-      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
-    
-      <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
     
   </entry>
   
