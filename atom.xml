@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://tiagorg.com/"/>
-  <updated>2016-07-10T23:34:43.000Z</updated>
+  <updated>2016-07-10T23:42:38.000Z</updated>
   <id>http://tiagorg.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules/"/>
     <id>http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules/</id>
     <published>2016-06-17T07:00:00.000Z</published>
-    <updated>2016-07-10T23:34:43.000Z</updated>
-    <content type="html"><![CDATA[<p>I gave this talk on June 17th, 2016 at<a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Conference</a><br> in St. Petersburgh, FL and on August 11th, 2016 at <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in New York, NY.</p>
+    <updated>2016-07-10T23:42:38.000Z</updated>
+    <content type="html"><![CDATA[<p>I gave this talk on June 17th, 2016 at <a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Conference</a><br> in <strong>St. Petersburgh, FL</strong>, on August 2nd, 2016 at <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in <strong>New York, NY</strong> and on August 18th, 2016 at <a href="http://abstractions.io/" target="_blank" rel="external">Abstractions</a> in <strong>Pittsburgh, PA</strong>.</p>
 <p>This talk is about loading code during page load time vs lazy loading, then how to load ES2015 modules both synchronously (during page load) and asynchronously (lazy-load) using System.js over Babel, as well as how to use JSPM and Webpack 2 to bundle your app and resolve dependencies.</p>
 <h4 id="What_will_the_audience_learn">What will the audience learn</h4><ul>
 <li>The fundamentals on when to load your modules (page load time vs lazy loading) for a most optimized page performance</li>
@@ -49,8 +49,10 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>I gave this talk on June 17th, 2016 at<a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Conf]]>
+    <![CDATA[<p>I gave this talk on June 17th, 2016 at <a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Con]]>
     </summary>
+    
+      <category term="abstractions" scheme="http://tiagorg.com/tags/abstractions/"/>
     
       <category term="amd" scheme="http://tiagorg.com/tags/amd/"/>
     
@@ -133,8 +135,8 @@
     <link href="http://tiagorg.com/2015/07/21/design-patterns-for-javascript-featuring-modules/"/>
     <id>http://tiagorg.com/2015/07/21/design-patterns-for-javascript-featuring-modules/</id>
     <published>2015-07-21T07:00:00.000Z</published>
-    <updated>2016-07-10T23:34:19.000Z</updated>
-    <content type="html"><![CDATA[<p>On July 21st, 2015 I gave this talk on <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in New York, NY, about the essential design patterns for JavaScript applications, focusing on the different module strategies as CommonJS, AMD and ES6 Modules.</p>
+    <updated>2016-07-10T23:46:49.000Z</updated>
+    <content type="html"><![CDATA[<p>On July 21st, 2015 I gave this talk on <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in <strong>New York, NY</strong>, about the essential design patterns for JavaScript applications, focusing on the different module strategies as CommonJS, AMD and ES6 Modules.</p>
 <h4 id="Slide_deck">Slide deck</h4><ul>
 <li><a href="//tiagorg.com/talk-design-patterns-for-javascript-featuring-modules">Slide deck link</a></li>
 </ul>
@@ -188,8 +190,8 @@
     <link href="http://tiagorg.com/2015/07/20/10-tips-for-writing-maintainable-code-in-backbone/"/>
     <id>http://tiagorg.com/2015/07/20/10-tips-for-writing-maintainable-code-in-backbone/</id>
     <published>2015-07-20T07:00:00.000Z</published>
-    <updated>2016-07-10T23:34:11.000Z</updated>
-    <content type="html"><![CDATA[<p>I gave this talk on July 20th, 2015 at <a href="http://www.meetup.com/Dancing-with-Marionette-js/" target="_blank" rel="external">Dancing with Marionette.js meetup</a> in New York, NY.</p>
+    <updated>2016-07-10T23:43:07.000Z</updated>
+    <content type="html"><![CDATA[<p>I gave this talk on July 20th, 2015 at <a href="http://www.meetup.com/Dancing-with-Marionette-js/" target="_blank" rel="external">Dancing with Marionette.js meetup</a> in <strong>New York, NY</strong>.</p>
 <p>This talk explains some pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the audience will learn about Marionette.js, React, Epoxy.js and Sinon.JS and how do they solve problems about performance, memory, productivity and code organization.</p>
 <h4 id="Video">Video</h4><p><a href="//www.youtube.com/watch?v=kapSK4aovUs&amp;feature=youtu.be">YouTube video link</a></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kapSK4aovUs" frameborder="0" allowfullscreen></iframe>
@@ -320,8 +322,8 @@
     <link href="http://tiagorg.com/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/"/>
     <id>http://tiagorg.com/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/</id>
     <published>2015-03-18T07:00:00.000Z</published>
-    <updated>2016-07-10T23:33:56.000Z</updated>
-    <content type="html"><![CDATA[<p>On March 18th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in San Francisco, CA at <a href="https://www.remind.com/" target="_blank" rel="external">Remind</a>.</p>
+    <updated>2016-07-10T23:43:14.000Z</updated>
+    <content type="html"><![CDATA[<p>On March 18th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="https://www.remind.com/" target="_blank" rel="external">Remind</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Brenda Campbell from Remind for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
 <h4 id="1)_Jerry_Su_-_Upgrading_your_JavaScript_with_Webpack">1) Jerry Su - Upgrading your JavaScript with Webpack</h4><p>Webpack is a flexible and extensible module bundler that can boost your productivity when building web applications. If you use or have heard of Browserify and RequireJS, then you know how these module systems improve code organization. webpack goes a step further and bundles not only JavaScript, but also CSS, images, fonts, and all other static resources with little effort. webpack also provides a development server that can improve your workflow by eliminating all or most of your build with an environment that is more fun to work with (linting in the browser, hot code replacement, and more) while minimizing differences between your production environment. I will focus on how you can start using webpack today on an existing codebase so that you can begin to take advantage of these many benefits.</p>
@@ -388,8 +390,8 @@
     <link href="http://tiagorg.com/2015/02/12/from-backbone-to-react-vagrant-node-backbone-requirejs/"/>
     <id>http://tiagorg.com/2015/02/12/from-backbone-to-react-vagrant-node-backbone-requirejs/</id>
     <published>2015-02-12T08:00:00.000Z</published>
-    <updated>2016-07-10T23:34:59.000Z</updated>
-    <content type="html"><![CDATA[<p>On February 12th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in San Francisco, CA at <a href="http://corporate.place.xyz/" target="_blank" rel="external">Place</a>.</p>
+    <updated>2016-07-10T23:43:23.000Z</updated>
+    <content type="html"><![CDATA[<p>On February 12th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="http://corporate.place.xyz/" target="_blank" rel="external">Place</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Chengyin Liu from Place for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
 <h4 id="1)_Doron_Segal_-_Vagrant_+_Node_+_Backbone_+_RequireJS_showcase">1) Doron Segal - Vagrant + Node + Backbone + RequireJS showcase</h4><p>This talk is a showcase about how these technologies play along in a effective way: Vagrant + Node + Backbone + RequireJS.</p>
@@ -515,8 +517,8 @@
     <link href="http://tiagorg.com/2015/01/15/stateless-uis-with-react-flux-backbone-multiple-inheritance-with-mixins/"/>
     <id>http://tiagorg.com/2015/01/15/stateless-uis-with-react-flux-backbone-multiple-inheritance-with-mixins/</id>
     <published>2015-01-15T08:00:00.000Z</published>
-    <updated>2016-07-10T23:35:08.000Z</updated>
-    <content type="html"><![CDATA[<p>On January 15th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in San Francisco, CA at <a href="https://www.brandcast.com/" target="_blank" rel="external">Brandcast</a>.</p>
+    <updated>2016-07-10T23:43:28.000Z</updated>
+    <content type="html"><![CDATA[<p>On January 15th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="https://www.brandcast.com/" target="_blank" rel="external">Brandcast</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Dan Lynch from Brandcast for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
 <h4 id="1)_Hao_Liu_-_Backbone_View_Multiple_Inheritance_Through_Mixins">1) Hao Liu - Backbone View Multiple Inheritance Through Mixins</h4><p>Backbone provides a convenient way to subclass your view through single inheritance. However, it does not prescribe a way to extend your view with properties from multiple superclasses, i.e. multiple inheritance. In this presentation we are going to discuss how to achieve multiple inheritance through view mixins, and demonstrate how it can be implemented as a framework.</p>
@@ -569,8 +571,8 @@
     <link href="http://tiagorg.com/2014/11/13/jasmine-testing-for-models-and-views-directory-structure-on-modularized-apps/"/>
     <id>http://tiagorg.com/2014/11/13/jasmine-testing-for-models-and-views-directory-structure-on-modularized-apps/</id>
     <published>2014-11-13T08:00:00.000Z</published>
-    <updated>2016-07-10T23:35:13.000Z</updated>
-    <content type="html"><![CDATA[<p>On November 13th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in San Francisco, CA at <a href="https://www.macys.com/" target="_blank" rel="external">Macy’s.com</a>.</p>
+    <updated>2016-07-10T23:43:32.000Z</updated>
+    <content type="html"><![CDATA[<p>On November 13th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="https://www.macys.com/" target="_blank" rel="external">Macy’s.com</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Yulia Kukuyuk from Macy’s.com for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
 <h4 id="1)_David_Beck_-_Modularized_Backbone_Apps_Part_2:_Directory_Structure">1) <a href="http://twitter.com/davegbeck" target="_blank" rel="external">David Beck</a> - Modularized Backbone Apps Part 2: Directory Structure</h4><p>This talk is about modularization of the front end into encapsulated, reusable packages, via development of tools such as cartero, backbone.subviews, and backbone.courier.</p>
@@ -601,8 +603,8 @@
     <link href="http://tiagorg.com/2014/10/20/backbonejs-tricks-or-treats-for-html5devconf/"/>
     <id>http://tiagorg.com/2014/10/20/backbonejs-tricks-or-treats-for-html5devconf/</id>
     <published>2014-10-20T07:00:00.000Z</published>
-    <updated>2016-07-10T23:35:23.000Z</updated>
-    <content type="html"><![CDATA[<p>I gave this talk on October 20th, 2014 at <a href="http://html5devconf.com/speakers/tiago_romerogarcia.html" target="_blank" rel="external">HTML5DevConf</a>in San Francisco, CA, and also on October 9th, 2014 at <a href="http://www.meetup.com/Backbone-js-Hackers/events/208495612/" target="_blank" rel="external">Backbone.js Hackers meetup</a> in San Francisco, CA.</p>
+    <updated>2016-07-10T23:48:12.000Z</updated>
+    <content type="html"><![CDATA[<p>I gave this talk on October 20th, 2014 at <a href="http://html5devconf.com/speakers/tiago_romerogarcia.html" target="_blank" rel="external">HTML5DevConf</a> in <strong>San Francisco, CA</strong>, and also on October 9th, 2014 at <a href="http://www.meetup.com/Backbone-js-Hackers/events/208495612/" target="_blank" rel="external">Backbone.js Hackers meetup</a> also in <strong>San Francisco, CA</strong>.</p>
 <p>This talk explains some pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the audience will learn about Marionette.js, React, Epoxy.js and Sinon.JS and how do they solve problems about performance, memory, productivity and code organization.</p>
 <h4 id="Slide_deck">Slide deck</h4><ul>
 <li><a href="//tiagorg.github.io/talk-backbone-tricks-or-treats-html5devconf">Slide deck link</a></li>
@@ -656,8 +658,8 @@
     <link href="http://tiagorg.com/2014/10/09/backbone-best-practices-and-marionette-backbone-subviews-courier/"/>
     <id>http://tiagorg.com/2014/10/09/backbone-best-practices-and-marionette-backbone-subviews-courier/</id>
     <published>2014-10-09T07:00:00.000Z</published>
-    <updated>2016-07-10T23:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>On October 9th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in San Francisco, CA at <a href="https://www.cloudflare.com/" target="_blank" rel="external">Cloudflare</a>.</p>
+    <updated>2016-07-10T23:43:49.000Z</updated>
+    <content type="html"><![CDATA[<p>On October 9th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="https://www.cloudflare.com/" target="_blank" rel="external">Cloudflare</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and James Kyle from Cloudflare for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
 <h4 id="1)_David_Beck_-_Modularized_Backbone_Apps_Part_1:_Subviews_and_messaging">1) <a href="http://twitter.com/davegbeck" target="_blank" rel="external">David Beck</a> - Modularized Backbone Apps Part 1: Subviews and messaging</h4><p>This talk is about modularization of the front end into encapsulated, reusable packages, via development of tools such as cartero, backbone.subviews, and backbone.courier.</p>
@@ -716,8 +718,8 @@
     <link href="http://tiagorg.com/2014/09/11/firebase-and-backbone-building-a-better-view/"/>
     <id>http://tiagorg.com/2014/09/11/firebase-and-backbone-building-a-better-view/</id>
     <published>2014-09-11T07:00:00.000Z</published>
-    <updated>2016-07-10T23:35:34.000Z</updated>
-    <content type="html"><![CDATA[<p>On September 11th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in San Francisco, CA at <a href="http://pivotallabs.com/" target="_blank" rel="external">Pivotal Labs</a>.</p>
+    <updated>2016-07-10T23:43:54.000Z</updated>
+    <content type="html"><![CDATA[<p>On September 11th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="http://pivotallabs.com/" target="_blank" rel="external">Pivotal Labs</a>.</p>
 <p>Me and Summer Kim volunteered to revamp this meetup after 1 year of hiatus. Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Jonathon Kresner from AirPair for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
 <h4 id="1)_David_East_-_Building_realtime_web_apps_with_Firebase_and_Backbone">1) <a href="http://twitter.com/eastdotnet" target="_blank" rel="external">David East</a> - Building realtime web apps with Firebase and Backbone</h4><p>Realtime data is more than just a buzz word. It’s the new evolution of the way data is being delivered around the web. In this talk we’ll learn how we can use Firebase to give our apps realtime data. We’ll take a look at why realtime data is difficult to implement and what we can do to make it easier. At the end we’ll do a live coding session where we’ll give a Backbone app realtime powers using Firebase’s BackFire library.</p>

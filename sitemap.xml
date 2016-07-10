@@ -2,83 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tiagorg.com/2014/10/20/backbonejs-tricks-or-treats-for-html5devconf/</loc>
+    <lastmod>2016-07-10T23:48:12.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tiagorg.com/2015/07/21/design-patterns-for-javascript-featuring-modules/</loc>
+    <lastmod>2016-07-10T23:46:49.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tiagorg.com/2013/08/28/javascript-for-real/</loc>
-    <lastmod>2016-07-10T23:36:48.000Z</lastmod>
+    <lastmod>2016-07-10T23:45:10.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2013/10/19/boosting-the-client-side-with-backbone-js-pt/</loc>
-    <lastmod>2016-07-10T23:36:44.000Z</lastmod>
+    <lastmod>2016-07-10T23:45:05.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2014/01/08/boosting-the-client-side-with-backbone-js-en/</loc>
-    <lastmod>2016-07-10T23:36:29.000Z</lastmod>
+    <lastmod>2016-07-10T23:44:58.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2014/01/27/design-patterns-for-large-scale-javascript/</loc>
-    <lastmod>2016-07-10T23:36:21.000Z</lastmod>
+    <lastmod>2016-07-10T23:44:55.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2014/03/18/backbonejs-tricks-or-treats/</loc>
-    <lastmod>2016-07-10T23:36:06.000Z</lastmod>
+    <lastmod>2016-07-10T23:44:47.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2014/09/11/firebase-and-backbone-building-a-better-view/</loc>
-    <lastmod>2016-07-10T23:35:34.000Z</lastmod>
+    <lastmod>2016-07-10T23:43:54.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2014/10/09/backbone-best-practices-and-marionette-backbone-subviews-courier/</loc>
-    <lastmod>2016-07-10T23:35:29.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tiagorg.com/2014/10/20/backbonejs-tricks-or-treats-for-html5devconf/</loc>
-    <lastmod>2016-07-10T23:35:23.000Z</lastmod>
+    <lastmod>2016-07-10T23:43:49.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2014/11/13/jasmine-testing-for-models-and-views-directory-structure-on-modularized-apps/</loc>
-    <lastmod>2016-07-10T23:35:13.000Z</lastmod>
+    <lastmod>2016-07-10T23:43:32.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2015/01/15/stateless-uis-with-react-flux-backbone-multiple-inheritance-with-mixins/</loc>
-    <lastmod>2016-07-10T23:35:08.000Z</lastmod>
+    <lastmod>2016-07-10T23:43:28.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2015/02/12/from-backbone-to-react-vagrant-node-backbone-requirejs/</loc>
-    <lastmod>2016-07-10T23:34:59.000Z</lastmod>
+    <lastmod>2016-07-10T23:43:23.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tiagorg.com/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/</loc>
+    <lastmod>2016-07-10T23:43:14.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tiagorg.com/2015/07/20/10-tips-for-writing-maintainable-code-in-backbone/</loc>
+    <lastmod>2016-07-10T23:43:07.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules/</loc>
+    <lastmod>2016-07-10T23:42:38.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://tiagorg.com/2015/03/01/revisiting-xp-be-a-thoughtful-programmer/</loc>
     <lastmod>2016-07-10T23:34:51.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules/</loc>
-    <lastmod>2016-07-10T23:34:43.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tiagorg.com/2015/07/21/design-patterns-for-javascript-featuring-modules/</loc>
-    <lastmod>2016-07-10T23:34:19.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tiagorg.com/2015/07/20/10-tips-for-writing-maintainable-code-in-backbone/</loc>
-    <lastmod>2016-07-10T23:34:11.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tiagorg.com/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/</loc>
-    <lastmod>2016-07-10T23:33:56.000Z</lastmod>
   </url>
   
   <url>
@@ -112,7 +112,7 @@
   </url>
   
   <url>
-    <loc>http://tiagorg.com/2015/05/18/leveling-up-simple-steps-to-optimize-the-critical-rendering-path/</loc>
+    <loc>http://tiagorg.com/2015/01/17/marionette-vdom/</loc>
     <lastmod>2015-09-14T00:31:52.000Z</lastmod>
   </url>
   
@@ -122,7 +122,7 @@
   </url>
   
   <url>
-    <loc>http://tiagorg.com/2015/01/17/marionette-vdom/</loc>
+    <loc>http://tiagorg.com/2011/10/01/design-patterns-enjoy-moderately/</loc>
     <lastmod>2015-09-14T00:31:52.000Z</lastmod>
   </url>
   
@@ -137,12 +137,12 @@
   </url>
   
   <url>
-    <loc>http://tiagorg.com/2014/06/12/interview-for-puc-minas/</loc>
+    <loc>http://tiagorg.com/2015/05/18/leveling-up-simple-steps-to-optimize-the-critical-rendering-path/</loc>
     <lastmod>2015-09-14T00:31:52.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://tiagorg.com/2015/04/06/the-mind-boggling-universe-of-javascript-modules/</loc>
+    <loc>http://tiagorg.com/2014/06/12/interview-for-puc-minas/</loc>
     <lastmod>2015-09-14T00:31:52.000Z</lastmod>
   </url>
   
@@ -172,7 +172,7 @@
   </url>
   
   <url>
-    <loc>http://tiagorg.com/2011/10/01/design-patterns-enjoy-moderately/</loc>
+    <loc>http://tiagorg.com/2015/04/06/the-mind-boggling-universe-of-javascript-modules/</loc>
     <lastmod>2015-09-14T00:31:52.000Z</lastmod>
   </url>
   

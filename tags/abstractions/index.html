@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: modernizr | Tiago Romero Garcia</title>
+  <title>Tag: abstractions | Tiago Romero Garcia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
     <link rel="alternative" href="/atom.xml" title="Tiago Romero Garcia" type="application/atom+xml">
@@ -47,7 +47,7 @@
     <section id="content" class="small-12 medium-12 large-8 columns">
       
   
-    <article id="post-what-do-i-need-to-know-about-html-5" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-lazy-loading-es2015-modules" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
     
@@ -55,7 +55,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2013/07/01/what-do-i-need-to-know-about-html-5/">What do I need to know about HTML 5? [pt]</a>
+      <a class="article-title" href="/2016/06/17/lazy-loading-es2015-modules/">Lazy Loading ES2015 modules in the browser</a>
     </h1>
   
 
@@ -63,31 +63,43 @@
       <div class="article-meta">
         
   <span class="article-category">
-    <a class="article-category-link" href="/categories/article/">article</a>
+    <a class="article-category-link" href="/categories/talk/">talk</a>
   </span>
 
- on <a href="/2013/07/01/what-do-i-need-to-know-about-html-5/" class="article-date">
-  <time datetime="2013-07-01T07:00:00.000Z" itemprop="datePublished">Jul 1 2013</time>
+ on <a href="/2016/06/17/lazy-loading-es2015-modules/" class="article-date">
+  <time datetime="2016-06-17T07:00:00.000Z" itemprop="datePublished">Jun 17 2016</time>
 </a>
 
       </div>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>In July, 2013 I published an article (in Portuguese) in <a href="http://www.devmedia.com.br/revista-java-magazine-116/28258" target="_blank" rel="external">Java Magazine #116</a>, sobre o HTML 5 as an alternative for development exclusively based on the server-side. This technology introduces and standardizes many innovative features on the browser or mobile device, in a safe, portable and native way.</p>
-<p><a href="http://www.devmedia.com.br/o-que-preciso-saber-sobre-html-5-revista-java-magazine-116/28078" target="_blank" rel="external">Article What do I need to know about HTML 5? - DevMedia</a></p>
-<h4 id="Summary">Summary</h4><p>HTML 5 emerged as a movement to leverage many features designed to better explore the client-side in web applications, which can be beneficial in a few scenarios. This movement introduces certain client-side features such as offline work, persistence, multi-threading, low-level network communication, reproducing audio and video without plugins, geolocalization and form validation. All those features will be addressed on this article, as well a brief comment about the Dashorn project, which aims to make it possible to run JavaScript directly on the JVM.</p>
-<h4 id="When_is_the_subject_useful">When is the subject useful</h4><p>This subject is useful for Java developers which want to learn how to bring the desktop experience to web applications, reducing the response and navigation time, working without depending on any plugin and having just one client-side codebase independent of device and platform.</p>
-<h4 id="Links">Links</h4><ul>
-<li><a href="http://www.html5rocks.com" target="_blank" rel="external">HTML5 Rocks</a> Well-organized site which gathers contributions from several authors about HTML 5.</li>
-<li><a href="http://www.apple.com/hotnews/thoughts-on-flash" target="_blank" rel="external">Thoughts on Flash</a> Reasons for mobile devices not support Flash, according to Apple.</li>
-<li><a href="http://www.sitepoint.com/5-reasons-why-zuckerberg-has-not-killed-html5" target="_blank" rel="external">5 Reasons Why Zuckerberg Has Not Killed HTML5</a> Explanations about why the Facebook problem doesn’t minimize HTML 5.</li>
-<li><a href="http://diveintohtml5.info" target="_blank" rel="external">Dive Into HTML5</a> Great online book about HTML 5.</li>
-<li><a href="http://modernizr.com" target="_blank" rel="external">Modernizr</a> JavaScript library to verify the browser compatibility with each HTML 5 feature.</li>
-<li><a href="http://html5readiness.com" target="_blank" rel="external">HTML5 Readiness</a> Site that reveals which features are available on each browser.</li>
-<li><a href="http://openmya.hacker.jp/hasegawa/security/utf7cs.html" target="_blank" rel="external">UTF-7 XSS Cheat Sheet</a> Explanations about the security breach related with UTF-7 charset.</li>
-<li><a href="http://code.google.com/p/html5shim" target="_blank" rel="external">html5shim</a> JavaScript library to make HTML 5 semantic tags compatible with versions before IE 9.</li>
-<li><a href="http://blogs.oracle.com/nashorn" target="_blank" rel="external">Nashorn</a> Official blog of Nashorn project.</li>
+        <p>I gave this talk on June 17th, 2016 at <a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Conference</a><br> in <strong>St. Petersburgh, FL</strong>, on August 2nd, 2016 at <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in <strong>New York, NY</strong> and on August 18th, 2016 at <a href="http://abstractions.io/" target="_blank" rel="external">Abstractions</a> in <strong>Pittsburgh, PA</strong>.</p>
+<p>This talk is about loading code during page load time vs lazy loading, then how to load ES2015 modules both synchronously (during page load) and asynchronously (lazy-load) using System.js over Babel, as well as how to use JSPM and Webpack 2 to bundle your app and resolve dependencies.</p>
+<h4 id="What_will_the_audience_learn">What will the audience learn</h4><ul>
+<li>The fundamentals on when to load your modules (page load time vs lazy loading) for a most optimized page performance</li>
+<li>The 3 main module systems in JavaScript: AMD, CommonJS and ES2015 modules</li>
+<li>The ES2015 Module Loader spec and System.js</li>
+<li>Importing modules synchronously and asynchronously</li>
+<li>JSPM as a dependency management system</li>
+<li>Webpack 2 as a dependency management system</li>
+</ul>
+<h4 id="Slide_deck">Slide deck</h4><ul>
+<li><a href="http://tiagorg.com/talk-lazy-loading-es2015-modules/">Slide deck link</a></li>
+</ul>
+<h4 id="Resources">Resources</h4><ul>
+<li><a href="http://martinfowler.com/eaaCatalog/lazyLoad.html" target="_blank" rel="external">Lazy load EAA pattern</a></li>
+<li><a href="https://webpack.github.io" target="_blank" rel="external">Webpack</a></li>
+<li><a href="https://webpack.github.io/docs/code-splitting.html" target="_blank" rel="external">Webpack Code Splitting</a></li>
+<li><a href="https://github.com/ModuleLoader/es6-module-loader" target="_blank" rel="external">es6-module-loader</a></li>
+<li><a href="https://whatwg.github.io/loader/" target="_blank" rel="external">Loader</a></li>
+<li><a href="https://github.com/systemjs/systemjs" target="_blank" rel="external">System.js</a></li>
+<li><a href="http://jspm.io" target="_blank" rel="external">JSPM</a></li>
+<li><a href="https://gist.github.com/sokra/27b24881210b56bbaff7" target="_blank" rel="external">What’s new in Webpack 2</a></li>
+</ul>
+<h4 id="Sample_repos">Sample repos</h4><ul>
+<li><a href="https://github.com/tiagorg/lazy-load-es2015-systemjs" target="_blank" rel="external">github.com/tiagorg/lazy-load-es2015-systemjs</a> - Lazy-loading the talk examples in ES2015 bundled through JSPM</li>
+<li><a href="https://github.com/tiagorg/lazy-load-es2015-webpack2" target="_blank" rel="external">github.com/tiagorg/lazy-load-es2015-webpack2</a> - Lazy-loading the talk examples in ES2015 bundled through Webpack 2</li>
 </ul>
 
       
@@ -95,7 +107,7 @@
     <footer class="article-footer">
       
       
-    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html5/">html5</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java-magazine/">java magazine</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/modernizr/">modernizr</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nashorn/">nashorn</a></li></ul>
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/abstractions/">abstractions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/amd/">amd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commonjs/">commonjs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/design-patterns/">design patterns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/devcon5/">devcon5</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es2015/">es2015</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/fedc/">fedc</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jspm/">jspm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lazy-loading/">lazy-loading</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/requirejs/">requirejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/system-js/">system.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/webpack/">webpack</a></li></ul>
 
 
     </footer>
