@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://tiagorg.com/"/>
-  <updated>2016-07-10T23:42:38.000Z</updated>
+  <updated>2016-10-01T22:44:53.000Z</updated>
   <id>http://tiagorg.com/</id>
   
   <author>
@@ -15,12 +15,60 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Lazy Loading ES2015 modules in the browser]]></title>
-    <link href="http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules/"/>
-    <id>http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules/</id>
+    <title><![CDATA[Lazy Loading ES2015 modules in the browser (article)]]></title>
+    <link href="http://tiagorg.com/2016/09/30/lazy-loading-es2015-modules-article/"/>
+    <id>http://tiagorg.com/2016/09/30/lazy-loading-es2015-modules-article/</id>
+    <published>2016-09-30T07:00:00.000Z</published>
+    <updated>2016-10-01T22:44:53.000Z</updated>
+    <content type="html"><![CDATA[<p>In September, 2016 I published an article on <a href="http://blog.avenuecode.com" target="_blank" rel="external">Avenue Code Snippets</a>, about Lazy Loading ES2015 modules in the browser.</p>
+<p><a href="http://blog.avenuecode.com/lazy-loading-es2015-modules-in-the-browser" target="_blank" rel="external">Article Lazy Loading ES2015 modules in the browser - Avenue Code Snippets</a></p>
+<h4 id="Abstract">Abstract</h4><p>Over the last few years, developers have been relentlessly moving their server-side sites to the client-side on the premise that the page performance would be improved.</p>
+<p>However, this may not be enough. Have you ever considered that your site may be downloading more stuff than is being actually used? Meet Lazy-loading, a design pattern about deferring the initialization (loading/fetching/allocation) of a resource (code/data/asset) until the point at which it is needed.</p>
+<p>This article demonstrates how to load ES2015 modules synchronously (during the page load) and asynchronously (performing lazy-loading) using System.js.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>In September, 2016 I published an article on <a href="http://blog.avenuecode.com" target="_blank" rel="external">Avenue Code Snippets</a>]]>
+    </summary>
+    
+      <category term="abstractions" scheme="http://tiagorg.com/tags/abstractions/"/>
+    
+      <category term="amd" scheme="http://tiagorg.com/tags/amd/"/>
+    
+      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
+    
+      <category term="commonjs" scheme="http://tiagorg.com/tags/commonjs/"/>
+    
+      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
+    
+      <category term="devcon5" scheme="http://tiagorg.com/tags/devcon5/"/>
+    
+      <category term="es2015" scheme="http://tiagorg.com/tags/es2015/"/>
+    
+      <category term="fedc" scheme="http://tiagorg.com/tags/fedc/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="jspm" scheme="http://tiagorg.com/tags/jspm/"/>
+    
+      <category term="lazy-loading" scheme="http://tiagorg.com/tags/lazy-loading/"/>
+    
+      <category term="requirejs" scheme="http://tiagorg.com/tags/requirejs/"/>
+    
+      <category term="system.js" scheme="http://tiagorg.com/tags/system-js/"/>
+    
+      <category term="webpack" scheme="http://tiagorg.com/tags/webpack/"/>
+    
+      <category term="article" scheme="http://tiagorg.com/categories/article/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Lazy Loading ES2015 modules in the browser (talk)]]></title>
+    <link href="http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules-talk/"/>
+    <id>http://tiagorg.com/2016/06/17/lazy-loading-es2015-modules-talk/</id>
     <published>2016-06-17T07:00:00.000Z</published>
-    <updated>2016-07-10T23:42:38.000Z</updated>
-    <content type="html"><![CDATA[<p>I gave this talk on June 17th, 2016 at <a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Conference</a><br> in <strong>St. Petersburgh, FL</strong>, on August 2nd, 2016 at <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in <strong>New York, NY</strong> and on August 18th, 2016 at <a href="http://abstractions.io/" target="_blank" rel="external">Abstractions</a> in <strong>Pittsburgh, PA</strong>.</p>
+    <updated>2016-10-01T22:42:48.000Z</updated>
+    <content type="html"><![CDATA[<p>I gave this talk on June 17th, 2016 at <a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Conference</a><br> in <strong>St. Petersburgh, FL</strong>, on August 2nd, 2016 at <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in <strong>New York, NY</strong>, on August 18th, 2016 at <a href="http://abstractions.io/" target="_blank" rel="external">Abstractions</a> in <strong>Pittsburgh, PA</strong> and on September 29th, 2016 at <a href="http://www.meetup.com/SF-Web-Performance-Group/events/233976760/" target="_blank" rel="external">SF Web Performance Meetup</a> in <strong>San Francisco, CA</strong>.</p>
 <p>This talk is about loading code during page load time vs lazy loading, then how to load ES2015 modules both synchronously (during page load) and asynchronously (lazy-load) using System.js over Babel, as well as how to use JSPM and Webpack 2 to bundle your app and resolve dependencies.</p>
 <h4 id="What_will_the_audience_learn">What will the audience learn</h4><ul>
 <li>The fundamentals on when to load your modules (page load time vs lazy loading) for a most optimized page performance</li>
@@ -322,7 +370,7 @@
     <link href="http://tiagorg.com/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/"/>
     <id>http://tiagorg.com/2015/03/18/backbone-using-extensible-database-apis-over-http-webpack-for-the-win/</id>
     <published>2015-03-18T07:00:00.000Z</published>
-    <updated>2016-07-10T23:43:14.000Z</updated>
+    <updated>2016-10-01T22:45:22.000Z</updated>
     <content type="html"><![CDATA[<p>On March 18th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="https://www.remind.com/" target="_blank" rel="external">Remind</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Brenda Campbell from Remind for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
@@ -338,6 +386,8 @@
     </summary>
     
       <category term="arangodb" scheme="http://tiagorg.com/tags/arangodb/"/>
+    
+      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
     
       <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
     
@@ -390,7 +440,7 @@
     <link href="http://tiagorg.com/2015/02/12/from-backbone-to-react-vagrant-node-backbone-requirejs/"/>
     <id>http://tiagorg.com/2015/02/12/from-backbone-to-react-vagrant-node-backbone-requirejs/</id>
     <published>2015-02-12T08:00:00.000Z</published>
-    <updated>2016-07-10T23:43:23.000Z</updated>
+    <updated>2016-10-01T22:45:33.000Z</updated>
     <content type="html"><![CDATA[<p>On February 12th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="http://corporate.place.xyz/" target="_blank" rel="external">Place</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Chengyin Liu from Place for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
@@ -402,6 +452,8 @@
     <summary type="html">
     <![CDATA[<p>On February 12th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hacke]]>
     </summary>
+    
+      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
     
       <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
     
@@ -426,7 +478,7 @@
     <link href="http://tiagorg.com/2015/01/30/enlighten-your-coding-skills-as-you-would-play-videogame/"/>
     <id>http://tiagorg.com/2015/01/30/enlighten-your-coding-skills-as-you-would-play-videogame/</id>
     <published>2015-01-30T08:00:00.000Z</published>
-    <updated>2015-11-29T23:50:39.000Z</updated>
+    <updated>2016-10-01T22:45:40.000Z</updated>
     <content type="html"><![CDATA[<p>We all know that becoming a solid software developer is not something that happens in a day.</p>
 <p>However, one should not stop learning when he knows enough coding to land a good job. Coding is an exercise like running, swimming, or playing a musical instrument: if you don’t practice enough, you will get rusty.</p>
 <p>So why not combine business with pleasure and taking coding challenges as you play a videogame?</p>
@@ -436,6 +488,8 @@
     <![CDATA[<p>We all know that becoming a solid software developer is not something that happens in a day.</p>
 <p>However, one should not stop learning]]>
     </summary>
+    
+      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
     
       <category term="challenges" scheme="http://tiagorg.com/tags/challenges/"/>
     
@@ -517,7 +571,7 @@
     <link href="http://tiagorg.com/2015/01/15/stateless-uis-with-react-flux-backbone-multiple-inheritance-with-mixins/"/>
     <id>http://tiagorg.com/2015/01/15/stateless-uis-with-react-flux-backbone-multiple-inheritance-with-mixins/</id>
     <published>2015-01-15T08:00:00.000Z</published>
-    <updated>2016-07-10T23:43:28.000Z</updated>
+    <updated>2016-10-01T22:45:50.000Z</updated>
     <content type="html"><![CDATA[<p>On January 15th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="https://www.brandcast.com/" target="_blank" rel="external">Brandcast</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Dan Lynch from Brandcast for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
@@ -529,6 +583,8 @@
     <summary type="html">
     <![CDATA[<p>On January 15th, 2015 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hacker]]>
     </summary>
+    
+      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
     
       <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
     
@@ -549,7 +605,7 @@
     <link href="http://tiagorg.com/2014/12/24/security-breach-warning-update-your-git-client-asap/"/>
     <id>http://tiagorg.com/2014/12/24/security-breach-warning-update-your-git-client-asap/</id>
     <published>2014-12-24T08:00:00.000Z</published>
-    <updated>2015-11-29T23:50:22.000Z</updated>
+    <updated>2016-10-01T22:46:00.000Z</updated>
     <content type="html"><![CDATA[<p>A critical security breach with Git clients was discovered mid-December. It affects all versions of official Git clients, both command-line and graphical tools such as the GitHub app.</p>
 <p>According to GitHub engineers, this breach would allow hackers to hijack your Git tree when cloning/checking out a repository, allowing them to execute any command in the client machine. So, it is strongly suggested that you take 5 minutes of your time to update it ASAP!</p>
 <p>On this <a href="https://medium.com/@tiagorg/security-breach-warning-update-your-git-client-asap-6714168e8c6a" target="_blank" rel="external">post at Medium</a>, originally made for <a href="http://www.avenuecode.com" target="_blank" rel="external">Avenue Code</a>‘s <strong>Code Highway</strong> blog, I provide a quick and short guide on updating your git client.</p>
@@ -557,6 +613,8 @@
     <summary type="html">
     <![CDATA[<p>A critical security breach with Git clients was discovered mid-December. It affects all versions of official Git clients, both command-li]]>
     </summary>
+    
+      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
     
       <category term="git" scheme="http://tiagorg.com/tags/git/"/>
     
@@ -571,7 +629,7 @@
     <link href="http://tiagorg.com/2014/11/13/jasmine-testing-for-models-and-views-directory-structure-on-modularized-apps/"/>
     <id>http://tiagorg.com/2014/11/13/jasmine-testing-for-models-and-views-directory-structure-on-modularized-apps/</id>
     <published>2014-11-13T08:00:00.000Z</published>
-    <updated>2016-07-10T23:43:32.000Z</updated>
+    <updated>2016-10-01T22:46:06.000Z</updated>
     <content type="html"><![CDATA[<p>On November 13th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="https://www.macys.com/" target="_blank" rel="external">Macy’s.com</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Yulia Kukuyuk from Macy’s.com for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
@@ -583,6 +641,8 @@
     <summary type="html">
     <![CDATA[<p>On November 13th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hacke]]>
     </summary>
+    
+      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
     
       <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
     
@@ -658,7 +718,7 @@
     <link href="http://tiagorg.com/2014/10/09/backbone-best-practices-and-marionette-backbone-subviews-courier/"/>
     <id>http://tiagorg.com/2014/10/09/backbone-best-practices-and-marionette-backbone-subviews-courier/</id>
     <published>2014-10-09T07:00:00.000Z</published>
-    <updated>2016-07-10T23:43:49.000Z</updated>
+    <updated>2016-10-01T22:46:20.000Z</updated>
     <content type="html"><![CDATA[<p>On October 9th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="https://www.cloudflare.com/" target="_blank" rel="external">Cloudflare</a>.</p>
 <p>Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and James Kyle from Cloudflare for arranging the venue!</p>
 <p>On this meetup we had 2 talks:</p>
@@ -669,6 +729,8 @@
     <summary type="html">
     <![CDATA[<p>On October 9th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers]]>
     </summary>
+    
+      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
     
       <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
     
@@ -697,7 +759,7 @@
     <link href="http://tiagorg.com/2014/09/15/web-components-101/"/>
     <id>http://tiagorg.com/2014/09/15/web-components-101/</id>
     <published>2014-09-15T07:00:00.000Z</published>
-    <updated>2015-11-29T23:50:11.000Z</updated>
+    <updated>2016-10-01T22:46:25.000Z</updated>
     <content type="html"><![CDATA[<p>Over the past few years a lot of people have been trying to rethink the way the web can/should be used. Currently, front-end developers find themselves in the often-frustrating situation of having to build complex websites with HTML–which can often be a fairly blunt tool–on top of the clunky foundations of Jurassic-age web browser limitations.</p>
 <p>On this <a href="https://medium.com/@tiagorg/web-components-101-b2c60163f4c8" target="_blank" rel="external">post at Medium</a>, originally made for <a href="http://www.avenuecode.com" target="_blank" rel="external">Avenue Code</a>‘s <strong>Code Highway</strong> blog, I answer the million-dollar question: is it possible to abstract low-level constructs of HTML to define high-level semantic components? And the answer is <strong>yes</strong>!</p>
 ]]></content>
@@ -705,48 +767,13 @@
     <![CDATA[<p>Over the past few years a lot of people have been trying to rethink the way the web can/should be used. Currently, front-end developers f]]>
     </summary>
     
+      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
+    
       <category term="front-end" scheme="http://tiagorg.com/tags/front-end/"/>
     
       <category term="web components" scheme="http://tiagorg.com/tags/web-components/"/>
     
       <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[We are back! Learn about Firebase & Backbone + building a better Backbone.View!]]></title>
-    <link href="http://tiagorg.com/2014/09/11/firebase-and-backbone-building-a-better-view/"/>
-    <id>http://tiagorg.com/2014/09/11/firebase-and-backbone-building-a-better-view/</id>
-    <published>2014-09-11T07:00:00.000Z</published>
-    <updated>2016-07-10T23:43:54.000Z</updated>
-    <content type="html"><![CDATA[<p>On September 11th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hackers</a> meetup in <strong>San Francisco, CA</strong> at <a href="http://pivotallabs.com/" target="_blank" rel="external">Pivotal Labs</a>.</p>
-<p>Me and Summer Kim volunteered to revamp this meetup after 1 year of hiatus. Thanks <a href="http://avenuecode.com" target="_blank" rel="external">Avenue Code</a> for sponsoring the food and drinks and Jonathon Kresner from AirPair for arranging the venue!</p>
-<p>On this meetup we had 2 talks:</p>
-<h4 id="1)_David_East_-_Building_realtime_web_apps_with_Firebase_and_Backbone">1) <a href="http://twitter.com/eastdotnet" target="_blank" rel="external">David East</a> - Building realtime web apps with Firebase and Backbone</h4><p>Realtime data is more than just a buzz word. It’s the new evolution of the way data is being delivered around the web. In this talk we’ll learn how we can use Firebase to give our apps realtime data. We’ll take a look at why realtime data is difficult to implement and what we can do to make it easier. At the end we’ll do a live coding session where we’ll give a Backbone app realtime powers using Firebase’s BackFire library.</p>
-<h4 id="2)_RJ_Zaworksi_-_Interop!_Building_a_better_Backbone-View">2) <a href="http://twitter.com/rjzaworski" target="_blank" rel="external">RJ Zaworksi</a> - Interop! Building a better Backbone.View</h4><p>Let’s admit it: there are better tools than Backbone for UI development. While projects like Marionette, Thorax, and Stickit help smooth some rough edges, independent libraries like react.js offer a compelling alternative. In this conversation, we’ll explore opportunities for matching Backbone’s strengths as a data layer with the power of modern UI frameworks.</p>
-<p>Check out <a href="http://www.meetup.com/Backbone-js-Hackers/events/204708292/" target="_blank" rel="external">We are back! Learn about Firebase &amp; Backbone + building a better Backbone.View!</a>.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>On September 11th, 2014 I hosted the <a href="http://www.meetup.com/Backbone-js-Hackers/" target="_blank" rel="external">Backbone.js Hack]]>
-    </summary>
-    
-      <category term="backbone.js" scheme="http://tiagorg.com/tags/backbone-js/"/>
-    
-      <category term="firebase" scheme="http://tiagorg.com/tags/firebase/"/>
-    
-      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
-    
-      <category term="marionette.js" scheme="http://tiagorg.com/tags/marionette-js/"/>
-    
-      <category term="meetup" scheme="http://tiagorg.com/tags/meetup/"/>
-    
-      <category term="react" scheme="http://tiagorg.com/tags/react/"/>
-    
-      <category term="stickit" scheme="http://tiagorg.com/tags/stickit/"/>
-    
-      <category term="thorax" scheme="http://tiagorg.com/tags/thorax/"/>
-    
-      <category term="event" scheme="http://tiagorg.com/categories/event/"/>
     
   </entry>
   
