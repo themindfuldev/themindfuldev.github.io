@@ -32,7 +32,7 @@
     <section class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="right">
-        <li><a href="/"><i class="fa fa-home fa-fw"></i> Home</a></li>
+        <li><a href="/bio"><i class="fa fa-user fa-fw"></i> Bio</a></li>
         <li><a href="/categories/talk"><i class="fa fa-microphone fa-fw"></i> Talks</a></li>
         <li><a href="/categories/article"><i class="fa fa-book fa-fw"></i> Articles</a></li>
         <li><a href="/categories/protip"><i class="fa fa-pencil-square-o fa-fw"></i> Pro tips</a></li>
@@ -46,6 +46,133 @@
   <div class="row" id="main">
     <section id="content" class="small-12 medium-12 large-8 columns">
       
+  
+    <article id="post-lazy-loading-es2015-modules-talk" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/12/08/lazy-loading-es2015-modules-talk/">Lazy Loading ES2015 modules in the browser (talk)</a>
+    </h1>
+  
+
+      </header>
+      <div class="article-meta">
+        
+  <span class="article-category">
+    <a class="article-category-link" href="/categories/talk/">talk</a>
+  </span>
+
+ on <a href="/2016/12/08/lazy-loading-es2015-modules-talk/" class="article-date">
+  <time datetime="2016-12-08T08:00:00.000Z" itemprop="datePublished">Dec 8 2016</time>
+</a>
+
+      </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>I gave this talk on June 17th, 2016 at <a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Conference</a><br> in <strong>St. Petersburgh, FL</strong>, on August 2nd, 2016 at <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in <strong>New York, NY</strong>, on August 18th, 2016 at <a href="http://abstractions.io/" target="_blank" rel="external">Abstractions</a> in <strong>Pittsburgh, PA</strong>, on September 29th, 2016 at <a href="http://www.meetup.com/SF-Web-Performance-Group/events/233976760/" target="_blank" rel="external">SF Web Performance Meetup</a> in <strong>San Francisco, CA</strong>, and on December 8th, 2016 at <a href="https://www.meetup.com/Women-Who-Code-SF/events/233503274/" target="_blank" rel="external">Women Who Code Meetup</a> in <strong>San Francisco, CA</strong>.</p>
+<p>This talk is about loading code during page load time vs lazy loading, then how to load ES2015 modules both synchronously (during page load) and asynchronously (lazy-load) using System.js over Babel, as well as how to use JSPM and Webpack 2 to bundle your app and resolve dependencies.</p>
+<h4 id="What_will_the_audience_learn">What will the audience learn</h4><ul>
+<li>The fundamentals on when to load your modules (page load time vs lazy loading) for a most optimized page performance</li>
+<li>The 3 main module systems in JavaScript: AMD, CommonJS and ES2015 modules</li>
+<li>The ES2015 Module Loader spec and System.js</li>
+<li>Importing modules synchronously and asynchronously</li>
+<li>JSPM as a dependency management system</li>
+<li>Webpack 2 as a dependency management system</li>
+</ul>
+<h4 id="Slide_deck">Slide deck</h4><ul>
+<li><a href="http://tiagorg.com/talk-lazy-loading-es2015-modules/">Slide deck link</a></li>
+</ul>
+<h4 id="Resources">Resources</h4><ul>
+<li><a href="http://martinfowler.com/eaaCatalog/lazyLoad.html" target="_blank" rel="external">Lazy load EAA pattern</a></li>
+<li><a href="https://webpack.github.io" target="_blank" rel="external">Webpack</a></li>
+<li><a href="https://webpack.github.io/docs/code-splitting.html" target="_blank" rel="external">Webpack Code Splitting</a></li>
+<li><a href="https://github.com/ModuleLoader/es6-module-loader" target="_blank" rel="external">es6-module-loader</a></li>
+<li><a href="https://whatwg.github.io/loader/" target="_blank" rel="external">Loader</a></li>
+<li><a href="https://github.com/systemjs/systemjs" target="_blank" rel="external">System.js</a></li>
+<li><a href="http://jspm.io" target="_blank" rel="external">JSPM</a></li>
+<li><a href="https://gist.github.com/sokra/27b24881210b56bbaff7" target="_blank" rel="external">What’s new in Webpack 2</a></li>
+</ul>
+<h4 id="Sample_repos">Sample repos</h4><ul>
+<li><a href="https://github.com/tiagorg/lazy-load-es2015-systemjs" target="_blank" rel="external">github.com/tiagorg/lazy-load-es2015-systemjs</a> - Lazy-loading the talk examples in ES2015 bundled through JSPM</li>
+<li><a href="https://github.com/tiagorg/lazy-load-es2015-webpack2" target="_blank" rel="external">github.com/tiagorg/lazy-load-es2015-webpack2</a> - Lazy-loading the talk examples in ES2015 bundled through Webpack 2</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/abstractions/">abstractions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/amd/">amd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commonjs/">commonjs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/design-patterns/">design patterns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/devcon5/">devcon5</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es2015/">es2015</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es6/">es6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/fedc/">fedc</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jspm/">jspm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lazy-loading/">lazy-loading</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/requirejs/">requirejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/system-js/">system.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/webpack/">webpack</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+  
+    <article id="post-design-patterns-for-javascript-featuring-modules" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/10/27/design-patterns-for-javascript-featuring-modules/">Design Patterns for JavaScript featuring Modules</a>
+    </h1>
+  
+
+      </header>
+      <div class="article-meta">
+        
+  <span class="article-category">
+    <a class="article-category-link" href="/categories/talk/">talk</a>
+  </span>
+
+ on <a href="/2016/10/27/design-patterns-for-javascript-featuring-modules/" class="article-date">
+  <time datetime="2016-10-27T07:00:00.000Z" itemprop="datePublished">Oct 27 2016</time>
+</a>
+
+      </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>I gave this talk on July 21st, 2015 at <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in <strong>New York, NY</strong> and on October 27th, 2016 at <a href="https://www.meetup.com/Women-Who-Code-SF/events/233503303/" target="_blank" rel="external">Women Who Code Meetup</a> in <strong>San Francisco, CA</strong>.</p>
+<p>This talk is about the essential design patterns for JavaScript applications such as Constructor, Façade and Module, focusing on the different module strategies as CommonJS, AMD and ES2015 Modules.</p>
+<h4 id="Slide_deck">Slide deck</h4><ul>
+<li><a href="//tiagorg.com/talk-design-patterns-for-javascript-featuring-modules">Slide deck link</a></li>
+</ul>
+<h4 id="Prerequisites:">Prerequisites:</h4><ul>
+<li>Intermediate JavaScript</li>
+<li>Advanced OOP</li>
+<li>Familiarity with Design Patterns</li>
+</ul>
+<h4 id="Resources:">Resources:</h4><ul>
+<li><a href="https://github.com/tiagorg/design-patterns-examples" target="_blank" rel="external">Check out the examples code</a></li>
+<li><a href="http://shop.oreilly.com/product/9780596806767.do" target="_blank" rel="external">Javascript Patterns - Stoyan Stefanov</a></li>
+<li><a href="http://addyosmani.com/resources/essentialjsdesignpatterns" target="_blank" rel="external">Learning JavaScript Design Patterns - Addy Osmani</a></li>
+<li><a href="https://www.airpair.com/javascript/posts/the-mind-boggling-universe-of-javascript-modules" target="_blank" rel="external">The mind-boggling universe of JavaScript Module strategies</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/almond/">almond</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/amd/">amd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/browserify/">browserify</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commonjs/">commonjs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/design-patterns/">design patterns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es2015/">es2015</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es6/">es6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/large-scale/">large-scale</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/node-js/">node.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/require-js/">require.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/systemjs/">systemjs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/umd/">umd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/webpack/">webpack</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
   
     <article id="post-lazy-loading-es2015-modules-article" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -85,76 +212,7 @@
     <footer class="article-footer">
       
       
-    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/abstractions/">abstractions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/amd/">amd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/avenue-code/">avenue code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commonjs/">commonjs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/design-patterns/">design patterns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/devcon5/">devcon5</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es2015/">es2015</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/fedc/">fedc</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jspm/">jspm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lazy-loading/">lazy-loading</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/requirejs/">requirejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/system-js/">system.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/webpack/">webpack</a></li></ul>
-
-
-    </footer>
-  </div>
-  
-</article>
-
-  
-    <article id="post-lazy-loading-es2015-modules-talk" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/17/lazy-loading-es2015-modules-talk/">Lazy Loading ES2015 modules in the browser (talk)</a>
-    </h1>
-  
-
-      </header>
-      <div class="article-meta">
-        
-  <span class="article-category">
-    <a class="article-category-link" href="/categories/talk/">talk</a>
-  </span>
-
- on <a href="/2016/06/17/lazy-loading-es2015-modules-talk/" class="article-date">
-  <time datetime="2016-06-17T07:00:00.000Z" itemprop="datePublished">Jun 17 2016</time>
-</a>
-
-      </div>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>I gave this talk on June 17th, 2016 at <a href="http://frontenddesignconference.com/" target="_blank" rel="external">Front End Design Conference</a><br> in <strong>St. Petersburgh, FL</strong>, on August 2nd, 2016 at <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in <strong>New York, NY</strong>, on August 18th, 2016 at <a href="http://abstractions.io/" target="_blank" rel="external">Abstractions</a> in <strong>Pittsburgh, PA</strong> and on September 29th, 2016 at <a href="http://www.meetup.com/SF-Web-Performance-Group/events/233976760/" target="_blank" rel="external">SF Web Performance Meetup</a> in <strong>San Francisco, CA</strong>.</p>
-<p>This talk is about loading code during page load time vs lazy loading, then how to load ES2015 modules both synchronously (during page load) and asynchronously (lazy-load) using System.js over Babel, as well as how to use JSPM and Webpack 2 to bundle your app and resolve dependencies.</p>
-<h4 id="What_will_the_audience_learn">What will the audience learn</h4><ul>
-<li>The fundamentals on when to load your modules (page load time vs lazy loading) for a most optimized page performance</li>
-<li>The 3 main module systems in JavaScript: AMD, CommonJS and ES2015 modules</li>
-<li>The ES2015 Module Loader spec and System.js</li>
-<li>Importing modules synchronously and asynchronously</li>
-<li>JSPM as a dependency management system</li>
-<li>Webpack 2 as a dependency management system</li>
-</ul>
-<h4 id="Slide_deck">Slide deck</h4><ul>
-<li><a href="http://tiagorg.com/talk-lazy-loading-es2015-modules/">Slide deck link</a></li>
-</ul>
-<h4 id="Resources">Resources</h4><ul>
-<li><a href="http://martinfowler.com/eaaCatalog/lazyLoad.html" target="_blank" rel="external">Lazy load EAA pattern</a></li>
-<li><a href="https://webpack.github.io" target="_blank" rel="external">Webpack</a></li>
-<li><a href="https://webpack.github.io/docs/code-splitting.html" target="_blank" rel="external">Webpack Code Splitting</a></li>
-<li><a href="https://github.com/ModuleLoader/es6-module-loader" target="_blank" rel="external">es6-module-loader</a></li>
-<li><a href="https://whatwg.github.io/loader/" target="_blank" rel="external">Loader</a></li>
-<li><a href="https://github.com/systemjs/systemjs" target="_blank" rel="external">System.js</a></li>
-<li><a href="http://jspm.io" target="_blank" rel="external">JSPM</a></li>
-<li><a href="https://gist.github.com/sokra/27b24881210b56bbaff7" target="_blank" rel="external">What’s new in Webpack 2</a></li>
-</ul>
-<h4 id="Sample_repos">Sample repos</h4><ul>
-<li><a href="https://github.com/tiagorg/lazy-load-es2015-systemjs" target="_blank" rel="external">github.com/tiagorg/lazy-load-es2015-systemjs</a> - Lazy-loading the talk examples in ES2015 bundled through JSPM</li>
-<li><a href="https://github.com/tiagorg/lazy-load-es2015-webpack2" target="_blank" rel="external">github.com/tiagorg/lazy-load-es2015-webpack2</a> - Lazy-loading the talk examples in ES2015 bundled through Webpack 2</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/abstractions/">abstractions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/amd/">amd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commonjs/">commonjs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/design-patterns/">design patterns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/devcon5/">devcon5</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es2015/">es2015</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/fedc/">fedc</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jspm/">jspm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lazy-loading/">lazy-loading</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/requirejs/">requirejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/system-js/">system.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/webpack/">webpack</a></li></ul>
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/abstractions/">abstractions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/amd/">amd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/avenue-code/">avenue code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commonjs/">commonjs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/design-patterns/">design patterns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/devcon5/">devcon5</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es2015/">es2015</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es6/">es6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/fedc/">fedc</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jspm/">jspm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lazy-loading/">lazy-loading</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/requirejs/">requirejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/system-js/">system.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/webpack/">webpack</a></li></ul>
 
 
     </footer>
@@ -199,7 +257,7 @@
     <footer class="article-footer">
       
       
-    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/functional-programming/">functional programming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/higher-order-functions/">higher-order functions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es2015/">es2015</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es6/">es6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/functional-programming/">functional programming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/higher-order-functions/">higher-order functions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
 
 
     </footer>
@@ -245,62 +303,6 @@
       
       
     <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/functional-programming/">functional programming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/higher-order-functions/">higher-order functions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
-
-
-    </footer>
-  </div>
-  
-</article>
-
-  
-    <article id="post-design-patterns-for-javascript-featuring-modules" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/07/21/design-patterns-for-javascript-featuring-modules/">Design Patterns for JavaScript featuring Modules</a>
-    </h1>
-  
-
-      </header>
-      <div class="article-meta">
-        
-  <span class="article-category">
-    <a class="article-category-link" href="/categories/talk/">talk</a>
-  </span>
-
- on <a href="/2015/07/21/design-patterns-for-javascript-featuring-modules/" class="article-date">
-  <time datetime="2015-07-21T07:00:00.000Z" itemprop="datePublished">Jul 21 2015</time>
-</a>
-
-      </div>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>On July 21st, 2015 I gave this talk on <a href="http://www.html5report.com/conference/newyork/" target="_blank" rel="external">DevCon5</a> in <strong>New York, NY</strong>, about the essential design patterns for JavaScript applications, focusing on the different module strategies as CommonJS, AMD and ES6 Modules.</p>
-<h4 id="Slide_deck">Slide deck</h4><ul>
-<li><a href="//tiagorg.com/talk-design-patterns-for-javascript-featuring-modules">Slide deck link</a></li>
-</ul>
-<h4 id="Prerequisites:">Prerequisites:</h4><ul>
-<li>Intermediate JavaScript</li>
-<li>Advanced OOP</li>
-<li>Familiarity with Design Patterns</li>
-</ul>
-<h4 id="Resources:">Resources:</h4><ul>
-<li><a href="https://github.com/tiagorg/design-patterns-examples" target="_blank" rel="external">Check out the examples code</a></li>
-<li><a href="http://shop.oreilly.com/product/9780596806767.do" target="_blank" rel="external">Javascript Patterns - Stoyan Stefanov</a></li>
-<li><a href="https://www.airpair.com/javascript/posts/the-mind-boggling-universe-of-javascript-modules" target="_blank" rel="external">The mind-boggling universe of JavaScript Module strategies</a></li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/almond/">almond</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/amd/">amd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/browserify/">browserify</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commonjs/">commonjs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/design-patterns/">design patterns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es6/">es6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/large-scale/">large-scale</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/node-js/">node.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/require-js/">require.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/systemjs/">systemjs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/umd/">umd</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/webpack/">webpack</a></li></ul>
 
 
     </footer>
@@ -628,7 +630,6 @@
 		</span>
 	</a>
 </section>
-
   
     
   <section>
@@ -636,11 +637,15 @@
     <ul>
       
         <li>
-          <a href="/2016/09/30/lazy-loading-es2015-modules-article/">Lazy Loading ES2015 modules in the browser (article)</a>
+          <a href="/2016/12/08/lazy-loading-es2015-modules-talk/">Lazy Loading ES2015 modules in the browser (talk)</a>
         </li>
       
         <li>
-          <a href="/2016/06/17/lazy-loading-es2015-modules-talk/">Lazy Loading ES2015 modules in the browser (talk)</a>
+          <a href="/2016/10/27/design-patterns-for-javascript-featuring-modules/">Design Patterns for JavaScript featuring Modules</a>
+        </li>
+      
+        <li>
+          <a href="/2016/09/30/lazy-loading-es2015-modules-article/">Lazy Loading ES2015 modules in the browser (article)</a>
         </li>
       
         <li>
@@ -651,10 +656,6 @@
           <a href="/2015/08/11/catching-up-with-javascript-higher-order-functions/">Catching up with JavaScript higher-order functions</a>
         </li>
       
-        <li>
-          <a href="/2015/07/21/design-patterns-for-javascript-featuring-modules/">Design Patterns for JavaScript featuring Modules</a>
-        </li>
-      
     </ul>
   </section>
 
@@ -663,7 +664,7 @@
     
   <section class="tag-cloud">
     <h1>Tag cloud</h1>
-      <a href="/tags/abstractions/" style="font-size: 11px;">abstractions</a> <a href="/tags/airpair/" style="font-size: 10px;">airpair</a> <a href="/tags/almond/" style="font-size: 11px;">almond</a> <a href="/tags/amd/" style="font-size: 13px;">amd</a> <a href="/tags/arangodb/" style="font-size: 10px;">arangodb</a> <a href="/tags/avenue-code/" style="font-size: 19px;">avenue code</a> <a href="/tags/babel/" style="font-size: 10px;">babel</a> <a href="/tags/backbone-js/" style="font-size: 18px;">backbone.js</a> <a href="/tags/browserify/" style="font-size: 11px;">browserify</a> <a href="/tags/cartero/" style="font-size: 11px;">cartero</a> <a href="/tags/challenges/" style="font-size: 10px;">challenges</a> <a href="/tags/coding/" style="font-size: 10px;">coding</a> <a href="/tags/collective-ownership/" style="font-size: 10px;">collective ownership</a> <a href="/tags/commonjs/" style="font-size: 13px;">commonjs</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/design-patterns/" style="font-size: 17px;">design patterns</a> <a href="/tags/devcon5/" style="font-size: 11px;">devcon5</a> <a href="/tags/epoxy-js/" style="font-size: 13px;">epoxy.js</a> <a href="/tags/es2015/" style="font-size: 11px;">es2015</a> <a href="/tags/es6/" style="font-size: 11px;">es6</a> <a href="/tags/fedc/" style="font-size: 11px;">fedc</a> <a href="/tags/firebase/" style="font-size: 10px;">firebase</a> <a href="/tags/flux/" style="font-size: 10px;">flux</a> <a href="/tags/front-end/" style="font-size: 12px;">front-end</a> <a href="/tags/functional-programming/" style="font-size: 11px;">functional programming</a> <a href="/tags/garbage-collection/" style="font-size: 12px;">garbage collection</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/handlebars-js/" style="font-size: 13px;">handlebars.js</a> <a href="/tags/higher-order-functions/" style="font-size: 11px;">higher-order functions</a> <a href="/tags/hoisting/" style="font-size: 10px;">hoisting</a> <a href="/tags/html5/" style="font-size: 11px;">html5</a> <a href="/tags/html5devconf/" style="font-size: 10px;">html5devconf</a> <a href="/tags/infoq/" style="font-size: 10px;">infoq</a> <a href="/tags/interview/" style="font-size: 10px;">interview</a> <a href="/tags/jasmine/" style="font-size: 11px;">jasmine</a> <a href="/tags/java/" style="font-size: 16px;">java</a> <a href="/tags/java-magazine/" style="font-size: 15px;">java magazine</a> <a href="/tags/javascript/" style="font-size: 20px;">javascript</a> <a href="/tags/jspm/" style="font-size: 11px;">jspm</a> <a href="/tags/large-scale/" style="font-size: 11px;">large-scale</a> <a href="/tags/lazy-loading/" style="font-size: 11px;">lazy-loading</a> <a href="/tags/marionette-js/" style="font-size: 15px;">marionette.js</a> <a href="/tags/meetup/" style="font-size: 16px;">meetup</a> <a href="/tags/modernizr/" style="font-size: 10px;">modernizr</a> <a href="/tags/nashorn/" style="font-size: 10px;">nashorn</a> <a href="/tags/node-js/" style="font-size: 12px;">node.js</a> <a href="/tags/nosql/" style="font-size: 10px;">nosql</a> <a href="/tags/performance/" style="font-size: 10px;">performance</a> <a href="/tags/play/" style="font-size: 11px;">play</a> <a href="/tags/puc-minas/" style="font-size: 10px;">puc minas</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/require-js/" style="font-size: 12px;">require.js</a> <a href="/tags/requirejs/" style="font-size: 11px;">requirejs</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/sinon-js/" style="font-size: 13px;">sinon.js</a> <a href="/tags/stickit/" style="font-size: 10px;">stickit</a> <a href="/tags/system-js/" style="font-size: 11px;">system.js</a> <a href="/tags/systemjs/" style="font-size: 11px;">systemjs</a> <a href="/tags/technical-debt/" style="font-size: 10px;">technical debt</a> <a href="/tags/thorax/" style="font-size: 10px;">thorax</a> <a href="/tags/umd/" style="font-size: 11px;">umd</a> <a href="/tags/unit-testing/" style="font-size: 10px;">unit testing</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/videogame/" style="font-size: 10px;">videogame</a> <a href="/tags/virtual-dom/" style="font-size: 10px;">virtual-dom</a> <a href="/tags/web-components/" style="font-size: 10px;">web components</a> <a href="/tags/webpack/" style="font-size: 14px;">webpack</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a>
+      <a href="/tags/abstractions/" style="font-size: 11px;">abstractions</a> <a href="/tags/airpair/" style="font-size: 10px;">airpair</a> <a href="/tags/almond/" style="font-size: 11px;">almond</a> <a href="/tags/amd/" style="font-size: 13px;">amd</a> <a href="/tags/arangodb/" style="font-size: 10px;">arangodb</a> <a href="/tags/avenue-code/" style="font-size: 19px;">avenue code</a> <a href="/tags/babel/" style="font-size: 10px;">babel</a> <a href="/tags/backbone-js/" style="font-size: 18px;">backbone.js</a> <a href="/tags/browserify/" style="font-size: 11px;">browserify</a> <a href="/tags/cartero/" style="font-size: 11px;">cartero</a> <a href="/tags/challenges/" style="font-size: 10px;">challenges</a> <a href="/tags/coding/" style="font-size: 10px;">coding</a> <a href="/tags/collective-ownership/" style="font-size: 10px;">collective ownership</a> <a href="/tags/commonjs/" style="font-size: 13px;">commonjs</a> <a href="/tags/database/" style="font-size: 10px;">database</a> <a href="/tags/design-patterns/" style="font-size: 17px;">design patterns</a> <a href="/tags/devcon5/" style="font-size: 11px;">devcon5</a> <a href="/tags/epoxy-js/" style="font-size: 13px;">epoxy.js</a> <a href="/tags/es2015/" style="font-size: 13px;">es2015</a> <a href="/tags/es6/" style="font-size: 14px;">es6</a> <a href="/tags/fedc/" style="font-size: 11px;">fedc</a> <a href="/tags/firebase/" style="font-size: 10px;">firebase</a> <a href="/tags/flux/" style="font-size: 10px;">flux</a> <a href="/tags/front-end/" style="font-size: 12px;">front-end</a> <a href="/tags/functional-programming/" style="font-size: 11px;">functional programming</a> <a href="/tags/garbage-collection/" style="font-size: 12px;">garbage collection</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/handlebars-js/" style="font-size: 13px;">handlebars.js</a> <a href="/tags/higher-order-functions/" style="font-size: 11px;">higher-order functions</a> <a href="/tags/hoisting/" style="font-size: 10px;">hoisting</a> <a href="/tags/html5/" style="font-size: 11px;">html5</a> <a href="/tags/html5devconf/" style="font-size: 10px;">html5devconf</a> <a href="/tags/infoq/" style="font-size: 10px;">infoq</a> <a href="/tags/interview/" style="font-size: 10px;">interview</a> <a href="/tags/jasmine/" style="font-size: 11px;">jasmine</a> <a href="/tags/java/" style="font-size: 16px;">java</a> <a href="/tags/java-magazine/" style="font-size: 15px;">java magazine</a> <a href="/tags/javascript/" style="font-size: 20px;">javascript</a> <a href="/tags/jspm/" style="font-size: 11px;">jspm</a> <a href="/tags/large-scale/" style="font-size: 11px;">large-scale</a> <a href="/tags/lazy-loading/" style="font-size: 11px;">lazy-loading</a> <a href="/tags/marionette-js/" style="font-size: 15px;">marionette.js</a> <a href="/tags/meetup/" style="font-size: 16px;">meetup</a> <a href="/tags/modernizr/" style="font-size: 10px;">modernizr</a> <a href="/tags/nashorn/" style="font-size: 10px;">nashorn</a> <a href="/tags/node-js/" style="font-size: 12px;">node.js</a> <a href="/tags/nosql/" style="font-size: 10px;">nosql</a> <a href="/tags/performance/" style="font-size: 10px;">performance</a> <a href="/tags/play/" style="font-size: 11px;">play</a> <a href="/tags/puc-minas/" style="font-size: 10px;">puc minas</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/require-js/" style="font-size: 12px;">require.js</a> <a href="/tags/requirejs/" style="font-size: 11px;">requirejs</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/sinon-js/" style="font-size: 13px;">sinon.js</a> <a href="/tags/stickit/" style="font-size: 10px;">stickit</a> <a href="/tags/system-js/" style="font-size: 11px;">system.js</a> <a href="/tags/systemjs/" style="font-size: 11px;">systemjs</a> <a href="/tags/technical-debt/" style="font-size: 10px;">technical debt</a> <a href="/tags/thorax/" style="font-size: 10px;">thorax</a> <a href="/tags/umd/" style="font-size: 11px;">umd</a> <a href="/tags/unit-testing/" style="font-size: 10px;">unit testing</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/videogame/" style="font-size: 10px;">videogame</a> <a href="/tags/virtual-dom/" style="font-size: 10px;">virtual-dom</a> <a href="/tags/web-components/" style="font-size: 10px;">web components</a> <a href="/tags/webpack/" style="font-size: 14px;">webpack</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a>
   </section>
 
 
@@ -671,7 +672,7 @@
     
   <section>
     <h1>Archives</h1>
-    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/04/">April 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">March 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li></ul>
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/04/">April 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">March 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li></ul>
   </section>
 
 
