@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tiagorg.com/2017/07/27/lazy-loading-js-modules-talk/</loc>
+    <lastmod>2017-07-25T04:56:52.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tiagorg.com/bio/index.html</loc>
     <lastmod>2016-12-02T04:35:59.000Z</lastmod>
   </url>

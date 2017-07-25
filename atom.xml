@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://tiagorg.com/"/>
-  <updated>2016-12-02T04:17:22.000Z</updated>
+  <updated>2017-07-25T04:56:52.000Z</updated>
   <id>http://tiagorg.com/</id>
   
   <author>
@@ -13,6 +13,70 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Lazy Loading JS modules in the browser (talk)]]></title>
+    <link href="http://tiagorg.com/2017/07/27/lazy-loading-js-modules-talk/"/>
+    <id>http://tiagorg.com/2017/07/27/lazy-loading-js-modules-talk/</id>
+    <published>2017-07-27T07:00:00.000Z</published>
+    <updated>2017-07-25T04:56:52.000Z</updated>
+    <content type="html"><![CDATA[<p>I gave this talk on Mar 1st, 2017 at <a href="http://mobilewebdevconference.com/san-francisco-2017" target="_blank" rel="external">Mobile+Web DevCon</a><br> in <strong>San Francisco, CA</strong> and on July 27th, 2017 at <a href="https://forwardjs.com" target="_blank" rel="external">ForwardJS</a><br> in <strong>San Francisco, CA</strong></p>
+<p>This talk is an updated version of <a href="http://tiagorg.com/2016/12/08/lazy-loading-es2015-modules-talk/">Lazy Loading ES2015 modules in the browser</a> is about loading code during page load time vs lazy loading, then how to load JS modules both synchronously (during page load) and asynchronously (lazy-load) using System.js over Babel, as well as how to used Webpack 2 to bundle your app and resolve dependencies.</p>
+<h4 id="What_will_the_audience_learn">What will the audience learn</h4><ul>
+<li>The fundamentals on when to load your modules (page load time vs lazy loading) for a most optimized page performance</li>
+<li>The ES Modules spec and System.js</li>
+<li>Importing modules synchronously and asynchronously</li>
+<li>Webpack 2 as a dependency management system</li>
+</ul>
+<h4 id="Slide_deck">Slide deck</h4><ul>
+<li>At <a href="http://mobilewebdevconference.com/san-francisco-2017" target="_blank" rel="external">Mobile+Web DevCon</a> this session was a lab with challenges: <a href="http://tiagorg.com/lab-lazy-loading-js-modules/">tiagorg.com/lab-lazy-loading-js-modules</a></li>
+<li>At <a href="https://forwardjs.com" target="_blank" rel="external">ForwardJS</a> this session was a talk: <a href="http://tiagorg.com/lazy-loading-js-modules/">tiagorg.com/lazy-loading-js-modules</a></li>
+</ul>
+<h4 id="Resources">Resources</h4><ul>
+<li><a href="http://martinfowler.com/eaaCatalog/lazyLoad.html" target="_blank" rel="external">Lazy load EAA pattern</a></li>
+<li><a href="https://webpack.github.io" target="_blank" rel="external">Webpack</a></li>
+<li><a href="https://webpack.github.io/docs/code-splitting.html" target="_blank" rel="external">Webpack Code Splitting</a></li>
+<li><a href="https://github.com/ModuleLoader/es6-module-loader" target="_blank" rel="external">es6-module-loader</a></li>
+<li><a href="https://whatwg.github.io/loader/" target="_blank" rel="external">Loader</a></li>
+<li><a href="https://github.com/systemjs/systemjs" target="_blank" rel="external">System.js</a></li>
+<li><a href="https://gist.github.com/sokra/27b24881210b56bbaff7" target="_blank" rel="external">What’s new in Webpack 2</a></li>
+<li><a href="https://medium.com/dev-channel/es6-modules-in-chrome-canary-m60-ba588dfb8ab7" target="_blank" rel="external">ES6 Modules in Chrome Canary (M60+)</a></li>
+<li><a href="https://hackernoon.com/native-es-modules-ready-for-prime-time-87c64d294d3c" target="_blank" rel="external">Native ES Modules — Ready for Prime Time?</a></li>
+</ul>
+<h4 id="Sample_repos">Sample repos</h4><ul>
+<li><a href="https://github.com/tiagorg/lazy-loading-js-modules" target="_blank" rel="external">github.com/tiagorg/lazy-loading-js-modules</a> - Repo for the talk</li>
+<li><a href="https://github.com/tiagorg/lazy-load-es2015-webpack2-challenge" target="_blank" rel="external">github.com/tiagorg/lazy-load-es2015-webpack2-challenge</a> - Challenge for the Lazy Loading JS Modules lab </li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>I gave this talk on Mar 1st, 2017 at <a href="http://mobilewebdevconference.com/san-francisco-2017" target="_blank" rel="external">Mobile]]>
+    </summary>
+    
+      <category term="amd" scheme="http://tiagorg.com/tags/amd/"/>
+    
+      <category term="commonjs" scheme="http://tiagorg.com/tags/commonjs/"/>
+    
+      <category term="design patterns" scheme="http://tiagorg.com/tags/design-patterns/"/>
+    
+      <category term="es2015" scheme="http://tiagorg.com/tags/es2015/"/>
+    
+      <category term="es6" scheme="http://tiagorg.com/tags/es6/"/>
+    
+      <category term="forwardjs" scheme="http://tiagorg.com/tags/forwardjs/"/>
+    
+      <category term="javascript" scheme="http://tiagorg.com/tags/javascript/"/>
+    
+      <category term="lazy-loading" scheme="http://tiagorg.com/tags/lazy-loading/"/>
+    
+      <category term="requirejs" scheme="http://tiagorg.com/tags/requirejs/"/>
+    
+      <category term="system.js" scheme="http://tiagorg.com/tags/system-js/"/>
+    
+      <category term="webpack" scheme="http://tiagorg.com/tags/webpack/"/>
+    
+      <category term="talk" scheme="http://tiagorg.com/categories/talk/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Lazy Loading ES2015 modules in the browser (talk)]]></title>
@@ -763,29 +827,6 @@
       <category term="sinon.js" scheme="http://tiagorg.com/tags/sinon-js/"/>
     
       <category term="event" scheme="http://tiagorg.com/categories/event/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Web Components 101]]></title>
-    <link href="http://tiagorg.com/2014/09/15/web-components-101/"/>
-    <id>http://tiagorg.com/2014/09/15/web-components-101/</id>
-    <published>2014-09-15T07:00:00.000Z</published>
-    <updated>2016-10-01T22:46:25.000Z</updated>
-    <content type="html"><![CDATA[<p>Over the past few years a lot of people have been trying to rethink the way the web can/should be used. Currently, front-end developers find themselves in the often-frustrating situation of having to build complex websites with HTML–which can often be a fairly blunt tool–on top of the clunky foundations of Jurassic-age web browser limitations.</p>
-<p>On this <a href="https://medium.com/@tiagorg/web-components-101-b2c60163f4c8" target="_blank" rel="external">post at Medium</a>, originally made for <a href="http://www.avenuecode.com" target="_blank" rel="external">Avenue Code</a>‘s <strong>Code Highway</strong> blog, I answer the million-dollar question: is it possible to abstract low-level constructs of HTML to define high-level semantic components? And the answer is <strong>yes</strong>!</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Over the past few years a lot of people have been trying to rethink the way the web can/should be used. Currently, front-end developers f]]>
-    </summary>
-    
-      <category term="avenue code" scheme="http://tiagorg.com/tags/avenue-code/"/>
-    
-      <category term="front-end" scheme="http://tiagorg.com/tags/front-end/"/>
-    
-      <category term="web components" scheme="http://tiagorg.com/tags/web-components/"/>
-    
-      <category term="protip" scheme="http://tiagorg.com/categories/protip/"/>
     
   </entry>
   
